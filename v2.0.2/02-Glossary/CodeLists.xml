@@ -694,12 +694,6 @@ Source: EU Vocabularies authority table "&lt;a href="$inet://https://op.europa.e
       </Codes>
    </CodeList>
    <CodeList>
-      <CodeListName>at-voc:measurement-unit</CodeListName>
-      <CodeListDefinition>Source: EU Vocabularies authority table "&lt;a href="$inet://https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/measurement-unit"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;Measurement Unit&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/measurement-unit).
-
-</CodeListDefinition>
-   </CodeList>
-   <CodeList>
       <CodeListName>at-voc:missing-info-submission</CodeListName>
       <CodeListDefinition>Source: EU Vocabularies authority table "&lt;a href="$inet://https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;Missing Information Submission&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission).
 </CodeListDefinition>
@@ -1223,22 +1217,6 @@ Source: EU Vocabularies authority table "&lt;a href="$inet://https://op.europa.e
       </Codes>
    </CodeList>
    <CodeList>
-      <CodeListName>cccev:criterion-group-property-type</CodeListName>
-      <CodeListDefinition>A code categorising the data structure category, how to use or process it, etc.</CodeListDefinition>
-      <Codes>
-         <AuthorityCode>ON*</AuthorityCode>
-         <CodeName>Process the group always</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>ONTRUE</AuthorityCode>
-         <CodeName>Process the group if the previous question was and INDICATOR answered with the value 'true'</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>ONFALSE</AuthorityCode>
-         <CodeName>Process the group if the previous question was and INDICATOR answered with the value 'false'</CodeName>
-      </Codes>
-   </CodeList>
-   <CodeList>
       <CodeListName>ec:cpv</CodeListName>
       <CodeListDefinition>The CPV establishes a single classification system for public procurement aimed at standardising the references used by procuring entities to describe the purpose of procurement contracts and procurement projects.
 
@@ -1269,93 +1247,6 @@ Source: &lt;a href="$inet://https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=
          <AuthorityCode>...</AuthorityCode>
          <CodeName/>
       </Codes>
-   </CodeList>
-   <CodeList>
-      <CodeListName>epo:accelerated-procedure-justification-type</CodeListName>
-      <CodeListDefinition>A procurement procedure where the time limit for receipt of tenders can be reduced due to a state of urgency.</CodeListDefinition>
-      <Codes>
-         <AuthorityCode>PIN_REDUCE_TIME_LIMIT</AuthorityCode>
-         <CodeName>Prior Information Notice to reduce time limits</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>STATE_OF_URGENCY</AuthorityCode>
-         <CodeName>State of Urgency</CodeName>
-      </Codes>
-   </CodeList>
-   <CodeList>
-      <CodeListName>epo:authority-type</CodeListName>
-      <CodeListDefinition>Aternative name to this code list:
-
-- Authority Competency Level Type
-</CodeListDefinition>
-      <Codes>
-         <AuthorityCode>CGA</AuthorityCode>
-         <CodeName>Central Government Authority</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>SCA</AuthorityCode>
-         <CodeName>Subcentral Government Authority</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>RA</AuthorityCode>
-         <CodeName>Regional Authority</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>LA</AuthorityCode>
-         <CodeName>Local Authority</CodeName>
-      </Codes>
-      <Codes>
-         <AuthorityCode>BGPL</AuthorityCode>
-         <CodeName>Body Governed by Public Law</CodeName>
-      </Codes>
-   </CodeList>
-   <CodeList>
-      <CodeListName>epo:award-dimension-parent-criterion-relation</CodeListName>
-      <CodeListDefinition/>
-      <Codes>
-         <AuthorityCode>PRICE</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>COST</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>QUALITY</AuthorityCode>
-         <CodeName/>
-      </Codes>
-   </CodeList>
-   <CodeList>
-      <CodeListName>epo:award-evaluation-method-type</CodeListName>
-      <CodeListDefinition>A code signifying the type of criterion.</CodeListDefinition>
-      <Codes>
-         <AuthorityCode>CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>CRITERION.SELECTION.ECONOMIC_FINANCIAL_STANDING.TURNOVER.GENERAL_YEARLY</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>CRITERION.AWARD.LOWEST</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>CRITERION.AWARD.MOST_ECONOMIC_TENDER</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>CRITERION.AWARD.OTHER</AuthorityCode>
-         <CodeName/>
-      </Codes>
-      <Codes>
-         <AuthorityCode>CRITERION.AWARD.MIXED</AuthorityCode>
-         <CodeName/>
-      </Codes>
-   </CodeList>
-   <CodeList>
-      <CodeListName>epo:award-type</CodeListName>
-      <CodeListDefinition/>
    </CodeList>
    <CodeList>
       <CodeListName>epo:communication-type</CodeListName>
@@ -1710,6 +1601,10 @@ Source: &lt;a href="$inet://https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=
       </Codes>
    </CodeList>
    <CodeList>
+      <CodeListName>epo:unit-code</CodeListName>
+      <CodeListDefinition/>
+   </CodeList>
+   <CodeList>
       <CodeListName>espd:confidentiality-level</CodeListName>
       <CodeListDefinition/>
       <Codes>
@@ -1760,12 +1655,4 @@ Source: &lt;a href="$inet://https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=
    <CodeList>
       <CodeListName>eurostat:nuts</CodeListName>
       <CodeListDefinition>e.g. NUTS 2016</CodeListDefinition>
-   </CodeList>
-   <CodeList>
-      <CodeListName>size</CodeListName>
-      <CodeListDefinition/>
-   </CodeList>
-   <CodeList>
-      <CodeListName>unit-code</CodeListName>
-      <CodeListDefinition/>
    </CodeList> Version:1.0</Glossary>
