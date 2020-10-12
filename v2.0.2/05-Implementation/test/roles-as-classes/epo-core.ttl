@@ -79,6 +79,10 @@
                rdfs:subPropertyOf :involvesRole ;
                rdfs:range :Role ;
 .
+###  http://data.europa.eu/a4g/ontology/core#refersToLot
+:refersToLot rdf:type owl:ObjectProperty ;
+               rdfs:range :Lot ;
+.
 
 #################################################################
 #    Classes
