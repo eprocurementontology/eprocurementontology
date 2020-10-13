@@ -114,12 +114,12 @@
 :piv2 rdf:type owl:NamedIndividual, epo:AwardDecisionInvolvement ;
     dct:description "Award Decision (Involvement #2): Trasys has won Lot2, Lot4 and Lot5 of Procedure 1."@en ;
     epo:involvesProcedure :proc1 ;
-    epo:involvesAgent :trasys ;                    # The Agent
-    epo:involvesContactPoint :dupont ;        # The ContactPoint
-    epo:involvesWinner epo:Winner ;             # The Role code (Winner of the lots indicated)
-    epo:involvesThing :lot2p1, :lot4p1, :lot5p1 ;  # The Thing, in this case the los won by Trasys
-    epo:involvesAwardDecision :awdec1 ;            # The Award Decision Object that this involvement refers to (the sames as in piv1-proc1) 
-    epo:involvesPeriod :period2 ;                  # The Period (the date of the Contract Award Notice Publication)
+    epo:involvesAgent :trasys ;                     # The Agent
+    epo:involvesContactPoint :dupont ;              # The ContactPoint
+    epo:involvesWinner epo:Winner ;                 # The Role code (Winner of the lots indicated)
+    epo:involvesThing :lot2p1, :lot4p1, :lot5p1 ;   # The Thing, in this case the los won by Trasys
+    epo:involvesAwardDecision :awdec1 ;             # The Award Decision Object that this involvement refers to (the sames as in piv1-proc1) 
+    epo:involvesPeriod :period2 ;                   # The Period (the date of the Contract Award Notice Publication)
 .
 ####### piv3-proc1: OP is the Buyer, and its Contact Point for this Award Decision is Natalie 
 :op a owl:NamedIndividual, epo:PublicOrganization ;
