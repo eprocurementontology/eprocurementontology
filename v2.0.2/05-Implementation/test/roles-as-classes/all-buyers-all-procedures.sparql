@@ -1,6 +1,4 @@
 # Story: list the 'default' buyers of all the procedures
-# Story: List the winners of all procedures
-PREFIX test: <http://example.org/test-abox#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX epo: <http://data.europa.eu/a4g/ontology/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
