@@ -1813,7 +1813,7 @@
 						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_D41F3BE3_CA3D_45a5_AFA2_0A8DE20798D3" name="epo:ValidityPeriod" visibility="public" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000429_CA3D_45a5_AFA2_0A8DE20798D3" value="1"/>
 							<upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000430_CA3D_45a5_AFA2_0A8DE20798D3" value="1"/>
-							<type xmi:idref="EAJava_ccts_Measure"/>
+							<type xmi:idref="EAJava_epo_Period"/>
 						</ownedAttribute>
 						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst5351DE_D462_40db_BFFC_E700C43016D5" name="epo:hasSubmissionCommunicationMeans" visibility="public" association="EAID_035351DE_D462_40db_BFFC_E700C43016D5" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
 							<type xmi:idref="EAID_571E0BA0_00DB_4060_9B85_832916390909"/>
@@ -4853,7 +4853,7 @@
 						<initial/>
 						<documentation value="The period from the receipt deadline for which the submitted information must remain valid.&#xA;&#xA;WG Approval 21/07/2020"/>
 						<model ea_localid="322" ea_guid="{D41F3BE3-CA3D-45a5-AFA2-0A8DE20798D3}"/>
-						<properties type="ccts:Measure" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Period" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -10399,6 +10399,7 @@
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_DateTime" name="ccts:DateTime" visibility="public"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Measure" name="ccts:Measure" visibility="public"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Time" name="ccts:Time" visibility="public"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_epo_Period" name="epo:Period" visibility="public"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_xsd_decimal" name="xsd:decimal" visibility="public"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_xsd_normalizedString" name="xsd:normalizedString" visibility="public"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_xsd_string" name="xsd:string" visibility="public"/>
