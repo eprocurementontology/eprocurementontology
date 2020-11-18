@@ -12,14 +12,15 @@
          xmlns:epo="http://data.europa.eu/a4g/ontology#"
          xmlns:epor="http://data.europa.eu/a4g/rule#"
          xmlns:epos="http://data.europa.eu/a4g/shape#"
-         xmlns="http://data.europa.eu/a4g/shape#"
-         xml:base="http://data.europa.eu/a4g/shape">
+         xmlns="http://data.europa.eu/a4g/extension/shape#"
+         xml:base="http://data.europa.eu/a4g/extension/shape">
    <owl:Ontology rdf:about="http://data.europa.eu/a4g/shape">
       <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
       <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
       <owl:imports rdf:resource="http://datashapes.org/dash"/>
       <owl:imports rdf:resource="http://www.w3.org/ns/shacl#"/>
       <owl:imports rdf:resource="http://data.europa.eu/a4g/ontology"/>
+      <owl:imports rdf:resource="http://data.europa.eu/a4g/shape"/>
       <dct:description xml:lang="en">This module provides the datashape definitions for the eProcurement ontology.</dct:description>
       <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
       <vann:preferredNamespaceUri>http://data.europa.eu/a4g/ontology#</vann:preferredNamespaceUri>

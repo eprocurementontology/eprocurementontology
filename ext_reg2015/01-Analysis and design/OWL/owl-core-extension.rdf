@@ -12,11 +12,12 @@
          xmlns:epo="http://data.europa.eu/a4g/ontology#"
          xmlns:epor="http://data.europa.eu/a4g/rule#"
          xmlns:epos="http://data.europa.eu/a4g/shape#"
-         xmlns="http://data.europa.eu/a4g/ontology#"
-         xml:base="http://data.europa.eu/a4g/ontology">
+         xmlns="http://data.europa.eu/a4g/extension/ontology#"
+         xml:base="http://data.europa.eu/a4g/extension/ontology">
    <owl:Ontology rdf:about="http://data.europa.eu/a4g/ontology">
       <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
       <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	  <owl:imports rdf:resource="http://data.europa.eu/a4g/ontology"/>
       <dct:description xml:lang="en">
         This module provides the definitions for the core eProcurement ontology.
         

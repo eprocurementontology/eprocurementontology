@@ -10,12 +10,12 @@
          xmlns:epo="http://data.europa.eu/a4g/ontology#"
          xmlns:epor="http://data.europa.eu/a4g/rule#"
          xmlns:epos="http://data.europa.eu/a4g/shape#"
-         xmlns="http://data.europa.eu/a4g/rule#"
-         xml:base="http://data.europa.eu/a4g/rule">
+         xmlns="http://data.europa.eu/a4g/extension/rule#"
+		 xml:base="http://data.europa.eu/a4g/extension/rule">
    <owl:Ontology rdf:about="http://data.europa.eu/a4g/rule">
       <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
       <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
-      <owl:imports rdf:resource="http://data.europa.eu/a4g/ontology"/>
+      <owl:imports rdf:resource="http://data.europa.eu/a4g/extension/ontology"/>
       <dct:description xml:lang="en">This module provides the inference-related definitions for
         the eProcurement ontology.</dct:description>
       <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
