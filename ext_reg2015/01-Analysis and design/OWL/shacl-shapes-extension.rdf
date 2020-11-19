@@ -12,14 +12,14 @@
          xmlns:epo="http://data.europa.eu/a4g/ontology#"
          xmlns:epor="http://data.europa.eu/a4g/rule#"
          xmlns:epos="http://data.europa.eu/a4g/shape#"
-         xmlns="http://data.europa.eu/a4g/extension/shape#"
-         xml:base="http://data.europa.eu/a4g/extension/shape">
+         xmlns="http://data.europa.eu/a4g/shape#"
+         xml:base="http://data.europa.eu/a4g/shape">
    <owl:Ontology rdf:about="http://data.europa.eu/a4g/shape">
       <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
       <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
       <owl:imports rdf:resource="http://datashapes.org/dash"/>
       <owl:imports rdf:resource="http://www.w3.org/ns/shacl#"/>
-      <owl:imports rdf:resource="http://data.europa.eu/a4g/shape"/>
+      <owl:imports rdf:resource="http://data.europa.eu/a4g/ontology"/>
       <dct:description xml:lang="en">This module provides the datashape definitions for the eProcurement ontology.</dct:description>
       <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
       <vann:preferredNamespaceUri>http://data.europa.eu/a4g/ontology#</vann:preferredNamespaceUri>
@@ -46,6 +46,102 @@
       <rdfs:comment xml:lang="en">Describes a requirement that the tender needs to resolve and on which the tender is evaluated and ranked.
 
 (WG approval 05/11/2018)</rdfs:comment>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAwardCriterionType"/>
+            <sh:name>Award criterion type</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAwardCriterionType"/>
+            <sh:name>Award criterion type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValue"/>
+            <sh:name>Fixed value</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValue"/>
+            <sh:name>Fixed value</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValue"/>
+            <sh:name>Fixed value</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValueType"/>
+            <sh:name>Fixed value type</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValueType"/>
+            <sh:name>Fixed value type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
+            <sh:name>Formula</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
+            <sh:name>Formula</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
+            <sh:name>Formula</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
       <sh:property>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
@@ -100,80 +196,6 @@
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAwardCriterionType"/>
-            <sh:name>Award criterion type</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAwardCriterionType"/>
-            <sh:name>Award criterion type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValueType"/>
-            <sh:name>Fixed value type</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValueType"/>
-            <sh:name>Fixed value type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeigthingJustification"/>
-            <sh:name>Weigthing justification</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeigthingJustification"/>
-            <sh:name>Weigthing justification</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeigthingJustification"/>
-            <sh:name>Weigthing justification</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeightValue"/>
             <sh:name>Weight value</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -211,44 +233,22 @@
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValue"/>
-            <sh:name>Fixed value</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValue"/>
-            <sh:name>Fixed value</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFixedValue"/>
-            <sh:name>Fixed value</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
-            <sh:name>Formula</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeigthingJustification"/>
+            <sh:name>Weigthing justification</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
-            <sh:name>Formula</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeigthingJustification"/>
+            <sh:name>Weigthing justification</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
-            <sh:name>Formula</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeigthingJustification"/>
+            <sh:name>Weigthing justification</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -275,6 +275,65 @@ Examples of a buyer can be the role of contracting authority, contracting entity
 WG Approval  28/04/2020</rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasActivityDescription"/>
+            <sh:name>Activity description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasActivityDescription"/>
+            <sh:name>Activity description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasActivityDescription"/>
+            <sh:name>Activity description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalType"/>
+            <sh:name>Buyer legal type</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalType"/>
+            <sh:name>Buyer legal type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
+            <sh:name>Buyer legal type description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
+            <sh:name>Buyer legal type description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
+            <sh:name>Buyer legal type description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractingEntity"/>
             <sh:name>Contracting entity</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -297,21 +356,6 @@ WG Approval  28/04/2020</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalType"/>
-            <sh:name>Buyer legal type</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalType"/>
-            <sh:name>Buyer legal type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainActivityType"/>
             <sh:name>Main activity type</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
@@ -321,50 +365,6 @@ WG Approval  28/04/2020</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainActivityType"/>
             <sh:name>Main activity type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasActivityDescription"/>
-            <sh:name>Activity description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasActivityDescription"/>
-            <sh:name>Activity description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasActivityDescription"/>
-            <sh:name>Activity description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
-            <sh:name>Buyer legal type description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
-            <sh:name>Buyer legal type description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
-            <sh:name>Buyer legal type description</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -436,15 +436,22 @@ WG Suggestion to eForms 30/09/2019
 </rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
-            <sh:name>I d</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Identifier"/>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
+            <sh:name>Additional information</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
-            <sh:name>I d</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
+            <sh:name>Additional information</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
+            <sh:name>Additional information</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -466,43 +473,6 @@ WG Suggestion to eForms 30/09/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasURL"/>
-            <sh:name>U r l</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasURL"/>
-            <sh:name>U r l</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
-            <sh:name>Additional information</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
-            <sh:name>Additional information</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
-            <sh:name>Additional information</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
             <sh:name>Description</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -540,6 +510,21 @@ WG Suggestion to eForms 30/09/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
+            <sh:name>I d</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Identifier"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
+            <sh:name>I d</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
             <sh:name>Name</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -556,6 +541,21 @@ WG Suggestion to eForms 30/09/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
             <sh:name>Name</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasURL"/>
+            <sh:name>U r l</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasURL"/>
+            <sh:name>U r l</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -576,6 +576,87 @@ WG Suggestion to eForms 30/09/2019
 </rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBroadPlaceOfPerformance"/>
+            <sh:name>Broad place of performance</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBroadPlaceOfPerformance"/>
+            <sh:name>Broad place of performance</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirement"/>
+            <sh:name>Contractor legal form requirement</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirement"/>
+            <sh:name>Contractor legal form requirement</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirement"/>
+            <sh:name>Contractor legal form requirement</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirementDescription"/>
+            <sh:name>Contractor legal form requirement description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirementDescription"/>
+            <sh:name>Contractor legal form requirement description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirementDescription"/>
+            <sh:name>Contractor legal form requirement description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEInvoicing"/>
+            <sh:name>E invoicing</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEInvoicing"/>
+            <sh:name>E invoicing</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEInvoicing"/>
+            <sh:name>E invoicing</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEOrdering"/>
             <sh:name>E ordering</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -614,50 +695,6 @@ WG Suggestion to eForms 30/09/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEPayment"/>
             <sh:name>E payment</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEInvoicing"/>
-            <sh:name>E invoicing</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEInvoicing"/>
-            <sh:name>E invoicing</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEInvoicing"/>
-            <sh:name>E invoicing</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalIndicator"/>
-            <sh:name>Renewal indicator</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalIndicator"/>
-            <sh:name>Renewal indicator</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalIndicator"/>
-            <sh:name>Renewal indicator</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -686,6 +723,72 @@ WG Suggestion to eForms 30/09/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPaymentArrangement"/>
+            <sh:name>Payment arrangement</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPaymentArrangement"/>
+            <sh:name>Payment arrangement</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPaymentArrangement"/>
+            <sh:name>Payment arrangement</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformanceConditions"/>
+            <sh:name>Performance conditions</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformanceConditions"/>
+            <sh:name>Performance conditions</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformanceConditions"/>
+            <sh:name>Performance conditions</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPlaceOfPerformanceAdditionalInformation"/>
+            <sh:name>Place of performance additional information</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPlaceOfPerformanceAdditionalInformation"/>
+            <sh:name>Place of performance additional information</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPlaceOfPerformanceAdditionalInformation"/>
+            <sh:name>Place of performance additional information</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalDescription"/>
             <sh:name>Renewal description</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -708,66 +811,22 @@ WG Suggestion to eForms 30/09/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirement"/>
-            <sh:name>Contractor legal form requirement</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalIndicator"/>
+            <sh:name>Renewal indicator</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirement"/>
-            <sh:name>Contractor legal form requirement</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalIndicator"/>
+            <sh:name>Renewal indicator</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirement"/>
-            <sh:name>Contractor legal form requirement</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirementDescription"/>
-            <sh:name>Contractor legal form requirement description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirementDescription"/>
-            <sh:name>Contractor legal form requirement description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractorLegalFormRequirementDescription"/>
-            <sh:name>Contractor legal form requirement description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPaymentArrangement"/>
-            <sh:name>Payment arrangement</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPaymentArrangement"/>
-            <sh:name>Payment arrangement</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPaymentArrangement"/>
-            <sh:name>Payment arrangement</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasRenewalIndicator"/>
+            <sh:name>Renewal indicator</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -783,65 +842,6 @@ WG Suggestion to eForms 30/09/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReservedExecution"/>
             <sh:name>Reserved execution</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBroadPlaceOfPerformance"/>
-            <sh:name>Broad place of performance</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBroadPlaceOfPerformance"/>
-            <sh:name>Broad place of performance</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPlaceOfPerformanceAdditionalInformation"/>
-            <sh:name>Place of performance additional information</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPlaceOfPerformanceAdditionalInformation"/>
-            <sh:name>Place of performance additional information</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPlaceOfPerformanceAdditionalInformation"/>
-            <sh:name>Place of performance additional information</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformanceConditions"/>
-            <sh:name>Performance conditions</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformanceConditions"/>
-            <sh:name>Performance conditions</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformanceConditions"/>
-            <sh:name>Performance conditions</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -939,6 +939,50 @@ WG Approval 2019-19-02
 </rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerCoverage"/>
+            <sh:name>Buyer coverage</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerCoverage"/>
+            <sh:name>Buyer coverage</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerCoverage"/>
+            <sh:name>Buyer coverage</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDurationExtensionJustification"/>
+            <sh:name>Duration extension justification</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDurationExtensionJustification"/>
+            <sh:name>Duration extension justification</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDurationExtensionJustification"/>
+            <sh:name>Duration extension justification</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFrameworkAgreementType"/>
             <sh:name>Framework agreement type</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
@@ -948,50 +992,6 @@ WG Approval 2019-19-02
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFrameworkAgreementType"/>
             <sh:name>Framework agreement type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerCoverage"/>
-            <sh:name>Buyer coverage</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerCoverage"/>
-            <sh:name>Buyer coverage</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerCoverage"/>
-            <sh:name>Buyer coverage</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDurationExtensionJustification"/>
-            <sh:name>Duration extension justification</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDurationExtensionJustification"/>
-            <sh:name>Duration extension justification</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDurationExtensionJustification"/>
-            <sh:name>Duration extension justification</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1115,6 +1115,28 @@ WG approval 12/09/2018</sh:description>
 WG approval 12/09/2018</rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
+            <sh:name>Additional information</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
+            <sh:name>Additional information</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
+            <sh:name>Additional information</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAwardDateScheduled"/>
             <sh:name>Award date scheduled</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
@@ -1146,6 +1168,21 @@ WG approval 12/09/2018</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
             <sh:name>Description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedTenderInvitationDate"/>
+            <sh:name>Estimated tender invitation date</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedTenderInvitationDate"/>
+            <sh:name>Estimated tender invitation date</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1189,37 +1226,15 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
-            <sh:name>Title</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
-            <sh:name>Title</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
-            <sh:name>Title</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantsPermission"/>
-            <sh:name>Variants permission</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformingStafQualificationInformation"/>
+            <sh:name>Performing staf qualification information</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantsPermission"/>
-            <sh:name>Variants permission</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformingStafQualificationInformation"/>
+            <sh:name>Performing staf qualification information</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1248,52 +1263,37 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
-            <sh:name>Additional information</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
+            <sh:name>Title</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
-            <sh:name>Additional information</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
+            <sh:name>Title</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
-            <sh:name>Additional information</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
+            <sh:name>Title</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformingStafQualificationInformation"/>
-            <sh:name>Performing staf qualification information</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantsPermission"/>
+            <sh:name>Variants permission</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasPerformingStafQualificationInformation"/>
-            <sh:name>Performing staf qualification information</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedTenderInvitationDate"/>
-            <sh:name>Estimated tender invitation date</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedTenderInvitationDate"/>
-            <sh:name>Estimated tender invitation date</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantsPermission"/>
+            <sh:name>Variants permission</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1306,6 +1306,58 @@ WG approval 12/09/2018</rdfs:comment>
       <rdfs:label xml:lang="en">Multiple stage procedure term</rdfs:label>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToExpressInterestDate"/>
+            <sh:name>Estimated invitation to express interest date</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToExpressInterestDate"/>
+            <sh:name>Estimated invitation to express interest date</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToTenderDate"/>
+            <sh:name>Estimated invitation to tender date</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToTenderDate"/>
+            <sh:name>Estimated invitation to tender date</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumCandidates"/>
+            <sh:name>Maximum candidates</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumCandidates"/>
+            <sh:name>Maximum candidates</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumCandidates"/>
+            <sh:name>Maximum candidates</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfCandidates"/>
             <sh:name>Maximum number of candidates</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -1328,28 +1380,6 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSuccessiveReduction"/>
-            <sh:name>Successive reduction</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSuccessiveReduction"/>
-            <sh:name>Successive reduction</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSuccessiveReduction"/>
-            <sh:name>Successive reduction</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMinimumNumberOfCandidates"/>
             <sh:name>Minimum number of candidates</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -1372,21 +1402,6 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToTenderDate"/>
-            <sh:name>Estimated invitation to tender date</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToTenderDate"/>
-            <sh:name>Estimated invitation to tender date</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNoNegotiationNecessary"/>
             <sh:name>No negotiation necessary</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1409,37 +1424,22 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToExpressInterestDate"/>
-            <sh:name>Estimated invitation to express interest date</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedInvitationToExpressInterestDate"/>
-            <sh:name>Estimated invitation to express interest date</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumCandidates"/>
-            <sh:name>Maximum candidates</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSuccessiveReduction"/>
+            <sh:name>Successive reduction</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumCandidates"/>
-            <sh:name>Maximum candidates</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSuccessiveReduction"/>
+            <sh:name>Successive reduction</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumCandidates"/>
-            <sh:name>Maximum candidates</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSuccessiveReduction"/>
+            <sh:name>Successive reduction</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1503,30 +1503,22 @@ WG approval 12/09/2018</rdfs:comment>
 </rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartDate"/>
-            <sh:name>Start date</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartDate"/>
-            <sh:name>Start date</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEndDate"/>
-            <sh:name>End date</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEndDate"/>
-            <sh:name>End date</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1548,15 +1540,15 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartTime"/>
-            <sh:name>Start time</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEndDate"/>
+            <sh:name>End date</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartTime"/>
-            <sh:name>Start time</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEndDate"/>
+            <sh:name>End date</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1578,22 +1570,30 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartDate"/>
+            <sh:name>Start date</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartDate"/>
+            <sh:name>Start date</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartTime"/>
+            <sh:name>Start time</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasStartTime"/>
+            <sh:name>Start time</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1686,153 +1686,6 @@ WG Approval 20/08/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainFeature"/>
-            <sh:name>Main feature</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainFeature"/>
-            <sh:name>Main feature</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainFeature"/>
-            <sh:name>Main feature</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
-            <sh:name>I d</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Identifier"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
-            <sh:name>I d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
-            <sh:name>Title</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
-            <sh:name>Title</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
-            <sh:name>Title</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
-            <sh:name>Lot minimum submission</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
-            <sh:name>Lot minimum submission</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
-            <sh:name>Lot minimum submission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
-            <sh:name>Lot submission limit</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
-            <sh:name>Lot submission limit</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
-            <sh:name>Lot submission limit</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
-            <sh:name>Maximum number of lots to be awarded</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
-            <sh:name>Maximum number of lots to be awarded</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
-            <sh:name>Maximum number of lots to be awarded</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasCompetitionTermination"/>
             <sh:name>Competition termination</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -1855,6 +1708,58 @@ WG Approval 20/08/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
+            <sh:name>I d</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Identifier"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
+            <sh:name>I d</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasis"/>
+            <sh:name>Legal basis</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasis"/>
+            <sh:name>Legal basis</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasisID"/>
             <sh:name>Legal basis i d</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
@@ -1870,21 +1775,6 @@ WG Approval 20/08/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasis"/>
-            <sh:name>Legal basis</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasis"/>
-            <sh:name>Legal basis</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalRegime"/>
             <sh:name>Legal regime</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
@@ -1900,6 +1790,94 @@ WG Approval 20/08/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
+            <sh:name>Lot minimum submission</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
+            <sh:name>Lot minimum submission</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
+            <sh:name>Lot minimum submission</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
+            <sh:name>Lot submission limit</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
+            <sh:name>Lot submission limit</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
+            <sh:name>Lot submission limit</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainFeature"/>
+            <sh:name>Main feature</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainFeature"/>
+            <sh:name>Main feature</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainFeature"/>
+            <sh:name>Main feature</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
+            <sh:name>Maximum number of lots to be awarded</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
+            <sh:name>Maximum number of lots to be awarded</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Numeric"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
+            <sh:name>Maximum number of lots to be awarded</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasProcedureType"/>
             <sh:name>Procedure type</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
@@ -1909,6 +1887,28 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasProcedureType"/>
             <sh:name>Procedure type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
+            <sh:name>Title</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
+            <sh:name>Title</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
+            <sh:name>Title</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -1935,44 +1935,44 @@ This Procurement Criterion can be only Exclusion Ground, Selection Criterion or 
 WG Approval 23/04/2020</rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
-            <sh:name>Name</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
-            <sh:name>Name</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
-            <sh:name>Name</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
+            <sh:name>Description</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
+            <sh:name>Name</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
+            <sh:name>Name</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDescription"/>
-            <sh:name>Description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasName"/>
+            <sh:name>Name</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2035,28 +2035,6 @@ WG Approval 24/03/2020
 </rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewProcedure"/>
-            <sh:name>Review procedure</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewProcedure"/>
-            <sh:name>Review procedure</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewProcedure"/>
-            <sh:name>Review procedure</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewDeadline"/>
             <sh:name>Review deadline</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
@@ -2088,6 +2066,28 @@ WG Approval 24/03/2020
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewDeadlineInformation"/>
             <sh:name>Review deadline information</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewProcedure"/>
+            <sh:name>Review procedure</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewProcedure"/>
+            <sh:name>Review procedure</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReviewProcedure"/>
+            <sh:name>Review procedure</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2236,6 +2236,43 @@ WG approval 31/10/2018</sh:description>
 WG approval 31/10/2018</rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
+            <sh:name>Formula</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
+            <sh:name>Formula</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
+            <sh:name>Formula</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSelectionCriterionType"/>
+            <sh:name>Selection criterion type</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSelectionCriterionType"/>
+            <sh:name>Selection criterion type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasThresholdType"/>
             <sh:name>Threshold type</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
@@ -2267,21 +2304,6 @@ WG approval 31/10/2018</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasThresholdValue"/>
             <sh:name>Threshold value</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSelectionCriterionType"/>
-            <sh:name>Selection criterion type</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSelectionCriterionType"/>
-            <sh:name>Selection criterion type</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2363,28 +2385,6 @@ WG approval 31/10/2018</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasWeightValueType"/>
             <sh:name>Weight value type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
-            <sh:name>Formula</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
-            <sh:name>Formula</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasFormula"/>
-            <sh:name>Formula</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2465,28 +2465,6 @@ WG approval 31/10/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubcontractingInvolved"/>
-            <sh:name>Subcontracting involved</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubcontractingInvolved"/>
-            <sh:name>Subcontracting involved</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubcontractingInvolved"/>
-            <sh:name>Subcontracting involved</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMinimumShareSubjectMatter"/>
             <sh:name>Minimum share subject matter</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -2525,6 +2503,28 @@ WG approval 31/10/2018</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMinimumSubcontractorsProposedObligation"/>
             <sh:name>Minimum subcontractors proposed obligation</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubcontractingInvolved"/>
+            <sh:name>Subcontracting involved</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubcontractingInvolved"/>
+            <sh:name>Subcontracting involved</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubcontractingInvolved"/>
+            <sh:name>Subcontracting involved</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2588,15 +2588,215 @@ These documents can be tenders, request to participate and expressions of intere
 WG Approval 14/07/2020</rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubmissionDocumentType"/>
-            <sh:name>Submission document type</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasECataloguePermission"/>
+            <sh:name>E catalogue permission</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubmissionDocumentType"/>
-            <sh:name>Submission document type</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasECataloguePermission"/>
+            <sh:name>E catalogue permission</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissioneSignature"/>
+            <sh:name>E submissione signature</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissioneSignature"/>
+            <sh:name>E submissione signature</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissionPermission"/>
+            <sh:name>E submission permission</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissionPermission"/>
+            <sh:name>E submission permission</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeDescription"/>
+            <sh:name>Guarantee description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeDescription"/>
+            <sh:name>Guarantee description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeDescription"/>
+            <sh:name>Guarantee description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeRequired"/>
+            <sh:name>Guarantee required</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeRequired"/>
+            <sh:name>Guarantee required</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeRequired"/>
+            <sh:name>Guarantee required</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLanguage"/>
+            <sh:name>Language</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLanguage"/>
+            <sh:name>Language</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionInformationDescription"/>
+            <sh:name>Late submission information description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionInformationDescription"/>
+            <sh:name>Late submission information description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionInformationDescription"/>
+            <sh:name>Late submission information description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionPermission"/>
+            <sh:name>Late submission permission</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionPermission"/>
+            <sh:name>Late submission permission</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMultipleTenderSubmissionAllowed"/>
+            <sh:name>Multiple tender submission allowed</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMultipleTenderSubmissionAllowed"/>
+            <sh:name>Multiple tender submission allowed</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMultipleTenderSubmissionAllowed"/>
+            <sh:name>Multiple tender submission allowed</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionDescription"/>
+            <sh:name>Non electronic submission description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionDescription"/>
+            <sh:name>Non electronic submission description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionDescription"/>
+            <sh:name>Non electronic submission description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionJustification"/>
+            <sh:name>Non electronic submission justification</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionJustification"/>
+            <sh:name>Non electronic submission justification</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasOfficialLanguage"/>
+            <sh:name>Official language</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasOfficialLanguage"/>
+            <sh:name>Official language</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2618,6 +2818,36 @@ WG Approval 14/07/2020</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubmissionDocumentType"/>
+            <sh:name>Submission document type</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasSubmissionDocumentType"/>
+            <sh:name>Submission document type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTenderSubcontractingInformation"/>
+            <sh:name>Tender subcontracting information</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTenderSubcontractingInformation"/>
+            <sh:name>Tender subcontracting information</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasValidityPeriod"/>
             <sh:name>Validity period</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Period"/>
@@ -2627,236 +2857,6 @@ WG Approval 14/07/2020</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasValidityPeriod"/>
             <sh:name>Validity period</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLanguage"/>
-            <sh:name>Language</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLanguage"/>
-            <sh:name>Language</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeRequired"/>
-            <sh:name>Guarantee required</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeRequired"/>
-            <sh:name>Guarantee required</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeRequired"/>
-            <sh:name>Guarantee required</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeDescription"/>
-            <sh:name>Guarantee description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeDescription"/>
-            <sh:name>Guarantee description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasGuaranteeDescription"/>
-            <sh:name>Guarantee description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissionPermission"/>
-            <sh:name>E submission permission</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissionPermission"/>
-            <sh:name>E submission permission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionJustification"/>
-            <sh:name>Non electronic submission justification</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionJustification"/>
-            <sh:name>Non electronic submission justification</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionDescription"/>
-            <sh:name>Non electronic submission description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionDescription"/>
-            <sh:name>Non electronic submission description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionDescription"/>
-            <sh:name>Non electronic submission description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasECataloguePermission"/>
-            <sh:name>E catalogue permission</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasECataloguePermission"/>
-            <sh:name>E catalogue permission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissioneSignature"/>
-            <sh:name>E submissione signature</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasESubmissioneSignature"/>
-            <sh:name>E submissione signature</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMultipleTenderSubmissionAllowed"/>
-            <sh:name>Multiple tender submission allowed</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMultipleTenderSubmissionAllowed"/>
-            <sh:name>Multiple tender submission allowed</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMultipleTenderSubmissionAllowed"/>
-            <sh:name>Multiple tender submission allowed</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTenderSubcontractingInformation"/>
-            <sh:name>Tender subcontracting information</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTenderSubcontractingInformation"/>
-            <sh:name>Tender subcontracting information</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionPermission"/>
-            <sh:name>Late submission permission</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionPermission"/>
-            <sh:name>Late submission permission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionInformationDescription"/>
-            <sh:name>Late submission information description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionInformationDescription"/>
-            <sh:name>Late submission information description</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLateSubmissionInformationDescription"/>
-            <sh:name>Late submission information description</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasOfficialLanguage"/>
-            <sh:name>Official language</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasOfficialLanguage"/>
-            <sh:name>Official language</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -2932,50 +2932,6 @@ WG Approval 19/09/2019
       <rdfs:label xml:lang="en">Procedure</rdfs:label>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation"/>
-            <sh:name>Performing staff qualification information</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation"/>
-            <sh:name>Performing staff qualification information</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation"/>
-            <sh:name>Performing staff qualification information</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage"/>
-            <sh:name>G p a usage</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage"/>
-            <sh:name>G p a usage</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage"/>
-            <sh:name>G p a usage</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasAdditionalInformation"/>
             <sh:name>Additional information</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
@@ -2998,22 +2954,104 @@ WG Approval 19/09/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription"/>
-            <sh:name>Legal basis description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasAwardedByCPB"/>
+            <sh:name>Awarded by c p b</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasAwardedByCPB"/>
+            <sh:name>Awarded by c p b</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalType"/>
+            <sh:name>Buyer legal type</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalType"/>
+            <sh:name>Buyer legal type</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalTypeDescription"/>
+            <sh:name>Buyer legal type description</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription"/>
-            <sh:name>Legal basis description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalTypeDescription"/>
+            <sh:name>Buyer legal type description</sh:name>
             <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription"/>
-            <sh:name>Legal basis description</sh:name>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalTypeDescription"/>
+            <sh:name>Buyer legal type description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivity"/>
+            <sh:name>Buyer main activity</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivity"/>
+            <sh:name>Buyer main activity</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivityDescription"/>
+            <sh:name>Buyer main activity description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivityDescription"/>
+            <sh:name>Buyer main activity description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivityDescription"/>
+            <sh:name>Buyer main activity description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasContractingEntity"/>
+            <sh:name>Contracting entity</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasContractingEntity"/>
+            <sh:name>Contracting entity</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -3050,6 +3088,109 @@ WG Approval 19/09/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage"/>
+            <sh:name>G p a usage</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage"/>
+            <sh:name>G p a usage</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage"/>
+            <sh:name>G p a usage</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement"/>
+            <sh:name>Joint procurement</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement"/>
+            <sh:name>Joint procurement</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement"/>
+            <sh:name>Joint procurement</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLanguagesTendersAndRequest"/>
+            <sh:name>Languages tenders and request</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLanguagesTendersAndRequest"/>
+            <sh:name>Languages tenders and request</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription"/>
+            <sh:name>Legal basis description</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription"/>
+            <sh:name>Legal basis description</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Text"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription"/>
+            <sh:name>Legal basis description</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation"/>
+            <sh:name>Performing staff qualification information</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation"/>
+            <sh:name>Performing staff qualification information</sh:name>
+            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation"/>
+            <sh:name>Performing staff qualification information</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasPublicationOfCallForCompetition"/>
             <sh:name>Publication of call for competition</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -3081,95 +3222,6 @@ WG Approval 19/09/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasVariantPermission"/>
             <sh:name>Variant permission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLanguagesTendersAndRequest"/>
-            <sh:name>Languages tenders and request</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasLanguagesTendersAndRequest"/>
-            <sh:name>Languages tenders and request</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivity"/>
-            <sh:name>Buyer main activity</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivity"/>
-            <sh:name>Buyer main activity</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalType"/>
-            <sh:name>Buyer legal type</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Code"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalType"/>
-            <sh:name>Buyer legal type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasAwardedByCPB"/>
-            <sh:name>Awarded by c p b</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasAwardedByCPB"/>
-            <sh:name>Awarded by c p b</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasAwardedByCPB"/>
-            <sh:name>Awarded by c p b</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement"/>
-            <sh:name>Joint procurement</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement"/>
-            <sh:name>Joint procurement</sh:name>
-            <sh:class rdf:resource="http://www.unece.org/cefact#Indicator"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement"/>
-            <sh:name>Joint procurement</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -3181,36 +3233,6 @@ WG Approval 19/09/2019
       <rdfs:label xml:lang="en">Amount</rdfs:label>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyID"/>
-            <sh:name>Currency i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyID"/>
-            <sh:name>Currency i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyCodeListVersionID"/>
-            <sh:name>Currency code list version i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyCodeListVersionID"/>
-            <sh:name>Currency code list version i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://www.unece.org/cefact#hasAmountValue"/>
             <sh:name>Amount value</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -3220,6 +3242,36 @@ WG Approval 19/09/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://www.unece.org/cefact#hasAmountValue"/>
             <sh:name>Amount value</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyCodeListVersionID"/>
+            <sh:name>Currency code list version i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyCodeListVersionID"/>
+            <sh:name>Currency code list version i d</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyID"/>
+            <sh:name>Currency i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasCurrencyID"/>
+            <sh:name>Currency i d</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -3375,128 +3427,128 @@ WG Approval 19/09/2019
 </rdfs:comment>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasIdentifierValue"/>
-            <sh:name>Identifier value</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasIdentifierValue"/>
-            <sh:name>Identifier value</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyID"/>
-            <sh:name>Scheme agency i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyID"/>
-            <sh:name>Scheme agency i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyName"/>
-            <sh:name>Scheme agency name</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyName"/>
-            <sh:name>Scheme agency name</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeDataURI"/>
-            <sh:name>Scheme data u r i</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeDataURI"/>
-            <sh:name>Scheme data u r i</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeID"/>
-            <sh:name>Scheme i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeID"/>
-            <sh:name>Scheme i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeName"/>
-            <sh:name>Scheme name</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeName"/>
-            <sh:name>Scheme name</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeURI"/>
-            <sh:name>Scheme u r i</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeURI"/>
-            <sh:name>Scheme u r i</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeVersionID"/>
-            <sh:name>Scheme version i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeVersionID"/>
-            <sh:name>Scheme version i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://www.unece.org/cefact#hasAssuranceLevel"/>
             <sh:name>Assurance level</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasIdentifierValue"/>
+            <sh:name>Identifier value</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasIdentifierValue"/>
+            <sh:name>Identifier value</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyID"/>
+            <sh:name>Scheme agency i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyID"/>
+            <sh:name>Scheme agency i d</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyName"/>
+            <sh:name>Scheme agency name</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeAgencyName"/>
+            <sh:name>Scheme agency name</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeDataURI"/>
+            <sh:name>Scheme data u r i</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeDataURI"/>
+            <sh:name>Scheme data u r i</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeID"/>
+            <sh:name>Scheme i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeID"/>
+            <sh:name>Scheme i d</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeName"/>
+            <sh:name>Scheme name</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeName"/>
+            <sh:name>Scheme name</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeURI"/>
+            <sh:name>Scheme u r i</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeURI"/>
+            <sh:name>Scheme u r i</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeVersionID"/>
+            <sh:name>Scheme version i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasSchemeVersionID"/>
+            <sh:name>Scheme version i d</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
@@ -3694,21 +3746,6 @@ WG Approval 19/09/2019
       <rdfs:label xml:lang="en">Text</rdfs:label>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasLanguageLocaleID"/>
-            <sh:name>Language locale i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://www.unece.org/cefact#hasLanguageLocaleID"/>
-            <sh:name>Language locale i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://www.unece.org/cefact#hasLanguageID"/>
             <sh:name>Language i d</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
@@ -3718,6 +3755,21 @@ WG Approval 19/09/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://www.unece.org/cefact#hasLanguageID"/>
             <sh:name>Language i d</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasLanguageLocaleID"/>
+            <sh:name>Language locale i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://www.unece.org/cefact#hasLanguageLocaleID"/>
+            <sh:name>Language locale i d</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
