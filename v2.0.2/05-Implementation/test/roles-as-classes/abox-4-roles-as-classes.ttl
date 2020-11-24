@@ -1,4 +1,4 @@
-@prefix :     <http://example.org/test-abox#> .
+@prefix :     <http://data.europa.eu/a4g/resource/test-roles-as-classes#> .
 @prefix epo:  <http://data.europa.eu/a4g/ontology#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,18 +6,12 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rt:   <http://data.europa.eu/a4g/ontology/cv/roles-taxonomy#> .
-@prefix lf:   <http://data.europa.eu/a4g/ontology/cv/legal-form#> .
-@prefix es:   <http://data.europa.eu/a4g/ontology/cv/procurement-event-status#> .
-@prefix naj:  <http://data.europa.eu/a4g/ontology/cv/non-awarded-justification#> .
+@prefix rt:   <http://data.europa.eu/a4g/resource/authority/roles-taxonomy#> .
+@prefix lf:   <http://data.europa.eu/a4g/resource/authority/legal-form#> .
+@prefix naj:  <http://data.europa.eu/a4g/resource/authority/non-awarded-justification#> .
 @prefix xs:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
-@base         <http://example.org/test-abox#> .
 
-<http://example.org/test-abox#> rdf:type owl:Ontology ;
-                                                 owl:versionIRI <example.org/test-abox> ;
-                                                 owl:imports <http://data.europa.eu/a4g/ontology/core#> ;
-.
 ##### Procedures and Lots
 
 ### Procedure #1
@@ -205,7 +199,7 @@
 
 ##### Award Decision #2 (Procedure #2, only one lot (Lot1) ##############
 :awdec2 a owl:NamedIndividual, epo:AwardDecision ;
-    epo:awardDecisionDate "10/10/2019" ;
+    epo:awardDecisionDate "10/10/2019"^^xsd:date ;
     epo:awardStatus es:Final ;
 .
 
@@ -214,7 +208,7 @@
 ## Winner 2: everis
 ## Winner 3: Trasys
 
-##### Award Decision Situation #7: Numen is awarded Lot1 with rank 1"
+##### Award Decision Situation #7: Numen is awarded Lot1 with rank 1
 :ads7 rdf:type owl:NamedIndividual, epo:AwardDecisionSituation ;
     dct:description "Award Decision Situation #7: Numen is awarded Lot1 with rank 1."@en ;
     epo:involvesProcedure :proc2 ;
@@ -250,7 +244,7 @@
 
 ##### Award Decision #3 (Procedure #3, only one lot (Lot1) and only one winner ##############
 :awdec3 a owl:NamedIndividual, epo:AwardDecision ;
-    epo:awardDecisionDate "10/07/2020" ;
+    epo:awardDecisionDate "10/07/2020"^^xsd:date ;
     epo:awardStatus es:Final ;
 .
 
