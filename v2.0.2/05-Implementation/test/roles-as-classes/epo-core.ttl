@@ -1,4 +1,4 @@
-@prefix :     <http://data.europa.eu/a4g/ontology/core#> .
+@prefix :  <http://data.europa.eu/a4g/ontology#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml:  <http://www.w3.org/XML/1998/namespace> .
@@ -9,10 +9,10 @@
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix cpsv: <http://data.europa.eu/m8g/cpsvap> .
-@base <http://data.europa.eu/a4g/ontology/core#> .
+@base <http://data.europa.eu/a4g/ontology#> .
 
-<http://data.europa.eu/a4g/ontology/core#> rdf:type owl:Ontology ;
-                                            owl:versionIRI <http://data.europa.eu/a4g/ontology/core> ;
+<http://data.europa.eu/a4g/ontology#> rdf:type owl:Ontology ;
+                                            owl:versionIRI <http://data.europa.eu/a4g/2.0.2/ontology#> ;
                                             owl:imports <http://www.w3.org/ns/org#> ,
                                                         <http://xmlns.com/foaf/0.1/> ,
                                                          <http://data.europa.eu/m8g/cpsvap> ;
@@ -228,5 +228,3 @@
        :awardDecisionDate xs:date ;
        :awardStatus xs:langString ;
 .
-
-
