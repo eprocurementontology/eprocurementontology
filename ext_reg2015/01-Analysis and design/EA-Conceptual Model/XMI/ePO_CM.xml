@@ -2085,197 +2085,197 @@
 					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_818E7384_F224_471a_8A9A_E6C85D2E2B7D" name="xsd:time"/>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" name="ccts">
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_83211DE7_FC08_41ca_90ED_B1D747548AC4" name="ccts:Amount">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_2C82F10F_E6DC_49ee_8B5D_E915D4361E9C" name="ccts:AmountValue">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_83211DE7_FC08_41ca_90ED_B1D747548AC4" name="epo:Amount">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_2C82F10F_E6DC_49ee_8B5D_E915D4361E9C" name="epo:AmountValue">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000509_E6DC_49ee_8B5D_E915D4361E9C" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000510_E6DC_49ee_8B5D_E915D4361E9C" value="1"/>
 							<type xmi:idref="EAJava_xsd_decimal"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_66141706_7915_4d02_909B_29360381B7B4" name="ccts:CurrencyCodeListVersionID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_66141706_7915_4d02_909B_29360381B7B4" name="epo:CurrencyCodeListVersionID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000511_7915_4d02_909B_29360381B7B4" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000512_7915_4d02_909B_29360381B7B4" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_15742AA2_3F82_4e69_B401_1002A68D43BF" name="ccts:CurrencyID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_15742AA2_3F82_4e69_B401_1002A68D43BF" name="epo:CurrencyID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000513_3F82_4e69_B401_1002A68D43BF" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000514_3F82_4e69_B401_1002A68D43BF" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_CE9906F5_A833_4f77_9B6A_6B3B29A35460" name="ccts:Code">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_F3F496FE_467C_4889_914F_EFF39EE98EB2" name="ccts:LanguageID">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_CE9906F5_A833_4f77_9B6A_6B3B29A35460" name="epo:Code">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_F3F496FE_467C_4889_914F_EFF39EE98EB2" name="epo:LanguageID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000515_467C_4889_914F_EFF39EE98EB2" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000516_467C_4889_914F_EFF39EE98EB2" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_36EE6A78_B1E5_454c_BB3C_A60E61C8B0B9" name="ccts:ListAgencyID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_36EE6A78_B1E5_454c_BB3C_A60E61C8B0B9" name="epo:ListAgencyID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000517_B1E5_454c_BB3C_A60E61C8B0B9" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000518_B1E5_454c_BB3C_A60E61C8B0B9" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_9BB7CBAB_716C_43ef_828F_C1266DB0ABD9" name="ccts:ListAgencyName">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_9BB7CBAB_716C_43ef_828F_C1266DB0ABD9" name="epo:ListAgencyName">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000519_716C_43ef_828F_C1266DB0ABD9" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000520_716C_43ef_828F_C1266DB0ABD9" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_34812355_963F_442e_9F43_1F2FB5E35273" name="ccts:ListID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_34812355_963F_442e_9F43_1F2FB5E35273" name="epo:ListID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000521_963F_442e_9F43_1F2FB5E35273" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000522_963F_442e_9F43_1F2FB5E35273" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B6B9F616_B73E_4dee_A994_F5E5253A27AC" name="ccts:ListName">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B6B9F616_B73E_4dee_A994_F5E5253A27AC" name="epo:ListName">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000523_B73E_4dee_A994_F5E5253A27AC" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000524_B73E_4dee_A994_F5E5253A27AC" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_13DE6EC6_BC05_4653_97BF_97D018F72165" name="ccts:ListSchemeURI">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_13DE6EC6_BC05_4653_97BF_97D018F72165" name="epo:ListSchemeURI">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000525_BC05_4653_97BF_97D018F72165" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000526_BC05_4653_97BF_97D018F72165" value="1"/>
 							<type xmi:idref="EAJava_xsd_anyURI"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DD3EE172_ED53_45fe_8473_DE0048ECBC69" name="ccts:ListURI">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DD3EE172_ED53_45fe_8473_DE0048ECBC69" name="epo:ListURI">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000527_ED53_45fe_8473_DE0048ECBC69" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000528_ED53_45fe_8473_DE0048ECBC69" value="1"/>
 							<type xmi:idref="EAJava_xsd_anyURI"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_7521180C_572C_4efb_AB73_3D52B0EF391B" name="ccts:ListVersionID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_7521180C_572C_4efb_AB73_3D52B0EF391B" name="epo:ListVersionID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000529_572C_4efb_AB73_3D52B0EF391B" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000530_572C_4efb_AB73_3D52B0EF391B" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_44784DE7_1573_4a40_A623_3BBACD715BBD" name="ccts:Name">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_44784DE7_1573_4a40_A623_3BBACD715BBD" name="epo:Name">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000531_1573_4a40_A623_3BBACD715BBD" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000532_1573_4a40_A623_3BBACD715BBD" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_ECF07FF0_8693_499d_AD7B_7484B8FDA398" name="ccts:Identifier">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_9E15BD2A_39FB_4aac_8C80_1DDB105B7B98" name="ccts:AssuranceLevel">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_ECF07FF0_8693_499d_AD7B_7484B8FDA398" name="epo:Identifier">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_9E15BD2A_39FB_4aac_8C80_1DDB105B7B98" name="epo:AssuranceLevel">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000533_39FB_4aac_8C80_1DDB105B7B98" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000534_39FB_4aac_8C80_1DDB105B7B98" value="1"/>
 							<type xmi:idref="EAJava_skos_Concept"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DD21A105_2536_4ae0_A606_3868B9A27714" name="ccts:IdentifierValue">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DD21A105_2536_4ae0_A606_3868B9A27714" name="epo:IdentifierValue">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000535_2536_4ae0_A606_3868B9A27714" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000536_2536_4ae0_A606_3868B9A27714" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_0D623480_E872_437b_B558_3AE1530C975A" name="ccts:SchemeAgencyID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_0D623480_E872_437b_B558_3AE1530C975A" name="epo:SchemeAgencyID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000537_E872_437b_B558_3AE1530C975A" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000538_E872_437b_B558_3AE1530C975A" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_EC13F7E5_C9A2_45ce_A2E4_3AFC67778C5B" name="ccts:SchemeAgencyName">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_EC13F7E5_C9A2_45ce_A2E4_3AFC67778C5B" name="epo:SchemeAgencyName">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000539_C9A2_45ce_A2E4_3AFC67778C5B" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000540_C9A2_45ce_A2E4_3AFC67778C5B" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_023E47FB_9876_48d7_A8E2_5FD45B5C7D11" name="ccts:SchemeDataURI">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_023E47FB_9876_48d7_A8E2_5FD45B5C7D11" name="epo:SchemeDataURI">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000541_9876_48d7_A8E2_5FD45B5C7D11" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000542_9876_48d7_A8E2_5FD45B5C7D11" value="1"/>
 							<type xmi:idref="EAJava_xsd_anyURI"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_36993888_5D8C_4165_9FBD_2786D3797625" name="ccts:SchemeID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_36993888_5D8C_4165_9FBD_2786D3797625" name="epo:SchemeID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000543_5D8C_4165_9FBD_2786D3797625" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000544_5D8C_4165_9FBD_2786D3797625" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_291D3917_532F_4950_B4BF_22835EC1F3E6" name="ccts:SchemeName">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_291D3917_532F_4950_B4BF_22835EC1F3E6" name="epo:SchemeName">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000545_532F_4950_B4BF_22835EC1F3E6" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000546_532F_4950_B4BF_22835EC1F3E6" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_322A52A7_F801_4b9f_B921_CD9AFE4D76E8" name="ccts:SchemeURI">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_322A52A7_F801_4b9f_B921_CD9AFE4D76E8" name="epo:SchemeURI">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000547_F801_4b9f_B921_CD9AFE4D76E8" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000548_F801_4b9f_B921_CD9AFE4D76E8" value="1"/>
 							<type xmi:idref="EAJava_xsd_anyURI"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_34EA5DFD_574A_4a69_9F19_59FCED4CCEFC" name="ccts:SchemeVersionID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_34EA5DFD_574A_4a69_9F19_59FCED4CCEFC" name="epo:SchemeVersionID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000549_574A_4a69_9F19_59FCED4CCEFC" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000550_574A_4a69_9F19_59FCED4CCEFC" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_911C6357_DC1C_4ff7_9744_616046F6F0BF" name="ccts:Indicator">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_71FA3340_4B4F_42eb_A632_1B1D75260674" name="ccts:Format">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_911C6357_DC1C_4ff7_9744_616046F6F0BF" name="epo:Indicator">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_71FA3340_4B4F_42eb_A632_1B1D75260674" name="epo:Format">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000551_4B4F_42eb_A632_1B1D75260674" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000552_4B4F_42eb_A632_1B1D75260674" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_7B1D00E9_E850_4739_8639_19A76F6FFF4D" name="ccts:Measure">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_684F60B3_F9C5_4b33_81BD_B833AB107597" name="ccts:MeasureValue">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_7B1D00E9_E850_4739_8639_19A76F6FFF4D" name="epo:Measure">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_684F60B3_F9C5_4b33_81BD_B833AB107597" name="epo:MeasureValue">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000553_F9C5_4b33_81BD_B833AB107597" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000554_F9C5_4b33_81BD_B833AB107597" value="1"/>
 							<type xmi:idref="EAJava_xsd_decimal"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_7745E583_3EDA_4694_BC69_5CEF56639010" name="ccts:UnitCode">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_7745E583_3EDA_4694_BC69_5CEF56639010" name="epo:UnitCode">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000555_3EDA_4694_BC69_5CEF56639010" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000556_3EDA_4694_BC69_5CEF56639010" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_EC84B861_B7B1_4f8b_8EE1_24C547841E4E" name="ccts:UnitCodeListVersionID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_EC84B861_B7B1_4f8b_8EE1_24C547841E4E" name="epo:UnitCodeListVersionID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000557_B7B1_4f8b_8EE1_24C547841E4E" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000558_B7B1_4f8b_8EE1_24C547841E4E" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_BA0ECB44_F297_4940_91DA_4E3997919BD8" name="ccts:Numeric">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DCD6736B_E80A_46da_BB5A_F2B37A6EA9E0" name="ccts:Format">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_BA0ECB44_F297_4940_91DA_4E3997919BD8" name="epo:Numeric">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DCD6736B_E80A_46da_BB5A_F2B37A6EA9E0" name="epo:Format">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000559_E80A_46da_BB5A_F2B37A6EA9E0" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000560_E80A_46da_BB5A_F2B37A6EA9E0" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_F9677E04_DED2_4052_8D25_BA714BA9C3EC" name="ccts:Quantity">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_439A021A_4789_4775_8650_9C585138E43E" name="ccts:QuantityValue">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_F9677E04_DED2_4052_8D25_BA714BA9C3EC" name="epo:Quantity">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_439A021A_4789_4775_8650_9C585138E43E" name="epo:QuantityValue">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000561_4789_4775_8650_9C585138E43E" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000562_4789_4775_8650_9C585138E43E" value="1"/>
 							<type xmi:idref="EAJava_xsd_decimal"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_09B8D950_16B6_4d7c_9269_062F869FFFDF" name="ccts:UnitCode">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_09B8D950_16B6_4d7c_9269_062F869FFFDF" name="epo:UnitCode">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000563_16B6_4d7c_9269_062F869FFFDF" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000564_16B6_4d7c_9269_062F869FFFDF" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_36DB12B5_EF6A_43b3_B708_6403EAC31062" name="ccts:UnitCodeListAgencyID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_36DB12B5_EF6A_43b3_B708_6403EAC31062" name="epo:UnitCodeListAgencyID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000565_EF6A_43b3_B708_6403EAC31062" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000566_EF6A_43b3_B708_6403EAC31062" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DADC878B_4D96_4e12_8E78_A104EF8B382E" name="ccts:UnitCodeListAgencyName">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DADC878B_4D96_4e12_8E78_A104EF8B382E" name="epo:UnitCodeListAgencyName">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000567_4D96_4e12_8E78_A104EF8B382E" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000568_4D96_4e12_8E78_A104EF8B382E" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B0EFE8FD_3145_469d_AA82_BA27A0C8B163" name="ccts:UnitCodeListID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B0EFE8FD_3145_469d_AA82_BA27A0C8B163" name="epo:UnitCodeListID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000569_3145_469d_AA82_BA27A0C8B163" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000570_3145_469d_AA82_BA27A0C8B163" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:Class" xmi:id="EAID_B3A020A7_49BD_4d49_87CD_87B194FCC323" name="ccts:Text">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_3C42F35D_5953_4137_A280_E7B61299B726" name="ccts:LanguageID">
+					<packagedElement xmi:type="uml:Class" xmi:id="EAID_B3A020A7_49BD_4d49_87CD_87B194FCC323" name="epo:Text">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_3C42F35D_5953_4137_A280_E7B61299B726" name="epo:LanguageID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000571_5953_4137_A280_E7B61299B726" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000572_5953_4137_A280_E7B61299B726" value="1"/>
 							<type xmi:idref="EAJava_xsd_language"/>
 						</ownedAttribute>
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_AEB3C5A9_1EA4_4d3f_8305_D9CAFF3B133A" name="ccts:LanguageLocaleID">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_AEB3C5A9_1EA4_4d3f_8305_D9CAFF3B133A" name="epo:LanguageLocaleID">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000573_1EA4_4d3f_8305_D9CAFF3B133A" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000574_1EA4_4d3f_8305_D9CAFF3B133A" value="1"/>
 							<type xmi:idref="EAJava_xsd_normalizedString"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_C405EB54_2EE3_47ed_BF3D_95A0C8526C28" name="ccts:Date"/>
-					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_E4C4DDAE_46FF_44d3_9234_4FF7347535EE" name="ccts:DateTime">
-						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_12CF04C2_A7DC_4bfb_852B_41392D2D423B" name="ccts:Format">
+					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_C405EB54_2EE3_47ed_BF3D_95A0C8526C28" name="epo:Date"/>
+					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_E4C4DDAE_46FF_44d3_9234_4FF7347535EE" name="epo:DateTime">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_12CF04C2_A7DC_4bfb_852B_41392D2D423B" name="epo:Format">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000575_A7DC_4bfb_852B_41392D2D423B" value="1"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000576_A7DC_4bfb_852B_41392D2D423B" value="1"/>
 							<type xmi:idref="EAJava_xsd_string"/>
 						</ownedAttribute>
 					</packagedElement>
-					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_1934C751_16DE_4007_BC44_855FDDADC4CB" name="ccts:Time"/>
-					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_8F2E960A_B452_46ee_B15A_6EECE7D37392" name="ccts:URI"/>
+					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_1934C751_16DE_4007_BC44_855FDDADC4CB" name="epo:Time"/>
+					<packagedElement xmi:type="uml:DataType" xmi:id="EAID_8F2E960A_B452_46ee_B15A_6EECE7D37392" name="epo:URI"/>
 				</packagedElement>
 			</packagedElement>
 			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_C73C3BE9_11A4_4b3f_AC7C_F7614C26D411" name="org">
@@ -3343,35 +3343,35 @@
 		</umldi:Diagram>
 		<umldi:Diagram xmi:type="umldi:UMLClassDiagram" xmi:id="EAID_B0C416E7_3825_4a43_99E0_659306E74E22" isFrame="false" modelElement="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903">
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_90ED_B1D747548AC4" modelElement="EAID_83211DE7_FC08_41ca_90ED_B1D747548AC4">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_90ED_B1D747548AC4" text="ccts:Amount"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_90ED_B1D747548AC4" text="epo:Amount"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_90ED_B1D747548AC4" x="211" y="317" width="239" height="85"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_8639_19A76F6FFF4D" modelElement="EAID_7B1D00E9_E850_4739_8639_19A76F6FFF4D">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_8639_19A76F6FFF4D" text="ccts:Measure"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_8639_19A76F6FFF4D" text="epo:Measure"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_8639_19A76F6FFF4D" x="863" y="498" width="221" height="85"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_9B6A_6B3B29A35460" modelElement="EAID_CE9906F5_A833_4f77_9B6A_6B3B29A35460">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_9B6A_6B3B29A35460" text="ccts:Code"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_9B6A_6B3B29A35460" text="epo:Code"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_9B6A_6B3B29A35460" x="247" y="461" width="181" height="176"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_AD7B_7484B8FDA398" modelElement="EAID_ECF07FF0_8693_499d_AD7B_7484B8FDA398">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_AD7B_7484B8FDA398" text="ccts:Identifier"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_AD7B_7484B8FDA398" text="epo:Identifier"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_AD7B_7484B8FDA398" x="855" y="269" width="204" height="163"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_9744_616046F6F0BF" modelElement="EAID_911C6357_DC1C_4ff7_9744_616046F6F0BF">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_9744_616046F6F0BF" text="ccts:Indicator"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_9744_616046F6F0BF" text="epo:Indicator"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_9744_616046F6F0BF" x="281" y="715" width="100" height="70"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_8D25_BA714BA9C3EC" modelElement="EAID_F9677E04_DED2_4052_8D25_BA714BA9C3EC">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_8D25_BA714BA9C3EC" text="ccts:Quantity"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_8D25_BA714BA9C3EC" text="epo:Quantity"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_8D25_BA714BA9C3EC" x="541" y="486" width="221" height="111"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_87CD_87B194FCC323" modelElement="EAID_B3A020A7_49BD_4d49_87CD_87B194FCC323">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_87CD_87B194FCC323" text="ccts:Text"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_87CD_87B194FCC323" text="epo:Text"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_87CD_87B194FCC323" x="541" y="325" width="172" height="70"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_B0C416E7_3825_4a43_91DA_4E3997919BD8" modelElement="EAID_BA0ECB44_F297_4940_91DA_4E3997919BD8">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_91DA_4E3997919BD8" text="ccts:Numeric"/>
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_3825_4a43_91DA_4E3997919BD8" text="epo:Numeric"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_3825_4a43_91DA_4E3997919BD8" x="597" y="704" width="100" height="70"/>
 			</ownedElement>
 		</umldi:Diagram>
@@ -3574,7 +3574,7 @@
 						<initial/>
 						<documentation value="Category of award criterion."/>
 						<model ea_localid="34" ea_guid="{99EFC9B9-607F-40a6-8BE0-CC0B914FCD06}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -3589,7 +3589,7 @@
 						<initial/>
 						<documentation value="A narrative text explaining the content of an instance of the class.&#xA;&#xA;WG Decision 17/09/2019 "/>
 						<model ea_localid="35" ea_guid="{7A132CFE-129B-4f97-A9A4-D9D90C7BE3FB}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -3604,7 +3604,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="40" ea_guid="{4FD10EB5-5FE5-4f22-A0BA-CF6DF5927076}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -3619,7 +3619,7 @@
 						<initial/>
 						<documentation value="The method to interpret the fixed value as pertaining to a total or unit.&#xA;&#xA;WG Approval 17/09/2019"/>
 						<model ea_localid="36" ea_guid="{E6885E3F-9795-45a2-8196-04570C482230}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -3634,7 +3634,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="41" ea_guid="{8BFF4053-D30B-44e2-9B1E-8EFD715F3A01}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -3649,7 +3649,7 @@
 						<initial/>
 						<documentation value="Identifies the criterion unambiguously and uniquely across all  procurement procedures.."/>
 						<model ea_localid="31" ea_guid="{9727E53F-8961-479b-A300-BAA2DBEF459D}"/>
-						<properties type="ccts:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -3664,7 +3664,7 @@
 						<initial/>
 						<documentation value="The method to interpret the threshold value as minimum or a maximum.&#xA;&#xA;WG Approval 17/09/2019 "/>
 						<model ea_localid="32" ea_guid="{1A9EA88C-E8D9-48a9-B832-5EE01758F3A2}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -3679,7 +3679,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="33" ea_guid="{F1DADE98-9128-4954-8D6E-DF66A6EC9C9B}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -3694,7 +3694,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="38" ea_guid="{E11C20C1-6FAD-4a4d-AB89-5D1BAF1DDFB2}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -3709,7 +3709,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="39" ea_guid="{70C20D04-6B23-42c2-A79D-EA9EA0CE540F}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -3724,7 +3724,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="37" ea_guid="{1B997A6D-B8EE-4c1f-B385-F87231B8768D}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -3756,7 +3756,7 @@
 						<initial/>
 						<documentation value="In the ePO ontology a taxonomy with all activities, based on different classifications (COFOG, UTILITIES, NACE), will be provided. In ePO this field is to be used exclusively to complement the definition attached to the MainActivityCode.&#xA;&#xA;However, in eForms there is the code &quot;other&quot; to cover undefined activities. For mapping to this eForms feature one could also use this property.&#xA;"/>
 						<model ea_localid="52" ea_guid="{1BE46C8C-217C-4fa5-994D-9A31184F91B4}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -3771,7 +3771,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="50" ea_guid="{8361EE93-40C0-436b-8F44-3431759A1A37}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -3786,7 +3786,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="53" ea_guid="{0957C3DF-D6A0-47f6-A714-F978C49B4234}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -3801,7 +3801,7 @@
 						<initial/>
 						<documentation value="Role of entities, which:&#xA;&#xA;(a) are contracting authorities or public undertakings and which pursue one of the activities referred to in Articles 8 to 14 of the Directive 2014/25/EU.&#xA;&#xA;(b) when they are not contracting authorities or public undertakings, have as one of their activities any of the activities referred to in Articles 8 to 14, or any combination thereof and operate on the basis of special or exclusive rights granted by a competent authority of a Member State.&#xA;&#xA;Additional Information&#xA;&#xA;The indicator is needed in order to discriminate between those contracts where the Contracting Entity acts as a Contracting Authority undergoing the limits and the rules of Directive 24 and those where it acts as a  Contracting Entity, with certain relaxed constraints.&#xA;For example, the Contracting Entities have different thresholds for the application of Directive 24 if compared with Contracting Authorities.&#xA;&#xA;WG Approval 28/04/2020&#xA;"/>
 						<model ea_localid="49" ea_guid="{B03ACF2B-B2B5-4d67-85D3-9488B22767E2}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -3816,7 +3816,7 @@
 						<initial/>
 						<documentation value="The principal sectoral area in which an organisation operates.&#xA;&#xA;Additional information&#xA;&#xA;The activities associated with buyers are derived from the top level of the Classification of the functions of the government (COFOG) from the United Nations Statistics Division.&#xA;&#xA;The activities associated with buyer are derived from sectors explicitly falling within the sectoral directive (2014/25/EU Art. 8 - Art. 14).&#xA;&#xA;WG Approval 05/05/2020"/>
 						<model ea_localid="51" ea_guid="{B264828F-C700-4a94-86DB-3CB187CE9B1B}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -3870,7 +3870,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="56" ea_guid="{305DC753-BE42-4333-83D5-FDF41403D0A3}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -3911,7 +3911,7 @@
 						<initial/>
 						<documentation value="Supplementary data about the instance of the concept.&#xA;&#xA;WG Approval 30/09/2019&#xA;&#xA;(The property epo:hasAdditionalInformation is equivalent to cagv:hasDescription)"/>
 						<model ea_localid="65" ea_guid="{3A7CEBB2-C675-49ea-B663-D5A331E1F816}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -3926,7 +3926,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="63" ea_guid="{16120DC4-E6F0-4d24-8F0A-6EAEBF94DE2A}"/>
-						<properties type="ccts:Code" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -3941,7 +3941,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="66" ea_guid="{B9953C5A-86B1-476d-9116-EAD566FAF819}"/>
-						<properties type="ccts:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -3956,7 +3956,7 @@
 						<initial/>
 						<documentation value="The value identifying a communication network node, required to gain access to a service.&#xA;&#xA;Additional information&#xA;&#xA;Examples:&#xA;https://data.gov.es/sdg?serviceId=diploma-request&#xA;mailto:myname@mycompany.com&#xA;+33 6090 92 81 80 Ext. 3213&#xA;&#xA;WG Approval 07/05/2020"/>
 						<model ea_localid="67" ea_guid="{5169E41F-6FA5-465f-9CB9-A587A3088B34}"/>
-						<properties type="ccts:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -3971,7 +3971,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="62" ea_guid="{20D7FE24-B54D-487f-A420-5865B58033E8}"/>
-						<properties type="ccts:Identifier" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Identifier" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -3986,7 +3986,7 @@
 						<initial/>
 						<documentation value="A short text representing an instance of the class."/>
 						<model ea_localid="68" ea_guid="{A6E0D8CE-04CE-4b76-A252-691CBCF171F4}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -4001,7 +4001,7 @@
 						<initial/>
 						<documentation value="The identifier of a resource.&#xA;&#xA;Additional Information&#xA;&#xA;For example:&#xA;&#xA;1. The URL of the system from where to access the procurement documents;&#xA;2. The URL of the system for the submission of tender documents;&#xA;3. The URL of the system from where to download a tool to communicate with the Buyer;&#xA;4. The URL of the system used by a Technique to allow Economic Operators to exchange information with the Buyer (e.g. eAuction and DPS Systems)&#xA;5. The URL of the system used to exchange information between Buyer and EO for questions and clarifications;&#xA;&#xA;WG Approval 30/09/2019&#xA;&#xA;"/>
 						<model ea_localid="64" ea_guid="{C3467238-63FA-4e7c-A450-72FD5714902F}"/>
-						<properties type="ccts:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4035,7 +4035,7 @@
 						<initial/>
 						<documentation value="Geopolitical zone where the contract can be executed.&#xA;&#xA;Additional Information&#xA;&#xA;Used for setting restrictions that cannot be established with one country code or a geographical zone identifier (like NUTS), because they have a broader scope (geographical, economic, political, other)."/>
 						<model ea_localid="93" ea_guid="{131E7393-F35C-461a-BF68-6379A2F96731}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="11"/>
 						<stereotype/>
@@ -4050,7 +4050,7 @@
 						<initial/>
 						<documentation value="A specific legal entity must be taken up by a tenderer composed of a group of economic operators once it has been awarded a contract.&#xA;&#xA;Additional information: this may be applied in the case of groups (e.g. a consortium) where the requirement is that they have to formalise the relationship of the group members as a legal entity itself once the contract is awarded.&#xA;&#xA;WG Approval 2019-01-29&#xA;"/>
 						<model ea_localid="89" ea_guid="{55D6EC2E-9F28-4a02-BA13-F8CED442A9DB}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -4065,7 +4065,7 @@
 						<initial/>
 						<documentation value="A constraint concerning the legal form that must be adopted by a tenderer composed of a group of economic operators once it has been awarded a contract."/>
 						<model ea_localid="90" ea_guid="{85ADAAB2-E2BE-4d76-8608-A55C85A4B0D7}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -4080,7 +4080,7 @@
 						<initial/>
 						<documentation value="Electronic means will be used for invoicing in the post-award process.&#xA;&#xA;WG Approval 12/09/2019&#xA;"/>
 						<model ea_localid="85" ea_guid="{B1732554-EAB8-45b5-865A-D1F442CCDE19}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -4095,7 +4095,7 @@
 						<initial/>
 						<documentation value="Electronic means will be used for requesting and purchasing in the post-award process.&#xA;&#xA;WG Approval 12/09/2019&#xA;&#xA;"/>
 						<model ea_localid="83" ea_guid="{2155C026-DA32-4dad-A471-35D47B85EEA0}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4110,7 +4110,7 @@
 						<initial/>
 						<documentation value="&#xA;"/>
 						<model ea_localid="84" ea_guid="{7CFD2A96-612A-41e4-9039-862FA1A389EE}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -4125,7 +4125,7 @@
 						<initial/>
 						<documentation value="The maximum number of times the contract can be renewed. &#xA;&#xA;Additional Information&#xA;&#xA;By renewing, the buyer reserves the right (i.e. not an obligation) to renew the contract (i.e. extend its duration) without a new procurement procedure. &#xA;For example, a contract may be valid for one year and the buyer may keep a possibility to renew it (e.g. once, twice) for another three months, if he is content with the services he received.&#xA;&#xA;PLEASE REVIEW THIS DEFINITION AGAIN WITH THE WORKING GROUP. It was originally taken from eForms.&#xA;"/>
 						<model ea_localid="87" ea_guid="{CE39B253-B9A9-4b8c-8855-DCE8E0600AF6}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -4140,7 +4140,7 @@
 						<initial/>
 						<documentation value="Information about financial clauses that will govern some economic aspects of the execution of the contract.&#xA;&#xA;Additional Information: These clauses usually refer to financial and payment provisions.&#xA;&#xA;This type of information should be structured instead of a free text in order to reuse it an ideal world. Unfortunately this is an information that in the real life no one is willing to provide pro-actively.&#xA;&#xA;WG Pending of discussion with eForms"/>
 						<model ea_localid="91" ea_guid="{9ECADED3-74A7-4026-8C22-E64B96F7B965}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="9"/>
 						<stereotype/>
@@ -4155,7 +4155,7 @@
 						<initial/>
 						<documentation value="The particular conditions and additional information related to the execution of the contract.&#xA;&#xA;Additional Information: &#xA;&#xA;For example, specific information about the place of performance, intermediary deliverables, compensation for damages, intellectual property rights.&#xA;&#xA;WG approval 15-01-2019"/>
 						<model ea_localid="95" ea_guid="{F21BEE32-174F-46a9-B3CB-00BE0B239330}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="13"/>
 						<stereotype/>
@@ -4170,7 +4170,7 @@
 						<initial/>
 						<documentation value="Further details on the location of the execution of the contract.&#xA;&#xA;WG Approval 30/07/2019"/>
 						<model ea_localid="94" ea_guid="{9CCDFF8D-9E94-4367-9FC8-D27251DB20AF}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="12"/>
 						<stereotype/>
@@ -4185,7 +4185,7 @@
 						<initial/>
 						<documentation value="Any other information about the renewal(s).&#xA;&#xA;WG approval 16/04/2019 "/>
 						<model ea_localid="88" ea_guid="{FC9100FA-377D-40f9-BFBF-D7305458427F}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -4200,7 +4200,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="86" ea_guid="{887FE424-9138-46d4-AA7B-A555B7F284A2}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -4215,7 +4215,7 @@
 						<initial/>
 						<documentation value="&lt;font color=&quot;#24292e&quot;&gt;The execution of the contract is restricted to the framework of sheltered employment programmes&lt;/font&gt;.&#xA;&#xA;WG Approval 12/09/2019&#xA;&#xA;&#xA;&#xA;&#xA;"/>
 						<model ea_localid="92" ea_guid="{EFB20A5C-1459-4b6b-B072-EF891E17B130}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="10"/>
 						<stereotype/>
@@ -4248,7 +4248,7 @@
 						<initial/>
 						<documentation value="End of the Dynamic Purchase System (DPS). &#xA;&#xA;Additional Information: This property can be used in the contract award notice even if no contracts are awarded . &#xA;&#xA;WG Approval 22/11/2019"/>
 						<model ea_localid="123" ea_guid="{9769ADC1-33EA-424c-909F-63FDC738F56B}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4279,7 +4279,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="733" ea_guid="{6A6A31A2-BF74-4410-B4A4-26580490A7D5}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4311,7 +4311,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="155" ea_guid="{9F59C222-03AC-41ce-ADA8-F34E31348E42}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4343,7 +4343,7 @@
 						<initial/>
 						<documentation value="Buyers that can use the Framework Agreement not mentioned by name.&#xA;&#xA;Additional Information: &#xA;For example,  &quot;all hospitals in the Tuscany region&#xA;&#xA;WG Approval 2019-05-06"/>
 						<model ea_localid="157" ea_guid="{C2241CD4-9667-4028-8BBA-A7049DE0C36E}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4358,7 +4358,7 @@
 						<initial/>
 						<documentation value="The justification for exceptional cases when the duration of the framework agreement exceeds the legal limits. &#xA;&#xA;Additional Information&#xA;&#xA;Four years in the case of the general procurement Directive, seven years in the case of the defence Directive, and eight years in the case of the sectoral Directive.&#xA;&#xA;WG Approval 26/09/2019"/>
 						<model ea_localid="158" ea_guid="{30C4BAC8-B548-4f26-BC5E-4EB19B6A021A}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -4373,7 +4373,7 @@
 						<initial/>
 						<documentation value="The form of framework agreement used in a procurement procedure.&#xA;&#xA;Addition information:&#xA;&#xA;A concept to distinguish the different types of framework agreement, which are: &#xA;1. Framework agreement without reopening of competition,&#xA;2. Framework agreement with reopening of competition, or &#xA;3. Framework agreement partly without reopening of competition.&#xA;&#xA;WG Approval 19/09/2019 &#xA;&#xA;"/>
 						<model ea_localid="156" ea_guid="{1771F650-29F8-4a16-B44E-4C1AEC28D946}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4388,7 +4388,7 @@
 						<initial/>
 						<documentation value="Maximum number of tenderers who may be awarded a contract within the framework agreement.&#xA;&#xA;Additional Information: the number is a positive integer.&#xA;&#xA;WG Approval 2019-02-05&#xA;"/>
 						<model ea_localid="159" ea_guid="{983FDDF0-0A7E-47e9-9C9A-9A8A0A28029D}"/>
-						<properties type="ccts:Quantity" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Quantity" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -4419,7 +4419,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="160" ea_guid="{A059F923-4F3A-4927-82E1-8BA05096503A}"/>
-						<properties type="ccts:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4434,7 +4434,7 @@
 						<initial/>
 						<documentation value="A short text representing an instance of the class."/>
 						<model ea_localid="161" ea_guid="{98A72BB3-DF5F-4be0-AF69-D4FBC1D44760}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4449,7 +4449,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="162" ea_guid="{1FBFD12B-B5EB-429a-B2C2-846F2F33BCEE}"/>
-						<properties type="ccts:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -4480,7 +4480,7 @@
 						<initial/>
 						<documentation value="Supplementary data about the instance of the concept.&#xA;&#xA;Additional Information&#xA;&#xA;For example, information about the Lot not specified elsewhere in the Notice.&#xA;&#xA;WG Approval 15/10/2019"/>
 						<model ea_localid="180" ea_guid="{AAB414E4-6B76-4724-850E-FD4E9D1A9A36}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -4495,7 +4495,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="172" ea_guid="{4F1C5F34-17A9-4dcc-ACCD-71AFE4011CBE}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4510,7 +4510,7 @@
 						<initial/>
 						<documentation value="Self-explanatory text about a concept.&#xA;"/>
 						<model ea_localid="173" ea_guid="{DE1FA5B9-94C7-44ae-BA93-BC77CD3943C8}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4525,7 +4525,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="182" ea_guid="{738C23D2-C747-4144-9A64-EB3E1F8047A9}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="10"/>
 						<stereotype/>
@@ -4540,7 +4540,7 @@
 						<initial/>
 						<documentation value="Specifies whether the Agreement on Government Procurement (GPA) applies.&#xA;&#xA;Additional information: &#xA;The GPA aims to establish a multilateral framework of balanced rights and obligations relating to public contracts with a view to achieving the liberalization and expansion of world trade.&#xA;&#xA;WG Approval 15/10/2019&#xA;&#xA;"/>
 						<model ea_localid="174" ea_guid="{7963EE6A-6E17-4cc0-9D4D-F2B3BD7DDB82}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4555,7 +4555,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="175" ea_guid="{7FCAC58A-1B2C-416c-92E2-3E2B3317CC0D}"/>
-						<properties type="ccts:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4570,7 +4570,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="181" ea_guid="{1F43F397-39B2-4fc0-BA8E-E647985E064F}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -4585,7 +4585,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="176" ea_guid="{AF1C2BC0-CA51-4d8a-B7B1-804A30402D54}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -4600,7 +4600,7 @@
 						<initial/>
 						<documentation value="The Lot is suitable for small and medium enterprises (SMEs).&#xA;&#xA;&#xA;Additional Information&#xA;&#xA;This allows the buyer to make emphasis on the fact that the procedure has been designed having SMEs in mind. This indicator is also to be reflected in the selection criteria.&#xA;&#xA;For example, number of employees and turnover are applicable to the definition of an SME.&#xA;&#xA;WG Approval 15/10/2019"/>
 						<model ea_localid="179" ea_guid="{31290AD7-FE0D-48d8-AE34-6DC14FEBDBBD}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -4615,7 +4615,7 @@
 						<initial/>
 						<documentation value="A short self-descriptive name of the instance of the concept.&#xA;&#xA;Additional Information:&#xA;&#xA;For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.&#xA;&#xA;(WG Approval 11-11-2019)&#xA;"/>
 						<model ea_localid="177" ea_guid="{CA1EEF88-2E9E-40ca-8D61-5175A4D36F9E}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -4630,7 +4630,7 @@
 						<initial/>
 						<documentation value="The obligation or possibility for tenderers to submit variants or not.&#xA;&#xA;Additional Information:&#xA;&#xA;Variants are alternative ways to fulfil the buyer's needs as opposed to solutions indicated in the procurement documents.&#xA;&#xA;eForms: Whether tenderers are required, allowed or forbidden to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. &#xA;&#xA;Additional Information:&#xA;&#xA;Further conditions for submitting variant tenders are in the procurement documents.&#xA;"/>
 						<model ea_localid="178" ea_guid="{9361E9C9-8671-495a-B9CD-385F052E667E}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -4698,7 +4698,7 @@
 						<initial/>
 						<documentation value="The estimated date of dispatch of the invitations to confirm interest.&#xA;"/>
 						<model ea_localid="191" ea_guid="{28A077C1-654A-46a5-B750-B796AB4BF269}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -4713,7 +4713,7 @@
 						<initial/>
 						<documentation value="The estimated date of dispatch of the invitations to submit tenders in two (or more) stage procedures.&#xA;&#xA;WG Approval 01/10/2019"/>
 						<model ea_localid="189" ea_guid="{CE3911D1-AED3-4851-B6FA-FC23EED7B627}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -4728,7 +4728,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="192" ea_guid="{A5E8DE66-6B2E-41d9-9120-7D9ACD775C2D}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -4743,7 +4743,7 @@
 						<initial/>
 						<documentation value="Maximum number of candidates to be invited for the second stage of the procedure.&#xA;&#xA;WG Approval 22/08/2019"/>
 						<model ea_localid="186" ea_guid="{8ACB5906-2965-4815-8CDE-FB67C01F11E8}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4758,7 +4758,7 @@
 						<initial/>
 						<documentation value="Minimum number of candidates to be invited for the second stage of the procedure.&#xA;&#xA;WG Approval 22/08/2019 "/>
 						<model ea_localid="188" ea_guid="{6EE62EEA-C0BD-4ca6-B28B-7D3AF3196028}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4773,7 +4773,7 @@
 						<initial/>
 						<documentation value="The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations.&#xA;&#xA;Additional information:&#xA;See Article 29(4) of Directive 2014/24/EU. &#xA;"/>
 						<model ea_localid="190" ea_guid="{72D00562-2765-4156-8A2B-76137A9E6CBF}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -4788,7 +4788,7 @@
 						<initial/>
 						<documentation value="The number of solutions or tenders will be reduced in iterative evaluations for multiple staged procedures.&#xA;&#xA;Additional information:&#xA;This refers to multiple-stage procedures (included two-stage procedures, at least). Open Procedures can be seen as one-stage procedures.&#xA;WG Approval 22/08/2019 "/>
 						<model ea_localid="187" ea_guid="{499DE0A3-4E02-4b32-B06D-1C4F4867E9C9}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4819,7 +4819,7 @@
 						<initial/>
 						<documentation value="Date and time for the opening of tenders.&#xA;&#xA;WG Approval 12/03/2019&#xA;&#xA;"/>
 						<model ea_localid="199" ea_guid="{811E2A70-F2F3-45c2-BC48-C23FF1B7FF54}"/>
-						<properties type="ccts:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4834,7 +4834,7 @@
 						<initial/>
 						<documentation value="Further information about the opening of tenders. &#xA;&#xA;Additional Information&#xA;For example, who may participate in the opening and whether any authorization is needed.&#xA;&#xA;WG Approval 12/03/2019"/>
 						<model ea_localid="200" ea_guid="{49CA1EEA-22FE-48c0-BDCC-9A83EE89165B}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4866,7 +4866,7 @@
 						<initial/>
 						<documentation value="A description of this period, expressed as text."/>
 						<model ea_localid="208" ea_guid="{DF0CDC67-F3AF-4547-ACF2-5B29EDBB7E0D}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -4879,9 +4879,9 @@
 					</attribute>
 					<attribute xmi:idref="EAID_166DF880_6A37_4bbf_A167_94053528218E" name="epo:DurationMeasure" scope="Public">
 						<initial/>
-						<documentation value="The duration of this period, expressed as an ISO 8601 code. See also the ccts:Measure data type in the ePO package &quot;ccts&quot;.&#xA;"/>
+						<documentation value="The duration of this period, expressed as an ISO 8601 code. See also the epo:Measure data type in the ePO package &quot;ccts&quot;.&#xA;"/>
 						<model ea_localid="204" ea_guid="{166DF880-6A37-4bbf-A167-94053528218E}"/>
-						<properties type="ccts:Measure" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Measure" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -4896,7 +4896,7 @@
 						<initial/>
 						<documentation value="The date on which this period ends."/>
 						<model ea_localid="203" ea_guid="{25DF3CFE-22ED-42a4-AF99-395353C1D2A4}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -4911,7 +4911,7 @@
 						<initial/>
 						<documentation value="The time at which this period ends."/>
 						<model ea_localid="206" ea_guid="{D3F00005-AF7C-45ab-927B-B38B2CEBC0D5}"/>
-						<properties type="ccts:Time" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Time" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -4926,7 +4926,7 @@
 						<initial/>
 						<documentation value="The date on which this period begins."/>
 						<model ea_localid="202" ea_guid="{C6A0334F-7F34-4839-ADEB-482CEC470A98}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4941,7 +4941,7 @@
 						<initial/>
 						<documentation value="The time at which this period begins."/>
 						<model ea_localid="205" ea_guid="{9E1B8583-1AE7-4d00-93B6-EF17937E4A3C}"/>
-						<properties type="ccts:Time" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Time" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -4975,7 +4975,7 @@
 						<initial/>
 						<documentation value="Statement about  the fact that the procedure will be reduced due to a state of urgency.&#xA;&#xA;Additional Information&#xA;&#xA;This modifies the time limit for the receipt of requests to participate or the receipt of tenders.&#xA;&#xA;WG Approval 20/08/2019&#xA;"/>
 						<model ea_localid="227" ea_guid="{790B2918-2B58-40de-B8E7-6698AA589C5E}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -4990,7 +4990,7 @@
 						<initial/>
 						<documentation value="The reasons why the procedure is accelerated.&#xA;&#xA;Additional Information:&#xA;A procedure is accelerated to cover needs of extraordinary circumstances ie earthquake relief.&#xA;&#xA;WG Approval 09/06/2020&#xA;&#xA;"/>
 						<model ea_localid="228" ea_guid="{8DBF2461-62A0-40d3-B39B-A3C66EAE9CD7}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="By Value" position="1"/>
 						<stereotype/>
@@ -5005,7 +5005,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="229" ea_guid="{E0D21850-357E-4bac-9B17-9FE1E9C81E68}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5020,7 +5020,7 @@
 						<initial/>
 						<documentation value="No further contracts will be awarded in this procedure.&#xA;&#xA;Additional Information: &#xA;&#xA;PIN for Competition needs to be signaled. This field can be used even if no contracts are awarded in the contract award notice."/>
 						<model ea_localid="238" ea_guid="{E604CA81-29A0-46aa-B68B-F0C8E3EA4E2D}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="11"/>
 						<stereotype/>
@@ -5035,7 +5035,7 @@
 						<initial/>
 						<documentation value="Self-explanatory text about a concept.&#xA;"/>
 						<model ea_localid="232" ea_guid="{50498693-0FC3-4fd9-8499-C0746168233F}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -5050,7 +5050,7 @@
 						<initial/>
 						<documentation value="A unique identifier of the instance of the concept.&#xA;&#xA;Additional Information&#xA;&#xA;For example, in the case of the Procurement Identifier, this could be the European Public Procurement Identifier, and/or any other identifier provided by the buyer, the service provider or any other stakeholder.&#xA;&#xA;WG Approval 12/11/2019&#xA;&lt;font color=&quot;#ff0000&quot;&gt;&#xA;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&#xA;&lt;/font&gt;"/>
 						<model ea_localid="231" ea_guid="{C96EF925-A46D-4178-936B-33C449BC3E8E}"/>
-						<properties type="ccts:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -5065,7 +5065,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="240" ea_guid="{AD6ACD52-C679-46bc-A97F-6B9B8FEF8F7D}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="13"/>
 						<stereotype/>
@@ -5080,7 +5080,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="239" ea_guid="{94A6A409-B31C-48c0-A7BA-8B6C54957DB5}"/>
-						<properties type="ccts:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:URI" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="12"/>
 						<stereotype/>
@@ -5095,7 +5095,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="241" ea_guid="{2C43AE9F-D6C6-4521-90A5-D8FF2836888B}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="14"/>
 						<stereotype/>
@@ -5110,7 +5110,7 @@
 						<initial/>
 						<documentation value="The minimum number of lots for which one tenderer must submit tenders. &#xA;&#xA;Additional Information&#xA;&#xA;This can be used to state that a tenderer has to submit the maximum number of lots announced in the contract notice (i.e. in this case the Lot Minimum Submission would equal to the Lot Submission Limit).&#xA;&#xA;"/>
 						<model ea_localid="235" ea_guid="{9EFD3906-6AA7-469f-BBEE-5D3DD3CE875A}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -5125,7 +5125,7 @@
 						<initial/>
 						<documentation value="The total number of lots for which one tenderer can submit tenders.&#xA;&#xA;(WG approval 12/12/2018)&#xA;&#xA;"/>
 						<model ea_localid="236" ea_guid="{8F0C600A-6541-4744-BB18-D60A02A82939}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="9"/>
 						<stereotype/>
@@ -5140,7 +5140,7 @@
 						<initial/>
 						<documentation value="Main features of the procedure and information about where the full rules for the procedure can be found. &#xA;&#xA;Additional Information&#xA;&#xA;This information should be given when the procedure is not one of those mentioned in the procurement directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds."/>
 						<model ea_localid="230" ea_guid="{1237AF42-0ACB-4905-9E98-37EB4AD1C8CE}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -5155,7 +5155,7 @@
 						<initial/>
 						<documentation value="The maximum number of lots for which contract(s) can be awarded to one tenderer.&#xA;&#xA;WG Approval 22/08/2019"/>
 						<model ea_localid="237" ea_guid="{FCA9C00E-214F-4358-9D9A-285895441740}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="10"/>
 						<stereotype/>
@@ -5170,7 +5170,7 @@
 						<initial/>
 						<documentation value="Identification of the Procedure used.&#xA;&#xA;WG Approval 09/06/2020"/>
 						<model ea_localid="242" ea_guid="{AE467764-0EBB-428e-92FC-A94C02222F84}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="15"/>
 						<stereotype/>
@@ -5185,7 +5185,7 @@
 						<initial/>
 						<documentation value="A short self-descriptive name of the instance of the concept.&#xA;&#xA;Additional Information:&#xA;&#xA;For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.&#xA;&#xA;(WG Approval 11-11-2019)"/>
 						<model ea_localid="233" ea_guid="{34DDD0B2-3203-4322-8937-89FA219A7D4E}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -5219,7 +5219,7 @@
 						<initial/>
 						<documentation value="Self-explanatory text about a concept.&#xA;&#xA;WG Approval 23/04/2020"/>
 						<model ea_localid="249" ea_guid="{43D6B94F-AD87-44b5-A396-1920A74CB6EB}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5234,7 +5234,7 @@
 						<initial/>
 						<documentation value="A short text representing an instance of the class.&#xA;&#xA;"/>
 						<model ea_localid="248" ea_guid="{2B903B08-5576-4cc0-B932-D47A0FE45873}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5316,7 +5316,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="276" ea_guid="{FE7645F4-9234-448c-8A3F-16D2BF058AD2}"/>
-						<properties type="ccts:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5331,7 +5331,7 @@
 						<initial/>
 						<documentation value="The description of the time limits for review procedures.&#xA;&#xA;WG Approval 01/10/2019&#xA;"/>
 						<model ea_localid="277" ea_guid="{1B8CE63E-E1E7-4f47-8679-12E787F7DFE8}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5346,7 +5346,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="275" ea_guid="{2CE40337-4E76-492d-9796-D67ABEF1E14F}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -5377,7 +5377,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="278" ea_guid="{73F1D2A1-60CC-4828-8DAB-CC5101B58287}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5392,7 +5392,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="279" ea_guid="{89ACE32E-7513-48cd-8763-8038F66E55AF}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5425,7 +5425,7 @@
 						<initial/>
 						<documentation value="The deadline by which the security clearance must be submitted to the buyer.&#xA;&#xA;WG Approval 12/09/2019&#xA;&#xA;"/>
 						<model ea_localid="280" ea_guid="{FDA0BF50-CABF-495e-8376-7F059C142FA2}"/>
-						<properties type="ccts:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -5440,7 +5440,7 @@
 						<initial/>
 						<documentation value="Additional information about the security clearance (e.g. which level of security clearance is required, which team members must have it, whether it is necessary already for accessing the procurement documents or only for contract execution).&#xA;&#xA;WG Approval 12/09/2019&#xA;"/>
 						<model ea_localid="281" ea_guid="{58B626C6-3D05-426d-B057-4FE0D785D8C5}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5455,7 +5455,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="735" ea_guid="{FCD3DD1F-F684-4f54-A714-CA338077B13D}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5487,7 +5487,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="289" ea_guid="{53D15EA1-B17A-48ea-983D-0A065FE34A6C}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -5502,7 +5502,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="284" ea_guid="{8EF8175F-6960-41a8-88BE-6167F56A1C7D}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5517,7 +5517,7 @@
 						<initial/>
 						<documentation value="The type of threshold for a Selection Criterion.&#xA;&#xA;Additional Information&#xA;&#xA;For example, a minimum score or a maximum number of tenders with the highest score passing.&#xA;"/>
 						<model ea_localid="282" ea_guid="{5DDF0E1C-4A75-4435-9208-A4A9C3017ED2}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -5532,7 +5532,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="283" ea_guid="{ED90E511-1F3D-4e84-9D31-63CAC92FD094}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5547,7 +5547,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="285" ea_guid="{3EDCE2F4-B119-4b3b-8873-8E1E9D97CE99}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -5562,7 +5562,7 @@
 						<initial/>
 						<documentation value="Explanation about why the actual weighting model is chosen. &#xA;&#xA;Additional information: &#xA;In eNotification: This property is specifically used to describe why the order of importance is used over another weighting model.&#xA;In ESPD: This is used to explain other complex models of weighting for transparency reasons. &#xA;&#xA;WG Approval 19/09/2019 "/>
 						<model ea_localid="286" ea_guid="{C98ED83C-5E76-4fb3-B84A-4998C9F996E7}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -5577,7 +5577,7 @@
 						<initial/>
 						<documentation value="Relative importance assigned to a given criterion.&#xA;&#xA;Additional Information: This is modeled as a Quantity because quantities have an attribute named unitCode, which allows to explain what the numeric value is about. In the case of Award Criteria this unitCode could use the Code List defined by eForms defining different types of evaluation award criteria, e.g. &#xA;A rule should nevertheless be imposed: these Quantities should be of the form x.y, where x &amp;lt; 0  so they can be used to represent percentages).&#xA;&#xA;(WG approval 15/06/2018&#xA;reviewed on 23-01-2019)"/>
 						<model ea_localid="287" ea_guid="{05B7D641-D7A9-43f1-8F3C-7E61E9852881}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -5592,7 +5592,7 @@
 						<initial/>
 						<documentation value="The method to interpret the value as a numerical coefficient expressing the relative importance of the item. &#xA;&#xA;WG Approval 17/09/2019 "/>
 						<model ea_localid="288" ea_guid="{C380E857-503C-4f77-BE5F-DFA34B624629}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -5625,7 +5625,7 @@
 						<initial/>
 						<documentation value="Self-explanatory text about a concept.&#xA;&#xA;WG Approval 08/05/2019"/>
 						<model ea_localid="312" ea_guid="{256489E4-B6B6-412c-AD17-AD3730D5DFBA}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5640,7 +5640,7 @@
 						<initial/>
 						<documentation value="The maximum proportion of something to be distributed.&#xA;&#xA;Additional Information:&#xA;In the case of subcontracting the share may refer to the proportion of works, services or supplies being subcontracted.&#xA;&#xA;WG Approval 17/09/2019 &#xA;&#xA;"/>
 						<model ea_localid="313" ea_guid="{DE9DB4E1-0EA6-4dca-BE6B-B5F4FE407B6E}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -5655,7 +5655,7 @@
 						<initial/>
 						<documentation value="The minimum proportion of something to be distributed.&#xA;&#xA;Additional Information:&#xA;In the case of subcontracting the share may refer to the proportion of works, services or supplies being subcontracted.&#xA;&#xA;WG Approval 17/09/2019"/>
 						<model ea_localid="314" ea_guid="{A8247705-906D-4a85-A700-40F3E3506692}"/>
-						<properties type="ccts:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Numeric" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -5670,7 +5670,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="316" ea_guid="{467A3DAE-DEA8-4237-9133-432198D98388}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -5685,7 +5685,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="317" ea_guid="{E4C9B9DC-BAAD-40d2-B56F-21B5FDF8C067}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -5700,7 +5700,7 @@
 						<initial/>
 						<documentation value="List of Subcontractors and the subject matter they cover are required.&#xA;&#xA;Additional Information: &#xA;The tenderer will ned to supply this information in the tender.&#xA;&#xA;WG Approval 28/02/2019"/>
 						<model ea_localid="315" ea_guid="{999AAF46-5E6C-43b3-ACEB-B3E3DEF42F46}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -5715,7 +5715,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="318" ea_guid="{9BD1FCAB-E0F7-4a9c-91AB-5BB71D690CF8}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -5730,7 +5730,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="319" ea_guid="{CB6A57C6-ED53-40e1-806D-C89FF9D2DCC9}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -5760,7 +5760,7 @@
 						<initial/>
 						<documentation value="The extent to which electronic catalogues may be used in tenders.&#xA;&#xA;WG Approval 03/10/2019"/>
 						<model ea_localid="329" ea_guid="{B5B6C492-31D0-4903-89BF-86C83D35DB12}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="9"/>
 						<stereotype/>
@@ -5775,7 +5775,7 @@
 						<initial/>
 						<documentation value="The submitted information is required to be signed electronically.&#xA;&#xA;Additional Information: &#xA;&#xA;Signature can be defined as &quot;data in electronic form which is attached to or logically associated with other data in electronic form and which is used by the signatory to sign. &#xA;For more details on the meaning and uses of electronic signature you may consult different authoritative sources, a relevant one being for instance the Regulation (EU) 910/2014 on electronic identification and trust services for electronic transactions in the internal market.&#xA;&#xA;WG Approval 21/07/2020&#xA;"/>
 						<model ea_localid="330" ea_guid="{DDA42505-C694-419c-B5A3-DCF52C96BA83}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="10"/>
 						<stereotype/>
@@ -5790,7 +5790,7 @@
 						<initial/>
 						<documentation value="The requirements as to what extent electronic submission is allowed.&#xA;&#xA;WG Approval 03/10/2019"/>
 						<model ea_localid="326" ea_guid="{9C3C7F01-A6C3-4e5b-AAB4-985A7753F7BD}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -5805,7 +5805,7 @@
 						<initial/>
 						<documentation value="Information on the financial commitment required from the economic operator. &#xA;&#xA;Additional Information:&#xA;1.  This information may include the amount and the way of delivering of the guarantee&#xA;2. The financial commitment may be retained by the buyer in the case the tenderer withdraws the submitted information (i.e. tender, expression of interest and request for participation, but not request for clarifications) before the award of the contract or does not sign the contract.&#xA;3. Usual modalities are bonds, cheques, loans, other.&#xA;&#xA;WG Approval 21/07/20&#xA;"/>
 						<model ea_localid="325" ea_guid="{7FAFE0A0-6346-40b8-8467-BD3EAA918250}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="5"/>
 						<stereotype/>
@@ -5820,7 +5820,7 @@
 						<initial/>
 						<documentation value="The submitted information must include a financial commitment to be used in case of default.&#xA;&#xA;Additional Information:&#xA;See the additional information provided in  the definition of the 'Guarantee Description' element.&#xA;&#xA;WG Approval 21/07/20&#xA;&#xA;"/>
 						<model ea_localid="324" ea_guid="{0A093F33-1E8D-431b-B4A7-BC3DD1D88947}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
@@ -5835,7 +5835,7 @@
 						<initial/>
 						<documentation value="Language in which the submitted information is to be expressed. &#xA;&#xA;WG Approval 21/07/2020&#xA;"/>
 						<model ea_localid="323" ea_guid="{4518BE5E-461D-4cbb-8C65-0A288909D51C}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -5850,7 +5850,7 @@
 						<initial/>
 						<documentation value="A narrative text explaining the content of the economic operator information that can be submitted late.&#xA;&#xA;Additional Information&#xA;This does not apply to requests for clarifications.&#xA;"/>
 						<model ea_localid="334" ea_guid="{64609019-E492-413d-B12C-46646DE65A2D}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="14"/>
 						<stereotype/>
@@ -5865,7 +5865,7 @@
 						<initial/>
 						<documentation value="Whether economic operator-related information can be supplemented even after the submission deadline.&#xA;&#xA;Additional Information&#xA;This is specific to the information on the economic operator and not the actual offer. This does  not apply to the requests for clarification.&#xA;&#xA;WG Approval 21/07/2020"/>
 						<model ea_localid="333" ea_guid="{212213A3-BBA9-447e-9AED-70CFEED67AB8}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="13"/>
 						<stereotype/>
@@ -5880,7 +5880,7 @@
 						<initial/>
 						<documentation value="Tenderers may submit more than one competing tenders.&#xA;&#xA;WG Approval 10/10/2019&#xA;&#xA;"/>
 						<model ea_localid="331" ea_guid="{80AFF8F1-AF96-4e09-801D-A796A1DC3D1C}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="11"/>
 						<stereotype/>
@@ -5895,7 +5895,7 @@
 						<initial/>
 						<documentation value="Textual explanation of how non-electronic information is to be presented.&#xA;&#xA;WG Approval 21/07/2020&#xA;&#xA;"/>
 						<model ea_localid="328" ea_guid="{5940AFF6-EDC8-41c1-A493-F3DF27FB67C5}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -5910,7 +5910,7 @@
 						<initial/>
 						<documentation value="Reason for not accepting electronic information.&#xA;&#xA;WG Approval 21/07/2020"/>
 						<model ea_localid="327" ea_guid="{F44E79A4-1D10-4821-9E52-C9C2EB344B2B}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -5925,7 +5925,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="729" ea_guid="{04BF348B-716F-4f56-8A87-5749DB0021B6}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="15"/>
 						<stereotype/>
@@ -5940,7 +5940,7 @@
 						<initial/>
 						<documentation value="The time limit for receiving submissions.&#xA;&#xA;Additional Information&#xA;This is the  deadline by which the buyer must receive submissions (e.g. tenders, requests to participate, clarifications, etc.) and is not the time at which the information is submitted by the economic operator.&#xA;&#xA;WG Approval 21/07/2020&#xA;"/>
 						<model ea_localid="321" ea_guid="{B8F4E8C3-3C6E-4b8a-9E44-F51D72FE840E}"/>
-						<properties type="ccts:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -5955,7 +5955,7 @@
 						<initial/>
 						<documentation value="The type of document being sent to the buyer.&#xA;&#xA;WG Approval 21/07/2020&#xA;"/>
 						<model ea_localid="320" ea_guid="{14458134-955E-4dd5-9392-2E63FA5D7E78}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -5970,7 +5970,7 @@
 						<initial/>
 						<documentation value="The information about subcontracting that must be indicated in the tender.&#xA;&#xA;WG  Approval 10/10/2019"/>
 						<model ea_localid="332" ea_guid="{F0ADCEF2-E969-45c3-BCD0-AB9985E24B25}"/>
-						<properties type="ccts:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="12"/>
 						<stereotype/>
@@ -6018,7 +6018,7 @@
 						<initial/>
 						<documentation value="Self-explanatory text about the instance of the concept.&#xA;&#xA;WG Approval 30/09/2019"/>
 						<model ea_localid="340" ea_guid="{72399903-AD44-401f-A23C-F48405982480}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -6033,7 +6033,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="341" ea_guid="{4BF3DCD1-2F5E-4aa2-93EE-4BEAB00F4D78}"/>
-						<properties type="ccts:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Identifier" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -6246,7 +6246,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="689" ea_guid="{B6A57B61-FC76-4e78-BED0-48BAB68FBC49}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
 						<stereotype/>
@@ -6261,7 +6261,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="744" ea_guid="{C49B2D4D-9E16-46eb-8EC9-21602B17A011}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="12"/>
 						<stereotype/>
@@ -6276,7 +6276,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="743" ea_guid="{23FDEB73-DB49-4e7c-9374-D1AD82C319AC}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="11"/>
 						<stereotype/>
@@ -6291,7 +6291,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="746" ea_guid="{C7B15116-4273-4756-9DC9-D4D4941678B3}"/>
-						<properties type="ccts:Text" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="14"/>
 						<stereotype/>
@@ -6306,7 +6306,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="742" ea_guid="{48AF0E71-ADC5-41e5-8C45-5E6D09FC25BB}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="10"/>
 						<stereotype/>
@@ -6321,7 +6321,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="745" ea_guid="{456F8FA5-FE3D-4dd7-B93D-F30EFAEE861F}"/>
-						<properties type="ccts:Text" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="13"/>
 						<stereotype/>
@@ -6336,7 +6336,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="747" ea_guid="{02D11A97-8E5B-4ad1-A3BB-5F50305C43F8}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="15"/>
 						<stereotype/>
@@ -6351,7 +6351,7 @@
 						<initial/>
 						<documentation value="The deadline for receiving tenders and request to participate. &#xA;&#xA;Additional information: &#xA;&#xA;This was created because these concepts in the ontology are separated and therefore the mapping to the current forms could not be implement."/>
 						<model ea_localid="691" ea_guid="{2351BF35-8FBC-41b3-83D2-602144003759}"/>
-						<properties type="ccts:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:DateTime" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -6366,7 +6366,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="692" ea_guid="{392E9402-34E9-4226-934A-6960094B4221}"/>
-						<properties type="ccts:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Date" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="6"/>
 						<stereotype/>
@@ -6381,7 +6381,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="688" ea_guid="{7AAB3383-C4E4-4292-9392-27B02DA6CE2A}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
@@ -6396,7 +6396,7 @@
 						<initial/>
 						<documentation value="This is just used in the frozen version of the Ontology which maps to TED 2.0.9 and 2.0.8"/>
 						<model ea_localid="694" ea_guid="{1A1B3B64-4298-4dfe-BAD5-364EAFFD9F83}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="16"/>
 						<stereotype/>
@@ -6411,7 +6411,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="726" ea_guid="{3A465327-0910-4aa2-AF88-1257DDA127D7}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="9"/>
 						<stereotype/>
@@ -6426,7 +6426,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="690" ea_guid="{FB978A72-376E-4fb1-9C99-FA4EAF7939DD}"/>
-						<properties type="ccts:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Text" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
@@ -6441,7 +6441,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="687" ea_guid="{D369632D-6D91-4994-8820-3D2273DE4300}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
 						<stereotype/>
@@ -6456,7 +6456,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="693" ea_guid="{C8E355C5-0AF5-448c-BA07-9BA35ECC05AD}"/>
-						<properties type="ccts:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Indicator" derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="7"/>
 						<stereotype/>
@@ -6471,7 +6471,7 @@
 						<initial/>
 						<documentation/>
 						<model ea_localid="725" ea_guid="{BDAA806F-416F-49f4-BF39-98008F12D094}"/>
-						<properties type="ccts:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<properties type="epo:Code" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0"/>
 						<containment containment="Not Specified" position="8"/>
 						<stereotype/>
@@ -6798,7 +6798,7 @@
 				<times created="2018-10-22 10:56:42" modified="2020-07-15 17:53:42" lastloaddate="2018-10-22 10:56:42" lastsavedate="2018-10-22 10:56:42"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
-			<element xmi:idref="EAID_83211DE7_FC08_41ca_90ED_B1D747548AC4" xmi:type="uml:Class" name="ccts:Amount" scope="public">
+			<element xmi:idref="EAID_83211DE7_FC08_41ca_90ED_B1D747548AC4" xmi:type="uml:Class" name="epo:Amount" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="230" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="mfontsan" version="1.0" phase="1.0" created="2018-10-22 10:56:42" modified="2020-07-15 17:53:41" complexity="1" status="Proposed"/>
@@ -6808,7 +6808,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_2C82F10F_E6DC_49ee_8B5D_E915D4361E9C" name="ccts:AmountValue" scope="Public">
+					<attribute xmi:idref="EAID_2C82F10F_E6DC_49ee_8B5D_E915D4361E9C" name="epo:AmountValue" scope="Public">
 						<initial/>
 						<documentation value="The numeric value of the amount, including decimals."/>
 						<model ea_localid="697" ea_guid="{2C82F10F-E6DC-49ee-8B5D-E915D4361E9C}"/>
@@ -6823,7 +6823,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_66141706_7915_4d02_909B_29360381B7B4" name="ccts:CurrencyCodeListVersionID" scope="Public">
+					<attribute xmi:idref="EAID_66141706_7915_4d02_909B_29360381B7B4" name="epo:CurrencyCodeListVersionID" scope="Public">
 						<initial/>
 						<documentation value="The identifier of the list of codes for currencies (e.g. ISO4217). Based on the ISO 15000-5 CCTS."/>
 						<model ea_localid="696" ea_guid="{66141706-7915-4d02-909B-29360381B7B4}"/>
@@ -6838,7 +6838,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_15742AA2_3F82_4e69_B401_1002A68D43BF" name="ccts:CurrencyID" scope="Public">
+					<attribute xmi:idref="EAID_15742AA2_3F82_4e69_B401_1002A68D43BF" name="epo:CurrencyID" scope="Public">
 						<initial/>
 						<documentation value="The identifier of the currency as in the standard code list used. Based on the ISO 15000-5 CCTS."/>
 						<model ea_localid="695" ea_guid="{15742AA2-3F82-4e69-B401-1002A68D43BF}"/>
@@ -6855,7 +6855,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_CE9906F5_A833_4f77_9B6A_6B3B29A35460" xmi:type="uml:Class" name="ccts:Code" scope="public">
+			<element xmi:idref="EAID_CE9906F5_A833_4f77_9B6A_6B3B29A35460" xmi:type="uml:Class" name="epo:Code" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="231" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="mfontsan" version="1.0" phase="1.0" created="2018-10-22 10:56:42" modified="2020-07-15 17:53:41" complexity="1" status="Proposed"/>
@@ -6865,7 +6865,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_F3F496FE_467C_4889_914F_EFF39EE98EB2" name="ccts:LanguageID" scope="Public">
+					<attribute xmi:idref="EAID_F3F496FE_467C_4889_914F_EFF39EE98EB2" name="epo:LanguageID" scope="Public">
 						<initial/>
 						<documentation value="The identifier of the language used in the code name."/>
 						<model ea_localid="698" ea_guid="{F3F496FE-467C-4889-914F-EFF39EE98EB2}"/>
@@ -6880,7 +6880,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_36EE6A78_B1E5_454c_BB3C_A60E61C8B0B9" name="ccts:ListAgencyID" scope="Public">
+					<attribute xmi:idref="EAID_36EE6A78_B1E5_454c_BB3C_A60E61C8B0B9" name="epo:ListAgencyID" scope="Public">
 						<initial/>
 						<documentation value="An agency that maintains one or more lists of codes."/>
 						<model ea_localid="699" ea_guid="{36EE6A78-B1E5-454c-BB3C-A60E61C8B0B9}"/>
@@ -6895,7 +6895,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_9BB7CBAB_716C_43ef_828F_C1266DB0ABD9" name="ccts:ListAgencyName" scope="Public">
+					<attribute xmi:idref="EAID_9BB7CBAB_716C_43ef_828F_C1266DB0ABD9" name="epo:ListAgencyName" scope="Public">
 						<initial/>
 						<documentation value="The name of the agency that maintains the list of codes."/>
 						<model ea_localid="700" ea_guid="{9BB7CBAB-716C-43ef-828F-C1266DB0ABD9}"/>
@@ -6910,7 +6910,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_34812355_963F_442e_9F43_1F2FB5E35273" name="ccts:ListID" scope="Public">
+					<attribute xmi:idref="EAID_34812355_963F_442e_9F43_1F2FB5E35273" name="epo:ListID" scope="Public">
 						<initial/>
 						<documentation value="The identification of a list of codes."/>
 						<model ea_localid="701" ea_guid="{34812355-963F-442e-9F43-1F2FB5E35273}"/>
@@ -6925,7 +6925,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_B6B9F616_B73E_4dee_A994_F5E5253A27AC" name="ccts:ListName" scope="Public">
+					<attribute xmi:idref="EAID_B6B9F616_B73E_4dee_A994_F5E5253A27AC" name="epo:ListName" scope="Public">
 						<initial/>
 						<documentation value="The name of a list of codes."/>
 						<model ea_localid="702" ea_guid="{B6B9F616-B73E-4dee-A994-F5E5253A27AC}"/>
@@ -6940,7 +6940,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_13DE6EC6_BC05_4653_97BF_97D018F72165" name="ccts:ListSchemeURI" scope="Public">
+					<attribute xmi:idref="EAID_13DE6EC6_BC05_4653_97BF_97D018F72165" name="epo:ListSchemeURI" scope="Public">
 						<initial/>
 						<documentation value="The Uniform Resource Identifier that identifies where the code list scheme is located."/>
 						<model ea_localid="703" ea_guid="{13DE6EC6-BC05-4653-97BF-97D018F72165}"/>
@@ -6955,7 +6955,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_DD3EE172_ED53_45fe_8473_DE0048ECBC69" name="ccts:ListURI" scope="Public">
+					<attribute xmi:idref="EAID_DD3EE172_ED53_45fe_8473_DE0048ECBC69" name="epo:ListURI" scope="Public">
 						<initial/>
 						<documentation value="The Uniform Resource Identifier that identifies where the code list is located."/>
 						<model ea_localid="704" ea_guid="{DD3EE172-ED53-45fe-8473-DE0048ECBC69}"/>
@@ -6970,7 +6970,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_7521180C_572C_4efb_AB73_3D52B0EF391B" name="ccts:ListVersionID" scope="Public">
+					<attribute xmi:idref="EAID_7521180C_572C_4efb_AB73_3D52B0EF391B" name="epo:ListVersionID" scope="Public">
 						<initial/>
 						<documentation value="The name of a list of codes."/>
 						<model ea_localid="705" ea_guid="{7521180C-572C-4efb-AB73-3D52B0EF391B}"/>
@@ -6985,7 +6985,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_44784DE7_1573_4a40_A623_3BBACD715BBD" name="ccts:Name" scope="Public">
+					<attribute xmi:idref="EAID_44784DE7_1573_4a40_A623_3BBACD715BBD" name="epo:Name" scope="Public">
 						<initial/>
 						<documentation value="The textual equivalent of the code content component."/>
 						<model ea_localid="706" ea_guid="{44784DE7-1573-4a40-A623-3BBACD715BBD}"/>
@@ -7002,7 +7002,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_ECF07FF0_8693_499d_AD7B_7484B8FDA398" xmi:type="uml:Class" name="ccts:Identifier" scope="public">
+			<element xmi:idref="EAID_ECF07FF0_8693_499d_AD7B_7484B8FDA398" xmi:type="uml:Class" name="epo:Identifier" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="232" ea_eleType="element"/>
 				<properties documentation="A character string to identify and distinguish uniquely, one instance of an object in an identification scheme from all other objects in the same scheme together with relevant supplementary information.&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="mfontsan" version="1.0" phase="1.0" created="2018-10-22 10:56:42" modified="2020-10-06 18:03:19" complexity="1" status="Proposed"/>
@@ -7012,7 +7012,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_9E15BD2A_39FB_4aac_8C80_1DDB105B7B98" name="ccts:AssuranceLevel" scope="Public">
+					<attribute xmi:idref="EAID_9E15BD2A_39FB_4aac_8C80_1DDB105B7B98" name="epo:AssuranceLevel" scope="Public">
 						<initial/>
 						<documentation/>
 						<model ea_localid="715" ea_guid="{9E15BD2A-39FB-4aac-8C80-1DDB105B7B98}"/>
@@ -7027,7 +7027,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_DD21A105_2536_4ae0_A606_3868B9A27714" name="ccts:IdentifierValue" scope="Public">
+					<attribute xmi:idref="EAID_DD21A105_2536_4ae0_A606_3868B9A27714" name="epo:IdentifierValue" scope="Public">
 						<initial/>
 						<documentation value="The literal identifying an entity, like a person or an object."/>
 						<model ea_localid="707" ea_guid="{DD21A105-2536-4ae0-A606-3868B9A27714}"/>
@@ -7042,7 +7042,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_0D623480_E872_437b_B558_3AE1530C975A" name="ccts:SchemeAgencyID" scope="Public">
+					<attribute xmi:idref="EAID_0D623480_E872_437b_B558_3AE1530C975A" name="epo:SchemeAgencyID" scope="Public">
 						<initial/>
 						<documentation value="The identification of the agency that maintains the identification scheme."/>
 						<model ea_localid="708" ea_guid="{0D623480-E872-437b-B558-3AE1530C975A}"/>
@@ -7057,7 +7057,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_EC13F7E5_C9A2_45ce_A2E4_3AFC67778C5B" name="ccts:SchemeAgencyName" scope="Public">
+					<attribute xmi:idref="EAID_EC13F7E5_C9A2_45ce_A2E4_3AFC67778C5B" name="epo:SchemeAgencyName" scope="Public">
 						<initial/>
 						<documentation value="The name of the agency that maintains the identification scheme."/>
 						<model ea_localid="709" ea_guid="{EC13F7E5-C9A2-45ce-A2E4-3AFC67778C5B}"/>
@@ -7072,7 +7072,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_023E47FB_9876_48d7_A8E2_5FD45B5C7D11" name="ccts:SchemeDataURI" scope="Public">
+					<attribute xmi:idref="EAID_023E47FB_9876_48d7_A8E2_5FD45B5C7D11" name="epo:SchemeDataURI" scope="Public">
 						<initial/>
 						<documentation value="The Uniform Resource Identifier that identifies where the identification scheme data is located."/>
 						<model ea_localid="710" ea_guid="{023E47FB-9876-48d7-A8E2-5FD45B5C7D11}"/>
@@ -7087,7 +7087,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_36993888_5D8C_4165_9FBD_2786D3797625" name="ccts:SchemeID" scope="Public">
+					<attribute xmi:idref="EAID_36993888_5D8C_4165_9FBD_2786D3797625" name="epo:SchemeID" scope="Public">
 						<initial/>
 						<documentation value="The identification of the identification scheme."/>
 						<model ea_localid="711" ea_guid="{36993888-5D8C-4165-9FBD-2786D3797625}"/>
@@ -7102,7 +7102,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_291D3917_532F_4950_B4BF_22835EC1F3E6" name="ccts:SchemeName" scope="Public">
+					<attribute xmi:idref="EAID_291D3917_532F_4950_B4BF_22835EC1F3E6" name="epo:SchemeName" scope="Public">
 						<initial/>
 						<documentation value="The name of the identification scheme."/>
 						<model ea_localid="712" ea_guid="{291D3917-532F-4950-B4BF-22835EC1F3E6}"/>
@@ -7117,7 +7117,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_322A52A7_F801_4b9f_B921_CD9AFE4D76E8" name="ccts:SchemeURI" scope="Public">
+					<attribute xmi:idref="EAID_322A52A7_F801_4b9f_B921_CD9AFE4D76E8" name="epo:SchemeURI" scope="Public">
 						<initial/>
 						<documentation value="The Uniform Resource Identifier that identifies where the identification scheme is located."/>
 						<model ea_localid="713" ea_guid="{322A52A7-F801-4b9f-B921-CD9AFE4D76E8}"/>
@@ -7132,7 +7132,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_34EA5DFD_574A_4a69_9F19_59FCED4CCEFC" name="ccts:SchemeVersionID" scope="Public">
+					<attribute xmi:idref="EAID_34EA5DFD_574A_4a69_9F19_59FCED4CCEFC" name="epo:SchemeVersionID" scope="Public">
 						<initial/>
 						<documentation value="The version of the identification scheme."/>
 						<model ea_localid="714" ea_guid="{34EA5DFD-574A-4a69-9F19-59FCED4CCEFC}"/>
@@ -7149,7 +7149,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_911C6357_DC1C_4ff7_9744_616046F6F0BF" xmi:type="uml:Class" name="ccts:Indicator" scope="public">
+			<element xmi:idref="EAID_911C6357_DC1C_4ff7_9744_616046F6F0BF" xmi:type="uml:Class" name="epo:Indicator" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="233" ea_eleType="element"/>
 				<properties documentation="A list of two mutually exclusive Boolean values that express the only possible states of a Property.&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="jseguraf" version="1.0" phase="1.0" created="2018-10-22 10:56:42" modified="2020-10-06 18:03:35" complexity="1" status="Proposed"/>
@@ -7159,7 +7159,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_71FA3340_4B4F_42eb_A632_1B1D75260674" name="ccts:Format" scope="Public">
+					<attribute xmi:idref="EAID_71FA3340_4B4F_42eb_A632_1B1D75260674" name="epo:Format" scope="Public">
 						<initial/>
 						<documentation/>
 						<model ea_localid="739" ea_guid="{71FA3340-4B4F-42eb-A632-1B1D75260674}"/>
@@ -7176,7 +7176,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_7B1D00E9_E850_4739_8639_19A76F6FFF4D" xmi:type="uml:Class" name="ccts:Measure" scope="public">
+			<element xmi:idref="EAID_7B1D00E9_E850_4739_8639_19A76F6FFF4D" xmi:type="uml:Class" name="epo:Measure" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="234" ea_eleType="element"/>
 				<properties documentation="A numeric value determined by measuring an object along with the specified unit of measure.&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="mfontsan" version="1.0" phase="1.0" created="2018-10-22 10:56:42" modified="2020-10-06 18:04:29" complexity="1" status="Proposed"/>
@@ -7186,7 +7186,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_684F60B3_F9C5_4b33_81BD_B833AB107597" name="ccts:MeasureValue" scope="Public">
+					<attribute xmi:idref="EAID_684F60B3_F9C5_4b33_81BD_B833AB107597" name="epo:MeasureValue" scope="Public">
 						<initial/>
 						<documentation value="The numeric value of the measure, including decimals if needed."/>
 						<model ea_localid="716" ea_guid="{684F60B3-F9C5-4b33-81BD-B833AB107597}"/>
@@ -7201,7 +7201,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_7745E583_3EDA_4694_BC69_5CEF56639010" name="ccts:UnitCode" scope="Public">
+					<attribute xmi:idref="EAID_7745E583_3EDA_4694_BC69_5CEF56639010" name="epo:UnitCode" scope="Public">
 						<initial/>
 						<documentation value="The type of unit of measure."/>
 						<model ea_localid="717" ea_guid="{7745E583-3EDA-4694-BC69-5CEF56639010}"/>
@@ -7216,7 +7216,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_EC84B861_B7B1_4f8b_8EE1_24C547841E4E" name="ccts:UnitCodeListVersionID" scope="Public">
+					<attribute xmi:idref="EAID_EC84B861_B7B1_4f8b_8EE1_24C547841E4E" name="epo:UnitCodeListVersionID" scope="Public">
 						<initial/>
 						<documentation value="The version of the measure unit code list."/>
 						<model ea_localid="718" ea_guid="{EC84B861-B7B1-4f8b-8EE1-24C547841E4E}"/>
@@ -7233,7 +7233,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_BA0ECB44_F297_4940_91DA_4E3997919BD8" xmi:type="uml:Class" name="ccts:Numeric" scope="public">
+			<element xmi:idref="EAID_BA0ECB44_F297_4940_91DA_4E3997919BD8" xmi:type="uml:Class" name="epo:Numeric" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="235" ea_eleType="element"/>
 				<properties documentation="Numeric information that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure.&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="estaromi" version="1.0" phase="1.0" created="2020-01-13 19:30:49" modified="2020-10-06 18:05:05" complexity="1" status="Proposed"/>
@@ -7243,7 +7243,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_DCD6736B_E80A_46da_BB5A_F2B37A6EA9E0" name="ccts:Format" scope="Public">
+					<attribute xmi:idref="EAID_DCD6736B_E80A_46da_BB5A_F2B37A6EA9E0" name="epo:Format" scope="Public">
 						<initial/>
 						<documentation/>
 						<model ea_localid="740" ea_guid="{DCD6736B-E80A-46da-BB5A-F2B37A6EA9E0}"/>
@@ -7260,7 +7260,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_F9677E04_DED2_4052_8D25_BA714BA9C3EC" xmi:type="uml:Class" name="ccts:Quantity" scope="public">
+			<element xmi:idref="EAID_F9677E04_DED2_4052_8D25_BA714BA9C3EC" xmi:type="uml:Class" name="epo:Quantity" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="236" ea_eleType="element"/>
 				<properties documentation="A counted number of non-monetary units possibly including fractions.&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="mfontsan" version="1.0" phase="1.0" created="2018-10-22 10:56:42" modified="2020-10-06 18:06:07" complexity="1" status="Proposed"/>
@@ -7270,7 +7270,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_439A021A_4789_4775_8650_9C585138E43E" name="ccts:QuantityValue" scope="Public">
+					<attribute xmi:idref="EAID_439A021A_4789_4775_8650_9C585138E43E" name="epo:QuantityValue" scope="Public">
 						<initial/>
 						<documentation value="The numeric value of the quantity, including decimals."/>
 						<model ea_localid="719" ea_guid="{439A021A-4789-4775-8650-9C585138E43E}"/>
@@ -7285,7 +7285,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_09B8D950_16B6_4d7c_9269_062F869FFFDF" name="ccts:UnitCode" scope="Public">
+					<attribute xmi:idref="EAID_09B8D950_16B6_4d7c_9269_062F869FFFDF" name="epo:UnitCode" scope="Public">
 						<initial/>
 						<documentation value="The unit of the quantity."/>
 						<model ea_localid="720" ea_guid="{09B8D950-16B6-4d7c-9269-062F869FFFDF}"/>
@@ -7300,7 +7300,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_36DB12B5_EF6A_43b3_B708_6403EAC31062" name="ccts:UnitCodeListAgencyID" scope="Public">
+					<attribute xmi:idref="EAID_36DB12B5_EF6A_43b3_B708_6403EAC31062" name="epo:UnitCodeListAgencyID" scope="Public">
 						<initial/>
 						<documentation value="The identification of the agency that maintains the quantity unit code list."/>
 						<model ea_localid="721" ea_guid="{36DB12B5-EF6A-43b3-B708-6403EAC31062}"/>
@@ -7315,7 +7315,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_DADC878B_4D96_4e12_8E78_A104EF8B382E" name="ccts:UnitCodeListAgencyName" scope="Public">
+					<attribute xmi:idref="EAID_DADC878B_4D96_4e12_8E78_A104EF8B382E" name="epo:UnitCodeListAgencyName" scope="Public">
 						<initial/>
 						<documentation value="The identification of the agency that maintains the quantity unit code list."/>
 						<model ea_localid="722" ea_guid="{DADC878B-4D96-4e12-8E78-A104EF8B382E}"/>
@@ -7330,7 +7330,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_B0EFE8FD_3145_469d_AA82_BA27A0C8B163" name="ccts:UnitCodeListID" scope="Public">
+					<attribute xmi:idref="EAID_B0EFE8FD_3145_469d_AA82_BA27A0C8B163" name="epo:UnitCodeListID" scope="Public">
 						<initial/>
 						<documentation value="The quantity unit code list."/>
 						<model ea_localid="723" ea_guid="{B0EFE8FD-3145-469d-AA82-BA27A0C8B163}"/>
@@ -7347,7 +7347,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_B3A020A7_49BD_4d49_87CD_87B194FCC323" xmi:type="uml:Class" name="ccts:Text" scope="public">
+			<element xmi:idref="EAID_B3A020A7_49BD_4d49_87CD_87B194FCC323" xmi:type="uml:Class" name="epo:Text" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="237" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
 				<project author="estaromi" version="1.0" phase="1.0" created="2018-10-29 19:04:07" modified="2020-07-15 17:53:42" complexity="1" status="Proposed"/>
@@ -7357,7 +7357,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_3C42F35D_5953_4137_A280_E7B61299B726" name="ccts:LanguageID" scope="Public">
+					<attribute xmi:idref="EAID_3C42F35D_5953_4137_A280_E7B61299B726" name="epo:LanguageID" scope="Public">
 						<initial/>
 						<documentation/>
 						<model ea_localid="737" ea_guid="{3C42F35D-5953-4137-A280-E7B61299B726}"/>
@@ -7372,7 +7372,7 @@
 						<tags/>
 						<xrefs/>
 					</attribute>
-					<attribute xmi:idref="EAID_AEB3C5A9_1EA4_4d3f_8305_D9CAFF3B133A" name="ccts:LanguageLocaleID" scope="Public">
+					<attribute xmi:idref="EAID_AEB3C5A9_1EA4_4d3f_8305_D9CAFF3B133A" name="epo:LanguageLocaleID" scope="Public">
 						<initial/>
 						<documentation/>
 						<model ea_localid="724" ea_guid="{AEB3C5A9-1EA4-4d3f-8305-D9CAFF3B133A}"/>
@@ -7389,7 +7389,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_C405EB54_2EE3_47ed_BF3D_95A0C8526C28" xmi:type="uml:DataType" name="ccts:Date" scope="public">
+			<element xmi:idref="EAID_C405EB54_2EE3_47ed_BF3D_95A0C8526C28" xmi:type="uml:DataType" name="epo:Date" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="302" ea_eleType="element"/>
 				<properties isSpecification="false" sType="DataType" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<project author="jseguraf" version="1.0" phase="1.0" created="2020-09-23 17:30:08" modified="2020-09-23 17:30:08" complexity="1" status="Proposed"/>
@@ -7399,7 +7399,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 			</element>
-			<element xmi:idref="EAID_E4C4DDAE_46FF_44d3_9234_4FF7347535EE" xmi:type="uml:DataType" name="ccts:DateTime" scope="public">
+			<element xmi:idref="EAID_E4C4DDAE_46FF_44d3_9234_4FF7347535EE" xmi:type="uml:DataType" name="epo:DateTime" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="303" ea_eleType="element"/>
 				<properties documentation="A particular point in the progression of time together with the relevant supplementary information.&#xA;" isSpecification="false" sType="DataType" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<project author="jseguraf" version="1.0" phase="1.0" created="2020-09-23 17:30:14" modified="2020-10-06 18:02:47" complexity="1" status="Proposed"/>
@@ -7409,7 +7409,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 				<attributes>
-					<attribute xmi:idref="EAID_12CF04C2_A7DC_4bfb_852B_41392D2D423B" name="ccts:Format" scope="Public">
+					<attribute xmi:idref="EAID_12CF04C2_A7DC_4bfb_852B_41392D2D423B" name="epo:Format" scope="Public">
 						<initial/>
 						<documentation/>
 						<model ea_localid="738" ea_guid="{12CF04C2-A7DC-4bfb-852B-41392D2D423B}"/>
@@ -7426,7 +7426,7 @@
 					</attribute>
 				</attributes>
 			</element>
-			<element xmi:idref="EAID_1934C751_16DE_4007_BC44_855FDDADC4CB" xmi:type="uml:DataType" name="ccts:Time" scope="public">
+			<element xmi:idref="EAID_1934C751_16DE_4007_BC44_855FDDADC4CB" xmi:type="uml:DataType" name="epo:Time" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="304" ea_eleType="element"/>
 				<properties isSpecification="false" sType="DataType" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<project author="jseguraf" version="1.0" phase="1.0" created="2020-09-23 17:30:26" modified="2020-09-23 17:30:26" complexity="1" status="Proposed"/>
@@ -7436,7 +7436,7 @@
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="ccts"/>
 			</element>
-			<element xmi:idref="EAID_8F2E960A_B452_46ee_B15A_6EECE7D37392" xmi:type="uml:DataType" name="ccts:URI" scope="public">
+			<element xmi:idref="EAID_8F2E960A_B452_46ee_B15A_6EECE7D37392" xmi:type="uml:DataType" name="epo:URI" scope="public">
 				<model package="EAPK_5E87354C_FE97_4622_9334_811A4BDFE903" tpos="0" ea_localid="301" ea_eleType="element"/>
 				<properties isSpecification="false" sType="DataType" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
 				<project author="jseguraf" version="1.0" phase="1.0" created="2020-09-23 17:29:53" modified="2020-09-23 17:29:53" complexity="1" status="Proposed"/>
@@ -11565,17 +11565,17 @@
 		<primitivetypes>
 			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package">
 				<packagedElement xmi:type="uml:Package" xmi:id="EAJavaTypesPackage" name="EA_Java_Types_Package">
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Code" name="ccts:Code"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Text" name="ccts:Text"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Numeric" name="ccts:Numeric"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Identifier" name="ccts:Identifier"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Indicator" name="ccts:Indicator"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_URI" name="ccts:URI"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Quantity" name="ccts:Quantity"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Date" name="ccts:Date"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_DateTime" name="ccts:DateTime"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Measure" name="ccts:Measure"/>
-					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Time" name="ccts:Time"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Code" name="epo:Code"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Text" name="epo:Text"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Numeric" name="epo:Numeric"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Identifier" name="epo:Identifier"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Indicator" name="epo:Indicator"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_URI" name="epo:URI"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Quantity" name="epo:Quantity"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Date" name="epo:Date"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_DateTime" name="epo:DateTime"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Measure" name="epo:Measure"/>
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ccts_Time" name="epo:Time"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_epo_Period" name="epo:Period"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_xsd_decimal" name="xsd:decimal"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_xsd_normalizedString" name="xsd:normalizedString"/>
