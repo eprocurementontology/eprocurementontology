@@ -12,11 +12,13 @@
          xmlns:epo="http://data.europa.eu/a4g/ontology#"
          xmlns:epor="http://data.europa.eu/a4g/rule#"
          xmlns:epos="http://data.europa.eu/a4g/shape#"
-         xmlns="http://data.europa.eu/a4g/ontology#"
-         xml:base="http://data.europa.eu/a4g/ontology">
-   <owl:Ontology rdf:about="http://data.europa.eu/a4g/ontology">
+         xmlns:reg2015="http://data.europa.eu/a4g/extension/ontology#"
+         xmlns="http://data.europa.eu/a4g/extension/ontology#"
+         xml:base="http://data.europa.eu/a4g/extension/ontology">
+   <owl:Ontology rdf:about="http://data.europa.eu/a4g/extension/ontology">
       <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
       <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+      <owl:imports rdf:resource="http://data.europa.eu/a4g/ontology"/>
       <dct:description xml:lang="en">
         This module provides the definitions for the core eProcurement ontology.
         
@@ -489,27 +491,27 @@ WG Approval 19/09/2019
       <rdfs:label xml:lang="en">Applies to</rdfs:label>
       <skos:prefLabel xml:lang="en">Applies to</skos:prefLabel>
    </owl:ObjectProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPerformingStaffQualificationInformation">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasPerformingStaffQualificationInformation">
       <rdfs:label xml:lang="en">Performing staff qualification information</rdfs:label>
       <skos:prefLabel xml:lang="en">Performing staff qualification information</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasGPAUsage">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasGPAUsage">
       <rdfs:label xml:lang="en">G p a usage</rdfs:label>
       <skos:prefLabel xml:lang="en">G p a usage</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalInformation">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasAdditionalInformation">
       <rdfs:label xml:lang="en">Additional information</rdfs:label>
       <skos:prefLabel xml:lang="en">Additional information</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalBasisDescription">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasLegalBasisDescription">
       <rdfs:label xml:lang="en">Legal basis description</rdfs:label>
       <skos:prefLabel xml:lang="en">Legal basis description</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDeadlineTendersAndRequest">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasDeadlineTendersAndRequest">
       <rdfs:label xml:lang="en">Deadline tenders and request</rdfs:label>
       <skos:prefLabel xml:lang="en">Deadline tenders and request</skos:prefLabel>
       <rdfs:comment xml:lang="en">The deadline for receiving tenders and request to participate. 
@@ -524,52 +526,52 @@ Additional information:
 This was created because these concepts in the ontology are separated and therefore the mapping to the current forms could not be implement. (epo:Procedure) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedTenderAndRequestInvitationDate">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasEstimatedTenderAndRequestInvitationDate">
       <rdfs:label xml:lang="en">Estimated tender and request invitation date</rdfs:label>
       <skos:prefLabel xml:lang="en">Estimated tender and request invitation date</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPublicationOfCallForCompetition">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasPublicationOfCallForCompetition">
       <rdfs:label xml:lang="en">Publication of call for competition</rdfs:label>
       <skos:prefLabel xml:lang="en">Publication of call for competition</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasVariantPermission">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasVariantPermission">
       <rdfs:label xml:lang="en">Variant permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Variant permission</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLanguagesTendersAndRequest">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasLanguagesTendersAndRequest">
       <rdfs:label xml:lang="en">Languages tenders and request</rdfs:label>
       <skos:prefLabel xml:lang="en">Languages tenders and request</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerMainActivity">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivity">
       <rdfs:label xml:lang="en">Buyer main activity</rdfs:label>
       <skos:prefLabel xml:lang="en">Buyer main activity</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerLegalType">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalType">
       <rdfs:label xml:lang="en">Buyer legal type</rdfs:label>
       <skos:prefLabel xml:lang="en">Buyer legal type</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardedByCPB">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasAwardedByCPB">
       <rdfs:label xml:lang="en">Awarded by c p b</rdfs:label>
       <skos:prefLabel xml:lang="en">Awarded by c p b</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerMainActivityDescription">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasBuyerMainActivityDescription">
       <rdfs:label xml:lang="en">Buyer main activity description</rdfs:label>
       <skos:prefLabel xml:lang="en">Buyer main activity description</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasBuyerLegalTypeDescription">
       <rdfs:label xml:lang="en">Buyer legal type description</rdfs:label>
       <skos:prefLabel xml:lang="en">Buyer legal type description</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasJointProcurement">
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/extension/ontology#hasJointProcurement">
       <rdfs:label xml:lang="en">Joint procurement</rdfs:label>
       <skos:prefLabel xml:lang="en">Joint procurement</skos:prefLabel>
       <rdfs:comment xml:lang="en">This is just used in the frozen version of the Ontology which maps to TED 2.0.9 and 2.0.8 (epo:Procedure) </rdfs:comment>
