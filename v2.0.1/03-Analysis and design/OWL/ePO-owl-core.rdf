@@ -6719,6 +6719,27 @@ WG Approval 28/07/2020
       <skos:prefLabel xml:lang="en">Total value subcontracted</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNumberOfTenderersInvited">
+      <rdfs:label xml:lang="en">Number of tenderers invited</rdfs:label>
+      <skos:prefLabel xml:lang="en">Number of tenderers invited</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Number of economic operators invited to tender.
+
+Additional Information
+This may be used for single-stage procedures or to indicate the number of candidates invited to tender in multi-stage procedures.
+
+WG Approval 01/12/2020
+
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Number of economic operators invited to tender.
+
+Additional Information
+This may be used for single-stage procedures or to indicate the number of candidates invited to tender in multi-stage procedures.
+
+WG Approval 01/12/2020
+
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasStrategicProcurementDescription">
       <rdfs:label xml:lang="en">Strategic procurement description</rdfs:label>
       <skos:prefLabel xml:lang="en">Strategic procurement description</skos:prefLabel>

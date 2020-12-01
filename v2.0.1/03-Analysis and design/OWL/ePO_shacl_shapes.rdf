@@ -464,8 +464,7 @@ WG Approval 28/04/2020</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasID"/>
             <sh:name>I d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</sh:minCount>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -5024,6 +5023,21 @@ WG Approval 12/12/2019
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNumberOfTenderersInvited"/>
+            <sh:name>Number of tenderers invited</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasNumberOfTenderersInvited"/>
+            <sh:name>Number of tenderers invited</sh:name>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#StrategicProcurement">
@@ -7591,29 +7605,6 @@ For European notices above the threshold
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#manages&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#manages&gt; ?this .} </sh:select>
-      </sh:sparql>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#CentralPurchasingBody">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#has"/>
-            <sh:name>Has</sh:name>
-            <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#BuyerProfile"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#CentralPurchasingBody">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#has"/>
-            <sh:name>Has</sh:name>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#CentralPurchasingBody">
-      <sh:sparql rdf:parseType="Resource">
-         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#has&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#has&gt; ?this .} </sh:select>
       </sh:sparql>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#CallForCompetition">
