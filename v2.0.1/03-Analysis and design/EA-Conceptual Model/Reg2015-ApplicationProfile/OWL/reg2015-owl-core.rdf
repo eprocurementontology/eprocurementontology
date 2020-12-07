@@ -38,15 +38,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement core ontology</rdfs:label>
       <dct:title xml:lang="en">eProcurement core ontology</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#reg2015_XMI.xml-2020-12-01"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#reg2015_XMI.xml-2020-12-07"/>
       <owl:versionInfo>eProcurement core ontology version generated automatically from 
-                reg2015_XMI.xml on 01/12/2020</owl:versionInfo>
+                reg2015_XMI.xml on 07/12/2020</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-01+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-07+01:00</dct:date>
    </owl:Ontology>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#AwardCriterion">
       <rdfs:label xml:lang="en">Award criterion</rdfs:label>

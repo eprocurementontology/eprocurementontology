@@ -28,15 +28,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement datashapes</rdfs:label>
       <dct:title xml:lang="en">eProcurement datashapes</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/shape#reg2015_XMI.xml-2020-12-01"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/shape#reg2015_XMI.xml-2020-12-07"/>
       <owl:versionInfo>eProcurement datashapes version generated automatically from 
-                reg2015_XMI.xml on 01/12/2020</owl:versionInfo>
+                reg2015_XMI.xml on 07/12/2020</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-01+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-07+01:00</dct:date>
    </owl:Ontology>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#AwardCriterion">
       <sh:targetClass rdf:resource="http://data.europa.eu/a4g/ontology#AwardCriterion"/>
@@ -248,7 +248,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalInformation"/>
             <sh:name>Additional information</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -263,7 +263,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasisDescription"/>
             <sh:name>Legal basis description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -323,7 +323,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantPermission"/>
             <sh:name>Variant permission</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -338,7 +338,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLanguagesTendersAndRequest"/>
             <sh:name>Languages tenders and request</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -353,7 +353,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerMainActivity"/>
             <sh:name>Buyer main activity</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -368,7 +368,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalType"/>
             <sh:name>Buyer legal type</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -383,7 +383,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAwardedByCPB"/>
             <sh:name>Awarded by c p b</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -398,7 +398,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerMainActivityDescription"/>
             <sh:name>Buyer main activity description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -413,7 +413,7 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription"/>
             <sh:name>Buyer legal type description</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -604,7 +604,7 @@ Several techniques can be combined in one single procurement procedure (e.g. eAu
 WG Approval 19/09/2019 
 </rdfs:comment>
       <sh:sparql rdf:parseType="Resource">
-         <sh:select>SELECT $this WHERE { $this a Technique . }
+         <sh:select>SELECT ?this WHERE { ?this a &lt;http://data.europa.eu/a4g/ontology#Technique&gt; . }
             </sh:select>
       </sh:sparql>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
@@ -615,14 +615,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#usesToAward"/>
             <sh:name>Uses to award</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#AwardCriterion"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#usesToAward"/>
-            <sh:name>Uses to award</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -641,14 +633,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isGroupLeader"/>
-            <sh:name>Is group leader</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#isGroupLeader&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#isGroupLeader&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -659,14 +643,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#usesBudgetToPayContract"/>
             <sh:name>Uses budget to pay contract</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#usesBudgetToPayContract"/>
-            <sh:name>Uses budget to pay contract</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -685,14 +661,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#signsContract"/>
-            <sh:name>Signs contract</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#signsContract&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#signsContract&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -703,14 +671,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesAdditionalInformationAboutProcurementProcedure"/>
             <sh:name>Provides additional information about procurement procedure</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesAdditionalInformationAboutProcurementProcedure"/>
-            <sh:name>Provides additional information about procurement procedure</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -729,14 +689,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#processesRequestsToParticipate"/>
-            <sh:name>Processes requests to participate</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#processesRequestsToParticipate&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#processesRequestsToParticipate&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -747,14 +699,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesRequestsToParticipate"/>
             <sh:name>Receives requests to participate</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesRequestsToParticipate"/>
-            <sh:name>Receives requests to participate</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -773,14 +717,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#executesPayment"/>
-            <sh:name>Executes payment</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#executesPayment&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#executesPayment&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -791,14 +727,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesTenders"/>
             <sh:name>Receives tenders</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesTenders"/>
-            <sh:name>Receives tenders</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -817,14 +745,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesOfflineAccessToProcurementDocuments"/>
-            <sh:name>Provides offline access to procurement documents</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#providesOfflineAccessToProcurementDocuments&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#providesOfflineAccessToProcurementDocuments&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -839,14 +759,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#processesTenders"/>
-            <sh:name>Processes tenders</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#processesTenders&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#processesTenders&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -857,14 +769,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesMoreInformationOnTimeLimitsForReviewProcedures"/>
             <sh:name>Provides more information on time limits for review procedures</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesMoreInformationOnTimeLimitsForReviewProcedures"/>
-            <sh:name>Provides more information on time limits for review procedures</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -929,14 +833,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#usesAdhoc"/>
-            <sh:name>Uses adhoc</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#usesAdhoc&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#usesAdhoc&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -956,22 +852,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isAppliedBy"/>
             <sh:name>Is applied by</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
-            <sh:name>Applies</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ContractTerm">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isAppliedBy"/>
-            <sh:name>Is applied by</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1003,14 +883,6 @@ WG Approval 19/09/2019
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
-            <sh:name>Applies</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#FrameworkAgreementTerm">
       <sh:property>
          <sh:PropertyShape>
@@ -1036,14 +908,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isFundedBy"/>
             <sh:name>Is funded by</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Fund"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isFundedBy"/>
-            <sh:name>Is funded by</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1081,14 +945,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
             <sh:name>Applies</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#OpeningTerm"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
-            <sh:name>Applies</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1153,14 +1009,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
-            <sh:name>Applies</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#applies&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#applies&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1171,14 +1019,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
             <sh:name>Applies</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#SelectionCriterion"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
-            <sh:name>Applies</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1228,14 +1068,6 @@ WG Approval 19/09/2019
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#uses"/>
-            <sh:name>Uses</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Technique">
       <sh:property>
          <sh:PropertyShape>
@@ -1261,14 +1093,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
             <sh:name>Applies</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#ReviewTerm"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#applies"/>
-            <sh:name>Applies</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1310,14 +1134,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Reviewer">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesMoreInformationOnTimeLimitsForReviewProcedures"/>
-            <sh:name>Provides more information on time limits for review procedures</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Reviewer">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#providesMoreInformationOnTimeLimitsForReviewProcedures&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#providesMoreInformationOnTimeLimitsForReviewProcedures&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1328,14 +1144,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesAdditionalInformationAboutProcurementProcedure"/>
             <sh:name>Provides additional information about procurement procedure</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesAdditionalInformationAboutProcurementProcedure"/>
-            <sh:name>Provides additional information about procurement procedure</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1354,14 +1162,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesOfflineAccessToProcurementDocuments"/>
-            <sh:name>Provides offline access to procurement documents</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#providesOfflineAccessToProcurementDocuments&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#providesOfflineAccessToProcurementDocuments&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1372,14 +1172,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#processesRequestsToParticipate"/>
             <sh:name>Processes requests to participate</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#processesRequestsToParticipate"/>
-            <sh:name>Processes requests to participate</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1398,14 +1190,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#signsContract"/>
-            <sh:name>Signs contract</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#signsContract&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#signsContract&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1416,14 +1200,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#executesPayment"/>
             <sh:name>Executes payment</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#executesPayment"/>
-            <sh:name>Executes payment</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1442,14 +1218,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Role">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isInvolvedIn"/>
-            <sh:name>Is involved in</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Role">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#isInvolvedIn&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#isInvolvedIn&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1460,14 +1228,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesTenders"/>
             <sh:name>Receives tenders</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesTenders"/>
-            <sh:name>Receives tenders</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1486,14 +1246,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#processesTenders"/>
-            <sh:name>Processes tenders</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#processesTenders&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#processesTenders&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1504,14 +1256,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isGroupLeader"/>
             <sh:name>Is group leader</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#isGroupLeader"/>
-            <sh:name>Is group leader</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1530,14 +1274,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#usesBudgetToPayContract"/>
-            <sh:name>Uses budget to pay contract</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#usesBudgetToPayContract&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#usesBudgetToPayContract&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1552,14 +1288,6 @@ WG Approval 19/09/2019
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#receivesRequestsToParticipate"/>
-            <sh:name>Receives requests to participate</sh:name>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#receivesRequestsToParticipate&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#receivesRequestsToParticipate&gt; ?this .} </sh:select>
       </sh:sparql>
@@ -1570,14 +1298,6 @@ WG Approval 19/09/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesAdditionalInformationAboutProcurementProcedure"/>
             <sh:name>Provides additional information about procurement procedure</sh:name>
             <sh:class rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
-         </sh:PropertyShape>
-      </sh:property>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#ProcurementServiceProvider">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#providesAdditionalInformationAboutProcurementProcedure"/>
-            <sh:name>Provides additional information about procurement procedure</sh:name>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
@@ -1608,15 +1328,6 @@ WG Approval 19/09/2019
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/extension/ontology#appliesTo&gt; ?that . ?that &lt;http://data.europa.eu/a4g/extension/ontology#appliesTo&gt; ?this .} </sh:select>
       </sh:sparql>
-   </sh:NodeShape>
-   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/extension/ontology#hasReservedProcurement"/>
-            <sh:name>Has reserved procurement</sh:name>
-            <sh:class rdf:resource="http://publications.europa.eu/resource/authority/Reserved-procurement"/>
-         </sh:PropertyShape>
-      </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
       <sh:property>
