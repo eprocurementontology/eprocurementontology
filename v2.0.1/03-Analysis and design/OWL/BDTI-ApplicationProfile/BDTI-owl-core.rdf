@@ -36,17 +36,340 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement core ontology</rdfs:label>
       <dct:title xml:lang="en">eProcurement core ontology</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#BDTI_XMI.xml-2020-12-10"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#BDTI_XMI.xml-2020-12-11"/>
       <owl:versionInfo>eProcurement core ontology version generated automatically from 
-                BDTI_XMI.xml on 10/12/2020</owl:versionInfo>
+                BDTI_XMI.xml on 11/12/2020</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-10+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-11+01:00</dct:date>
    </owl:Ontology>
-   <p xmlns="">Default for &lt;xmi:XMI&gt; type ""</p>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Address">
+      <rdfs:label xml:lang="en">Address</rdfs:label>
+      <skos:prefLabel xml:lang="en">Address</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The particulars of the place where a person or an organisation is located.
+
+WG Approval 28/04/2020</rdfs:comment>
+      <skos:definition xml:lang="en">The particulars of the place where a person or an organisation is located.
+
+WG Approval 28/04/2020</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Agent">
+      <rdfs:label xml:lang="en">Agent</rdfs:label>
+      <skos:prefLabel xml:lang="en">Agent</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A  person, an organization, or a system that act in procurement or have the power to act in procurement.
+
+WG Approval 28/04/2020</rdfs:comment>
+      <skos:definition xml:lang="en">A  person, an organization, or a system that act in procurement or have the power to act in procurement.
+
+WG Approval 28/04/2020</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
+      <rdfs:label xml:lang="en">Buyer</rdfs:label>
+      <skos:prefLabel xml:lang="en">Buyer</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A role of an agent that awards the contract. 
+
+Additional information:
+Examples of a buyer can be the role of contracting authority, contracting entity, a defence contractor, an international organisation, or an organisation awarding a contract subsidized by a contracting authority.
+
+
+WG Approval  28/04/2020</rdfs:comment>
+      <skos:definition xml:lang="en">A role of an agent that awards the contract. 
+
+Additional information:
+Examples of a buyer can be the role of contracting authority, contracting entity, a defence contractor, an international organisation, or an organisation awarding a contract subsidized by a contracting authority.
+
+
+WG Approval  28/04/2020</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#CentralPurchasingBody">
+      <rdfs:label xml:lang="en">Central purchasing body</rdfs:label>
+      <skos:prefLabel xml:lang="en">Central purchasing body</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Role of a contracting authority that provides centralised purchasing activities and, possibly, ancillary purchasing activities for other procuring entities.
+
+WG approval 18/05/2018
+
+Contracting authority procuring activities conducted on a permanent basis, in one of the following forms:(a) the acquisition of supplies and/or services intended for contracting authorities.
+
+Contracting authority procuring activities conducted on a permanent basis, in one of the following forms:[...](b) the award of public contracts or the conclusion of framework agreements for works, supplies or services intended for contracting authorities;</rdfs:comment>
+      <skos:definition xml:lang="en">Role of a contracting authority that provides centralised purchasing activities and, possibly, ancillary purchasing activities for other procuring entities.
+
+WG approval 18/05/2018
+
+Contracting authority procuring activities conducted on a permanent basis, in one of the following forms:(a) the acquisition of supplies and/or services intended for contracting authorities.
+
+Contracting authority procuring activities conducted on a permanent basis, in one of the following forms:[...](b) the award of public contracts or the conclusion of framework agreements for works, supplies or services intended for contracting authorities;</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#ContractAwardNotice">
+      <rdfs:label xml:lang="en">Contract award notice</rdfs:label>
+      <skos:prefLabel xml:lang="en">Contract award notice</skos:prefLabel>
+      <rdfs:comment xml:lang="en">An announcement of the award or non-award of a contract by a procuring entity.
+
+(WG approval 27/03/2019 9:41:42)</rdfs:comment>
+      <skos:definition xml:lang="en">An announcement of the award or non-award of a contract by a procuring entity.
+
+(WG approval 27/03/2019 9:41:42)</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#ContractNotice">
+      <rdfs:label xml:lang="en">Contract notice</rdfs:label>
+      <skos:prefLabel xml:lang="en">Contract notice</skos:prefLabel>
+      <rdfs:comment xml:lang="en">An announcement of the launch of a procurement procedure by a procuring entity.
+
+(WG approval 18/05/2018)</rdfs:comment>
+      <skos:definition xml:lang="en">An announcement of the launch of a procurement procedure by a procuring entity.
+
+(WG approval 18/05/2018)</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Document">
+      <rdfs:label xml:lang="en">Document</rdfs:label>
+      <skos:prefLabel xml:lang="en">Document</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A set of interrelated Business Information representing the business facts.
+
+Additional Information:
+Documents may convey information in any language, medium or form, including textual, numerical, graphic, cartographic, audio-visual forms, etc.
+
+WG Approval 23/05/2019
+</rdfs:comment>
+      <skos:definition xml:lang="en">A set of interrelated Business Information representing the business facts.
+
+Additional Information:
+Documents may convey information in any language, medium or form, including textual, numerical, graphic, cartographic, audio-visual forms, etc.
+
+WG Approval 23/05/2019
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Location">
+      <rdfs:label xml:lang="en">Location</rdfs:label>
+      <skos:prefLabel xml:lang="en">Location</skos:prefLabel>
+      <rdfs:comment xml:lang="en">An identifiable geographic place. 
+
+Source: ISO 19112</rdfs:comment>
+      <skos:definition xml:lang="en">An identifiable geographic place. 
+
+Source: ISO 19112</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Lot">
+      <rdfs:label xml:lang="en">Lot</rdfs:label>
+      <skos:prefLabel xml:lang="en">Lot</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A qualitative, quantitative or strategic subdivision of the goods, services or works to be procured, allowing the award of one or more contracts.
+
+WG approval 12/09/2018</rdfs:comment>
+      <skos:definition xml:lang="en">A qualitative, quantitative or strategic subdivision of the goods, services or works to be procured, allowing the award of one or more contracts.
+
+WG approval 12/09/2018</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Notice">
+      <rdfs:label xml:lang="en">Notice</rdfs:label>
+      <skos:prefLabel xml:lang="en">Notice</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Document published by the buyer about market opportunities and results.
+
+WG Approval 23/05/2019
+</rdfs:comment>
+      <skos:definition xml:lang="en">Document published by the buyer about market opportunities and results.
+
+WG Approval 23/05/2019
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Organisation">
+      <rdfs:label xml:lang="en">Organisation</rdfs:label>
+      <skos:prefLabel xml:lang="en">Organisation</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organisations are often decomposable into hierarchical structures.
+
+(WG approval 23/11/2018).
+</rdfs:comment>
+      <skos:definition xml:lang="en">A collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organisations are often decomposable into hierarchical structures.
+
+(WG approval 23/11/2018).
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#PriorInformationNotice">
+      <rdfs:label xml:lang="en">Prior information notice</rdfs:label>
+      <skos:prefLabel xml:lang="en">Prior information notice</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Notice which sets out the contracting authority's purchasing intentions. It is used by contracting authorities to provide suppliers with information about a procurement process. </rdfs:comment>
+      <skos:definition xml:lang="en">Notice which sets out the contracting authority's purchasing intentions. It is used by contracting authorities to provide suppliers with information about a procurement process. </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
+      <rdfs:label xml:lang="en">Procedure</rdfs:label>
+      <skos:prefLabel xml:lang="en">Procedure</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A legally defined set of administrative activities conducted  to conclude one or more contracts.
+
+Additional Information
+The procedure is categorised in the law according to different rules determining whether the procedure is open, restricted, negotiated with or without  publicity, etc. (see Procedure Type).
+
+WG Approval 20/08/2019
+</rdfs:comment>
+      <skos:definition xml:lang="en">A legally defined set of administrative activities conducted  to conclude one or more contracts.
+
+Additional Information
+The procedure is categorised in the law according to different rules determining whether the procedure is open, restricted, negotiated with or without  publicity, etc. (see Procedure Type).
+
+WG Approval 20/08/2019
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <rdfs:label xml:lang="en">Purpose</rdfs:label>
+      <skos:prefLabel xml:lang="en">Purpose</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The description of the objectives related to a procurement. 
+
+Additional information:
+
+The description of the objectives includes the subject matter and quantities.
+
+
+The quantification of the objectives related to a procurement.
+
+To be re-reviewed by the WG the soonest.
+
+(WG to be discussed, this was pointed out on the 09/04/2019 14:38:25 WG Meeting)
+
+The old definition read as follows:
+
+The description of the objectives related to a procurement.
+
+(WG approval 05/12/2018)
+</rdfs:comment>
+      <skos:definition xml:lang="en">The description of the objectives related to a procurement. 
+
+Additional information:
+
+The description of the objectives includes the subject matter and quantities.
+
+
+The quantification of the objectives related to a procurement.
+
+To be re-reviewed by the WG the soonest.
+
+(WG to be discussed, this was pointed out on the 09/04/2019 14:38:25 WG Meeting)
+
+The old definition read as follows:
+
+The description of the objectives related to a procurement.
+
+(WG approval 05/12/2018)
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Role">
+      <rdfs:label xml:lang="en">Role</rdfs:label>
+      <skos:prefLabel xml:lang="en">Role</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A part played by an agent in a particular business process.
+&lt;foreign otherprops="#333333"&gt;
+&lt;/foreign&gt;Additional information
+In ePO, the 'business processes' related to procurement can be 'purchasing', 'tendering', 'evaluating', 'awarding', 'ordering', 'invoicing', etc. 
+
+The concept of 'role' is different from the concept of 'function'. However, functions can be carried out by procurement-related roles and other domain-related agents. Please refer to the class 'Function' to see the difference.
+</rdfs:comment>
+      <skos:definition xml:lang="en">A part played by an agent in a particular business process.
+&lt;foreign otherprops="#333333"&gt;
+&lt;/foreign&gt;Additional information
+In ePO, the 'business processes' related to procurement can be 'purchasing', 'tendering', 'evaluating', 'awarding', 'ordering', 'invoicing', etc. 
+
+The concept of 'role' is different from the concept of 'function'. However, functions can be carried out by procurement-related roles and other domain-related agents. Please refer to the class 'Function' to see the difference.
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#StatisticalInformation">
+      <rdfs:label xml:lang="en">Statistical information</rdfs:label>
+      <skos:prefLabel xml:lang="en">Statistical information</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Statistical data on the procedure and the lot. 
+
+Additional Information
+
+At the present time Procurement Procedures are not fully electronic. At a later date, information on the tenders received could be inferred by the data in the eProcurement system.
+Therefore this class is temporal and should cease to exist in fully electronic procurement.
+The need for its presence responds also to the alignment with the Regulation (EU) 2019/1780 (eForms).
+
+Attention will have to be paid in the future to possible inconsistencies derived from data placed in other classes and data held in the Statistical Information class; e.g. the TenderEvaluation class (see eEvaluation diagram) has the attribute admissibileTender indicator, which in case of being false, may enter in contradiction with the highest or lowest tender value for that very same inadmissible tender.
+
+WG Approval 12/12/2019
+</rdfs:comment>
+      <skos:definition xml:lang="en">Statistical data on the procedure and the lot. 
+
+Additional Information
+
+At the present time Procurement Procedures are not fully electronic. At a later date, information on the tenders received could be inferred by the data in the eProcurement system.
+Therefore this class is temporal and should cease to exist in fully electronic procurement.
+The need for its presence responds also to the alignment with the Regulation (EU) 2019/1780 (eForms).
+
+Attention will have to be paid in the future to possible inconsistencies derived from data placed in other classes and data held in the Statistical Information class; e.g. the TenderEvaluation class (see eEvaluation diagram) has the attribute admissibileTender indicator, which in case of being false, may enter in contradiction with the highest or lowest tender value for that very same inadmissible tender.
+
+WG Approval 12/12/2019
+</skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Value">
+      <rdfs:label xml:lang="en">Value</rdfs:label>
+      <skos:prefLabel xml:lang="en">Value</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:Class>
+   <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Nuts">
+      <rdfs:label xml:lang="en">Nuts</rdfs:label>
+      <skos:prefLabel>Nuts</skos:prefLabel>
+   </skos:ConceptScheme>
+   <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Procurement-procedure-type">
+      <rdfs:label xml:lang="en">Procurement-procedure-type</rdfs:label>
+      <skos:prefLabel>Procurement-procedure-type</skos:prefLabel>
+   </skos:ConceptScheme>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#summarisesProcedure">
+      <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#relatesTo"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#notifies">
+      <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#relatesTo"/>
+   </owl:ObjectProperty>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Organisation">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Agent"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Role"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#CentralPurchasingBody">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Buyer"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#ContractAwardNotice">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Notice"/>
+   </owl:Class>
+   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ContractAwardNotice">
+      <owl:disjointWith rdf:resource="http://data.europa.eu/a4g/ontology#ContractNotice"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ContractAwardNotice">
+      <owl:disjointWith rdf:resource="http://data.europa.eu/a4g/ontology#PriorInformationNotice"/>
+   </rdf:Description>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#ContractNotice">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Notice"/>
+   </owl:Class>
+   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ContractNotice">
+      <owl:disjointWith rdf:resource="http://data.europa.eu/a4g/ontology#ContractAwardNotice"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ContractNotice">
+      <owl:disjointWith rdf:resource="http://data.europa.eu/a4g/ontology#PriorInformationNotice"/>
+   </rdf:Description>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Notice">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Document"/>
+   </owl:Class>
+   <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#PriorInformationNotice">
+      <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#Notice"/>
+   </owl:Class>
+   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#PriorInformationNotice">
+      <owl:disjointWith rdf:resource="http://data.europa.eu/a4g/ontology#ContractAwardNotice"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#PriorInformationNotice">
+      <owl:disjointWith rdf:resource="http://data.europa.eu/a4g/ontology#ContractNotice"/>
+   </rdf:Description>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountrySubentityCode">
       <rdfs:label xml:lang="en">Has country subentity code</rdfs:label>
       <skos:prefLabel xml:lang="en">Has country subentity code</skos:prefLabel>
@@ -59,16 +382,6 @@
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostalAddress">
       <rdfs:label xml:lang="en">Has postal address</rdfs:label>
       <skos:prefLabel xml:lang="en">Has postal address</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#actsOnBehalfOf">
-      <rdfs:label xml:lang="en">Acts on behalf of</rdfs:label>
-      <skos:prefLabel xml:lang="en">Acts on behalf of</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#delegatesAncillaryActivitiesOn">
-      <rdfs:label xml:lang="en">Delegates ancillary activities on</rdfs:label>
-      <skos:prefLabel xml:lang="en">Delegates ancillary activities on</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isRoleOf">
@@ -97,6 +410,16 @@
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isCreatorOf">
       <rdfs:label xml:lang="en">Is creator of</rdfs:label>
       <skos:prefLabel xml:lang="en">Is creator of</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#actsOnBehalfOf">
+      <rdfs:label xml:lang="en">Acts on behalf of</rdfs:label>
+      <skos:prefLabel xml:lang="en">Acts on behalf of</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#delegatesAncillaryActivitiesOn">
+      <rdfs:label xml:lang="en">Delegates ancillary activities on</rdfs:label>
+      <skos:prefLabel xml:lang="en">Delegates ancillary activities on</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#submitsDocument">
@@ -137,6 +460,61 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
  (epo:Document &lt;-&gt; epo:Agent (+epo:isSubmittedBy +epo:submitsDocument)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#providesAdditionalInformationAboutProcurementProcedure">
+      <rdfs:label xml:lang="en">Provides additional information about procurement procedure</rdfs:label>
+      <skos:prefLabel xml:lang="en">Provides additional information about procurement procedure</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#receivesTenders">
+      <rdfs:label xml:lang="en">Receives tenders</rdfs:label>
+      <skos:prefLabel xml:lang="en">Receives tenders</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isGroupLeader">
+      <rdfs:label xml:lang="en">Is group leader</rdfs:label>
+      <skos:prefLabel xml:lang="en">Is group leader</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#providesOfflineAccessToProcurementDocuments">
+      <rdfs:label xml:lang="en">Provides offline access to procurement documents</rdfs:label>
+      <skos:prefLabel xml:lang="en">Provides offline access to procurement documents</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#providiesMoreInformationOnTimeLimitsForReviewProcedures">
+      <rdfs:label xml:lang="en">Providies more information on time limits for review procedures</rdfs:label>
+      <skos:prefLabel xml:lang="en">Providies more information on time limits for review procedures</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#processesRequestsToParticipate">
+      <rdfs:label xml:lang="en">Processes requests to participate</rdfs:label>
+      <skos:prefLabel xml:lang="en">Processes requests to participate</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#signsContract">
+      <rdfs:label xml:lang="en">Signs contract</rdfs:label>
+      <skos:prefLabel xml:lang="en">Signs contract</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#executesPayment">
+      <rdfs:label xml:lang="en">Executes payment</rdfs:label>
+      <skos:prefLabel xml:lang="en">Executes payment</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#receivesRequestsToParticipate">
+      <rdfs:label xml:lang="en">Receives requests to participate</rdfs:label>
+      <skos:prefLabel xml:lang="en">Receives requests to participate</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#usesBudgetToPayContract">
+      <rdfs:label xml:lang="en">Uses budget to pay contract</rdfs:label>
+      <skos:prefLabel xml:lang="en">Uses budget to pay contract</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#processesTenders">
+      <rdfs:label xml:lang="en">Processes tenders</rdfs:label>
+      <skos:prefLabel xml:lang="en">Processes tenders</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isResponsibleFor">
       <rdfs:label xml:lang="en">Is responsible for</rdfs:label>
       <skos:prefLabel xml:lang="en">Is responsible for</skos:prefLabel>
@@ -145,16 +523,6 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isResponsiblityOf">
       <rdfs:label xml:lang="en">Is responsiblity of</rdfs:label>
       <skos:prefLabel xml:lang="en">Is responsiblity of</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isSummarisedBy">
-      <rdfs:label xml:lang="en">Is summarised by</rdfs:label>
-      <skos:prefLabel xml:lang="en">Is summarised by</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#summarisesProcedure">
-      <rdfs:label xml:lang="en">Summarises procedure</rdfs:label>
-      <skos:prefLabel xml:lang="en">Summarises procedure</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTotalValue">
@@ -233,6 +601,16 @@ FrameworkAgreement hasAwardedValue ProcurementValue .
 WG Approval 03/12/2019
 
  (epo:ContractAwardNotice -&gt; epo:Value (+epo:hasTotalFrameworkValue)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isSummarisedBy">
+      <rdfs:label xml:lang="en">Is summarised by</rdfs:label>
+      <skos:prefLabel xml:lang="en">Is summarised by</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#summarisesProcedure">
+      <rdfs:label xml:lang="en">Summarises procedure</rdfs:label>
+      <skos:prefLabel xml:lang="en">Summarises procedure</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#changeRefersToInstance">
@@ -337,9 +715,32 @@ For example the public buyer pays a yearly fee to provide a ticketing solution t
 WG Approval 07/01/2020 (epo:Lot -&gt; epo:Value (+epo:hasEstimatedBuyerConcessionRevenue)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardedValue">
+      <rdfs:label xml:lang="en">Has awarded value</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has awarded value</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#has">
       <rdfs:label xml:lang="en">Has</rdfs:label>
       <skos:prefLabel xml:lang="en">Has</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedUserConcessionRevenue">
+      <rdfs:label xml:lang="en">Has estimated user concession revenue</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has estimated user concession revenue</skos:prefLabel>
+      <skos:definition xml:lang="en">The estimated revenue coming from the use of the concession.
+
+Additional Information:
+Revenues are for example fees and fines. For example, the fees and fines coming from the cars using a motorway. (epo:Lot -&gt; epo:Value (+epo:hasEstimatedUserConcessionRevenue)) </skos:definition>
+      <rdfs:comment xml:lang="en">The estimated revenue coming from the use of the concession.
+
+Additional Information:
+Revenues are for example fees and fines. For example, the fees and fines coming from the cars using a motorway. (epo:Lot -&gt; epo:Value (+epo:hasEstimatedUserConcessionRevenue)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#providesAdditionalInformation">
+      <rdfs:label xml:lang="en">Provides additional information</rdfs:label>
+      <skos:prefLabel xml:lang="en">Provides additional information</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardedEstimatedValue">
@@ -363,29 +764,6 @@ Different cases of awarded values may refer to a lot, the global value of the pr
 WG Approval 12/12/2019
 
  (epo:Lot -&gt; epo:Value (+epo:hasAwardedEstimatedValue)) </rdfs:comment>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardedValue">
-      <rdfs:label xml:lang="en">Has awarded value</rdfs:label>
-      <skos:prefLabel xml:lang="en">Has awarded value</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#providesAdditionalInformation">
-      <rdfs:label xml:lang="en">Provides additional information</rdfs:label>
-      <skos:prefLabel xml:lang="en">Provides additional information</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedUserConcessionRevenue">
-      <rdfs:label xml:lang="en">Has estimated user concession revenue</rdfs:label>
-      <skos:prefLabel xml:lang="en">Has estimated user concession revenue</skos:prefLabel>
-      <skos:definition xml:lang="en">The estimated revenue coming from the use of the concession.
-
-Additional Information:
-Revenues are for example fees and fines. For example, the fees and fines coming from the cars using a motorway. (epo:Lot -&gt; epo:Value (+epo:hasEstimatedUserConcessionRevenue)) </skos:definition>
-      <rdfs:comment xml:lang="en">The estimated revenue coming from the use of the concession.
-
-Additional Information:
-Revenues are for example fees and fines. For example, the fees and fines coming from the cars using a motorway. (epo:Lot -&gt; epo:Value (+epo:hasEstimatedUserConcessionRevenue)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isSpecifiedIn">
@@ -418,6 +796,11 @@ Revenues are for example fees and fines. For example, the fees and fines coming 
       <skos:prefLabel xml:lang="en">Relates to notice</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOverallPurpose">
+      <rdfs:label xml:lang="en">Has overall purpose</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has overall purpose</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasProcedureType">
       <rdfs:label xml:lang="en">Has procedure type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has procedure type</skos:prefLabel>
@@ -427,9 +810,1185 @@ Revenues are for example fees and fines. For example, the fees and fines coming 
  (epo:Procedure -&gt; at-voc:procurement-procedure-type (+epo:hasProcedureType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOverallPurpose">
-      <rdfs:label xml:lang="en">Has overall purpose</rdfs:label>
-      <skos:prefLabel xml:lang="en">Has overall purpose</skos:prefLabel>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalStreetName">
+      <rdfs:label xml:lang="en">Additional street name</rdfs:label>
+      <skos:prefLabel xml:lang="en">Additional street name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBlockName">
+      <rdfs:label xml:lang="en">Block name</rdfs:label>
+      <skos:prefLabel xml:lang="en">Block name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuildingName">
+      <rdfs:label xml:lang="en">Building name</rdfs:label>
+      <skos:prefLabel xml:lang="en">Building name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuildingNumber">
+      <rdfs:label xml:lang="en">Building number</rdfs:label>
+      <skos:prefLabel xml:lang="en">Building number</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCityName">
+      <rdfs:label xml:lang="en">City name</rdfs:label>
+      <skos:prefLabel xml:lang="en">City name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCitySubdivisionName">
+      <rdfs:label xml:lang="en">City subdivision name</rdfs:label>
+      <skos:prefLabel xml:lang="en">City subdivision name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountrySubentity">
+      <rdfs:label xml:lang="en">Country subentity</rdfs:label>
+      <skos:prefLabel xml:lang="en">Country subentity</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDepartment">
+      <rdfs:label xml:lang="en">Department</rdfs:label>
+      <skos:prefLabel xml:lang="en">Department</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDistrict">
+      <rdfs:label xml:lang="en">District</rdfs:label>
+      <skos:prefLabel xml:lang="en">District</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFloor">
+      <rdfs:label xml:lang="en">Floor</rdfs:label>
+      <skos:prefLabel xml:lang="en">Floor</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasID">
+      <rdfs:label xml:lang="en">I d</rdfs:label>
+      <skos:prefLabel xml:lang="en">I d</skos:prefLabel>
+      <rdfs:comment xml:lang="en">&lt;foreign otherprops="#ff0000"&gt;A unique identification for the Procedure.&lt;/foreign&gt; (epo:Document) A unique identifier of the instance of the concept.
+
+Additional Information
+
+For example, in the case of the Procurement Identifier, this could be the European Public Procurement Identifier, and/or any other identifier provided by the buyer, the service provider or any other stakeholder.
+
+WG Approval 12/11/2019
+&lt;foreign otherprops="#ff0000"&gt;
+&lt;/foreign&gt;&lt;foreign otherprops="#ff0000"&gt;
+&lt;/foreign&gt; (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">&lt;foreign otherprops="#ff0000"&gt;A unique identification for the Procedure.&lt;/foreign&gt; (epo:Document) A unique identifier of the instance of the concept.
+
+Additional Information
+
+For example, in the case of the Procurement Identifier, this could be the European Public Procurement Identifier, and/or any other identifier provided by the buyer, the service provider or any other stakeholder.
+
+WG Approval 12/11/2019
+&lt;foreign otherprops="#ff0000"&gt;
+&lt;/foreign&gt;&lt;foreign otherprops="#ff0000"&gt;
+&lt;/foreign&gt; (epo:Procedure) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasInhouseMail">
+      <rdfs:label xml:lang="en">Inhouse mail</rdfs:label>
+      <skos:prefLabel xml:lang="en">Inhouse mail</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMarkAttention">
+      <rdfs:label xml:lang="en">Mark attention</rdfs:label>
+      <skos:prefLabel xml:lang="en">Mark attention</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMarkCare">
+      <rdfs:label xml:lang="en">Mark care</rdfs:label>
+      <skos:prefLabel xml:lang="en">Mark care</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPlotIdentification">
+      <rdfs:label xml:lang="en">Plot identification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Plot identification</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostalZone">
+      <rdfs:label xml:lang="en">Postal zone</rdfs:label>
+      <skos:prefLabel xml:lang="en">Postal zone</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostbox">
+      <rdfs:label xml:lang="en">Postbox</rdfs:label>
+      <skos:prefLabel xml:lang="en">Postbox</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRegion">
+      <rdfs:label xml:lang="en">Region</rdfs:label>
+      <skos:prefLabel xml:lang="en">Region</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRoom">
+      <rdfs:label xml:lang="en">Room</rdfs:label>
+      <skos:prefLabel xml:lang="en">Room</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasStreetName">
+      <rdfs:label xml:lang="en">Street name</rdfs:label>
+      <skos:prefLabel xml:lang="en">Street name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTimezoneOffset">
+      <rdfs:label xml:lang="en">Timezone offset</rdfs:label>
+      <skos:prefLabel xml:lang="en">Timezone offset</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountryCode">
+      <rdfs:label xml:lang="en">Country code</rdfs:label>
+      <skos:prefLabel xml:lang="en">Country code</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAlias">
+      <rdfs:label xml:lang="en">Alias</rdfs:label>
+      <skos:prefLabel xml:lang="en">Alias</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasType">
+      <rdfs:label xml:lang="en">Type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The property Type can be used to identify the namespace and class of the Agent.
+
+This may be useful for XML implementations of the Model, where software applications need to know the type of the Agent in order to identify the particular Agent sub-class properties. But could also create a consistency problem consisting in specifying an IRI for one type of Agent whilst the actual individual of Agent is a different one.
+
+One way of resolving this inconsistency would be cross-checking by externalised means the requested IRI ID against the actual type of class (via shapes, Schematron, etc.).
+
+For more details on IRIs, check the Request For Comments website: https://tools.ietf.org/html/rfc3987
+
+Examples of IRIs:
+
+&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#Organisation&lt;/foreign&gt;
+&lt;foreign otherprops="#993300"&gt;
+&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#NaturalPerson&lt;/foreign&gt;
+&lt;foreign otherprops="#993300"&gt;
+&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#System&lt;/foreign&gt;
+
+An example of inconsistency:
+
+cagv:Agent.ID = 986454b6-22af-4894-9a3d-f201d236b88c
+cagv:Agent.Type = &lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#ORganisation&lt;/foreign&gt;
+cagv:NaturalPerson.ID = 986454b6-22af-4894-9a3d-f201d236b88c
+
+
+ (epo:Agent) </rdfs:comment>
+      <skos:definition xml:lang="en">The property Type can be used to identify the namespace and class of the Agent.
+
+This may be useful for XML implementations of the Model, where software applications need to know the type of the Agent in order to identify the particular Agent sub-class properties. But could also create a consistency problem consisting in specifying an IRI for one type of Agent whilst the actual individual of Agent is a different one.
+
+One way of resolving this inconsistency would be cross-checking by externalised means the requested IRI ID against the actual type of class (via shapes, Schematron, etc.).
+
+For more details on IRIs, check the Request For Comments website: https://tools.ietf.org/html/rfc3987
+
+Examples of IRIs:
+
+&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#Organisation&lt;/foreign&gt;
+&lt;foreign otherprops="#993300"&gt;
+&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#NaturalPerson&lt;/foreign&gt;
+&lt;foreign otherprops="#993300"&gt;
+&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#System&lt;/foreign&gt;
+
+An example of inconsistency:
+
+cagv:Agent.ID = 986454b6-22af-4894-9a3d-f201d236b88c
+cagv:Agent.Type = &lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#ORganisation&lt;/foreign&gt;
+cagv:NaturalPerson.ID = 986454b6-22af-4894-9a3d-f201d236b88c
+
+
+ (epo:Agent) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasContractingEntity">
+      <rdfs:label xml:lang="en">Contracting entity</rdfs:label>
+      <skos:prefLabel xml:lang="en">Contracting entity</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Role of entities, which:
+
+(a) are contracting authorities or public undertakings and which pursue one of the activities referred to in Articles 8 to 14 of the Directive 2014/25/EU.
+
+(b) when they are not contracting authorities or public undertakings, have as one of their activities any of the activities referred to in Articles 8 to 14, or any combination thereof and operate on the basis of special or exclusive rights granted by a competent authority of a Member State.
+
+Additional Information
+
+The indicator is needed in order to discriminate between those contracts where the Contracting Entity acts as a Contracting Authority undergoing the limits and the rules of Directive 24 and those where it acts as a  Contracting Entity, with certain relaxed constraints.
+For example, the Contracting Entities have different thresholds for the application of Directive 24 if compared with Contracting Authorities.
+
+WG Approval 28/04/2020
+ (epo:Buyer) </rdfs:comment>
+      <skos:definition xml:lang="en">Role of entities, which:
+
+(a) are contracting authorities or public undertakings and which pursue one of the activities referred to in Articles 8 to 14 of the Directive 2014/25/EU.
+
+(b) when they are not contracting authorities or public undertakings, have as one of their activities any of the activities referred to in Articles 8 to 14, or any combination thereof and operate on the basis of special or exclusive rights granted by a competent authority of a Member State.
+
+Additional Information
+
+The indicator is needed in order to discriminate between those contracts where the Contracting Entity acts as a Contracting Authority undergoing the limits and the rules of Directive 24 and those where it acts as a  Contracting Entity, with certain relaxed constraints.
+For example, the Contracting Entities have different thresholds for the application of Directive 24 if compared with Contracting Authorities.
+
+WG Approval 28/04/2020
+ (epo:Buyer) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerLegalType">
+      <rdfs:label xml:lang="en">Buyer legal type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Buyer legal type</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainActivityType">
+      <rdfs:label xml:lang="en">Main activity type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Main activity type</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The principal sectoral area in which an organisation operates.
+
+Additional information
+
+The activities associated with buyers are derived from the top level of the Classification of the functions of the government (COFOG) from the United Nations Statistics Division.
+
+The activities associated with buyer are derived from sectors explicitly falling within the sectoral directive (2014/25/EU Art. 8 - Art. 14).
+
+WG Approval 05/05/2020 (epo:Buyer) </rdfs:comment>
+      <skos:definition xml:lang="en">The principal sectoral area in which an organisation operates.
+
+Additional information
+
+The activities associated with buyers are derived from the top level of the Classification of the functions of the government (COFOG) from the United Nations Statistics Division.
+
+The activities associated with buyer are derived from sectors explicitly falling within the sectoral directive (2014/25/EU Art. 8 - Art. 14).
+
+WG Approval 05/05/2020 (epo:Buyer) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasActivityDescription">
+      <rdfs:label xml:lang="en">Activity description</rdfs:label>
+      <skos:prefLabel xml:lang="en">Activity description</skos:prefLabel>
+      <rdfs:comment xml:lang="en">In the ePO ontology a taxonomy with all activities, based on different classifications (COFOG, UTILITIES, NACE), will be provided. In ePO this field is to be used exclusively to complement the definition attached to the MainActivityCode.
+
+However, in eForms there is the code "other" to cover undefined activities. For mapping to this eForms feature one could also use this property.
+ (epo:Buyer) </rdfs:comment>
+      <skos:definition xml:lang="en">In the ePO ontology a taxonomy with all activities, based on different classifications (COFOG, UTILITIES, NACE), will be provided. In ePO this field is to be used exclusively to complement the definition attached to the MainActivityCode.
+
+However, in eForms there is the code "other" to cover undefined activities. For mapping to this eForms feature one could also use this property.
+ (epo:Buyer) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerLegalTypeDescription">
+      <rdfs:label xml:lang="en">Buyer legal type description</rdfs:label>
+      <skos:prefLabel xml:lang="en">Buyer legal type description</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCPBType">
+      <rdfs:label xml:lang="en">C p b type</rdfs:label>
+      <skos:prefLabel xml:lang="en">C p b type</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRecurrence">
+      <rdfs:label xml:lang="en">Recurrence</rdfs:label>
+      <skos:prefLabel xml:lang="en">Recurrence</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The Procurement being notified is likely to be included in another procedure in the foreseeable future.
+
+Additional Information:
+
+For example, a regularly re-tendered municipal service. This does not include awarding multiple contracts within a single qualification system, framework agreement, or a dynamic purchasing system.
+
+WG Approval 12/05/2020 (epo:ContractNotice) </rdfs:comment>
+      <skos:definition xml:lang="en">The Procurement being notified is likely to be included in another procedure in the foreseeable future.
+
+Additional Information:
+
+For example, a regularly re-tendered municipal service. This does not include awarding multiple contracts within a single qualification system, framework agreement, or a dynamic purchasing system.
+
+WG Approval 12/05/2020 (epo:ContractNotice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRecurrenceDescription">
+      <rdfs:label xml:lang="en">Recurrence description</rdfs:label>
+      <skos:prefLabel xml:lang="en">Recurrence description</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Any additional information about the recurrence of the Procurement.
+ 
+Additional Information:
+For example estimated timing of the Procedure.
+
+
+(WG approval 2019-01-16) (epo:ContractNotice) </rdfs:comment>
+      <skos:definition xml:lang="en">Any additional information about the recurrence of the Procurement.
+ 
+Additional Information:
+For example estimated timing of the Procedure.
+
+
+(WG approval 2019-01-16) (epo:ContractNotice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceptionDate">
+      <rdfs:label xml:lang="en">Reception date</rdfs:label>
+      <skos:prefLabel xml:lang="en">Reception date</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Notes: Date when a record is acknowledged by an organisation.
+
+WG Approval 12/05/2020 (epo:Document) </rdfs:comment>
+      <skos:definition xml:lang="en">Notes: Date when a record is acknowledged by an organisation.
+
+WG Approval 12/05/2020 (epo:Document) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDispatchDate">
+      <rdfs:label xml:lang="en">Dispatch date</rdfs:label>
+      <skos:prefLabel xml:lang="en">Dispatch date</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Date of transmission of a record to an organisation.
+
+WG Approval 12/05/2020 (epo:Document) </rdfs:comment>
+      <skos:definition xml:lang="en">Date of transmission of a record to an organisation.
+
+WG Approval 12/05/2020 (epo:Document) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOfficialLanguage">
+      <rdfs:label xml:lang="en">Official language</rdfs:label>
+      <skos:prefLabel xml:lang="en">Official language</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The language(s) in which the instances of the given concepts are officially available. These linguistic versions are equally legally valid.
+
+WG Approval 03/10/2019 (epo:Document) </rdfs:comment>
+      <skos:definition xml:lang="en">The language(s) in which the instances of the given concepts are officially available. These linguistic versions are equally legally valid.
+
+WG Approval 03/10/2019 (epo:Document) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasUnofficialLanguage">
+      <rdfs:label xml:lang="en">Unofficial language</rdfs:label>
+      <skos:prefLabel xml:lang="en">Unofficial language</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The language(s) in which the instances of the given concepts are also available in the following languages. These versions are not an official translation, they are provided only for information.
+
+WG Approval 03/10/2019 (epo:Document) </rdfs:comment>
+      <skos:definition xml:lang="en">The language(s) in which the instances of the given concepts are also available in the following languages. These versions are not an official translation, they are provided only for information.
+
+WG Approval 03/10/2019 (epo:Document) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasUUID">
+      <rdfs:label xml:lang="en">U u i d</rdfs:label>
+      <skos:prefLabel xml:lang="en">U u i d</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A universally unique identifier for an instance of this document.
+
+WG Approval 12/05/2020 (epo:Document) </rdfs:comment>
+      <skos:definition xml:lang="en">A universally unique identifier for an instance of this document.
+
+WG Approval 12/05/2020 (epo:Document) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRestrictedCommunicationsJustification">
+      <rdfs:label xml:lang="en">Restricted communications justification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Restricted communications justification</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardDateScheduled">
+      <rdfs:label xml:lang="en">Award date scheduled</rdfs:label>
+      <skos:prefLabel xml:lang="en">Award date scheduled</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDescription">
+      <rdfs:label xml:lang="en">Description</rdfs:label>
+      <skos:prefLabel xml:lang="en">Description</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Self-explanatory text about a concept.
+ (epo:Lot) Self-explanatory text about a concept.
+ (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">Self-explanatory text about a concept.
+ (epo:Lot) Self-explanatory text about a concept.
+ (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasGPAUsage">
+      <rdfs:label xml:lang="en">G p a usage</rdfs:label>
+      <skos:prefLabel xml:lang="en">G p a usage</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Specifies whether the Agreement on Government Procurement (GPA) applies.
+
+Additional information: 
+The GPA aims to establish a multilateral framework of balanced rights and obligations relating to public contracts with a view to achieving the liberalization and expansion of world trade.
+
+WG Approval 15/10/2019
+
+ (epo:Lot) </rdfs:comment>
+      <skos:definition xml:lang="en">Specifies whether the Agreement on Government Procurement (GPA) applies.
+
+Additional information: 
+The GPA aims to establish a multilateral framework of balanced rights and obligations relating to public contracts with a view to achieving the liberalization and expansion of world trade.
+
+WG Approval 15/10/2019
+
+ (epo:Lot) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReservedProcurement">
+      <rdfs:label xml:lang="en">Reserved procurement</rdfs:label>
+      <skos:prefLabel xml:lang="en">Reserved procurement</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTitle">
+      <rdfs:label xml:lang="en">Title</rdfs:label>
+      <skos:prefLabel xml:lang="en">Title</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A short self-descriptive name of the instance of the concept.
+
+Additional Information:
+
+For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
+
+(WG Approval 11-11-2019)
+ (epo:Lot) A short self-descriptive name of the instance of the concept.
+
+Additional Information:
+
+For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
+
+(WG Approval 11-11-2019) (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">A short self-descriptive name of the instance of the concept.
+
+Additional Information:
+
+For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
+
+(WG Approval 11-11-2019)
+ (epo:Lot) A short self-descriptive name of the instance of the concept.
+
+Additional Information:
+
+For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
+
+(WG Approval 11-11-2019) (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasVariantsPermission">
+      <rdfs:label xml:lang="en">Variants permission</rdfs:label>
+      <skos:prefLabel xml:lang="en">Variants permission</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The obligation or possibility for tenderers to submit variants or not.
+
+Additional Information:
+
+Variants are alternative ways to fulfil the buyer's needs as opposed to solutions indicated in the procurement documents.
+
+eForms: Whether tenderers are required, allowed or forbidden to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. 
+
+Additional Information:
+
+Further conditions for submitting variant tenders are in the procurement documents.
+ (epo:Lot) </rdfs:comment>
+      <skos:definition xml:lang="en">The obligation or possibility for tenderers to submit variants or not.
+
+Additional Information:
+
+Variants are alternative ways to fulfil the buyer's needs as opposed to solutions indicated in the procurement documents.
+
+eForms: Whether tenderers are required, allowed or forbidden to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. 
+
+Additional Information:
+
+Further conditions for submitting variant tenders are in the procurement documents.
+ (epo:Lot) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasSMESuitable">
+      <rdfs:label xml:lang="en">S m e suitable</rdfs:label>
+      <skos:prefLabel xml:lang="en">S m e suitable</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The Lot is suitable for small and medium enterprises (SMEs).
+
+
+Additional Information
+
+This allows the buyer to make emphasis on the fact that the procedure has been designed having SMEs in mind. This indicator is also to be reflected in the selection criteria.
+
+For example, number of employees and turnover are applicable to the definition of an SME.
+
+WG Approval 15/10/2019 (epo:Lot) </rdfs:comment>
+      <skos:definition xml:lang="en">The Lot is suitable for small and medium enterprises (SMEs).
+
+
+Additional Information
+
+This allows the buyer to make emphasis on the fact that the procedure has been designed having SMEs in mind. This indicator is also to be reflected in the selection criteria.
+
+For example, number of employees and turnover are applicable to the definition of an SME.
+
+WG Approval 15/10/2019 (epo:Lot) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalInformation">
+      <rdfs:label xml:lang="en">Additional information</rdfs:label>
+      <skos:prefLabel xml:lang="en">Additional information</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Supplementary data about the instance of the concept.
+
+Additional Information
+
+For example, information about the Lot not specified elsewhere in the Notice.
+
+WG Approval 15/10/2019 (epo:Lot) </rdfs:comment>
+      <skos:definition xml:lang="en">Supplementary data about the instance of the concept.
+
+Additional Information
+
+For example, information about the Lot not specified elsewhere in the Notice.
+
+WG Approval 15/10/2019 (epo:Lot) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPerformingStafQualificationInformation">
+      <rdfs:label xml:lang="en">Performing staf qualification information</rdfs:label>
+      <skos:prefLabel xml:lang="en">Performing staf qualification information</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedTenderInvitationDate">
+      <rdfs:label xml:lang="en">Estimated tender invitation date</rdfs:label>
+      <skos:prefLabel xml:lang="en">Estimated tender invitation date</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPublicationDate">
+      <rdfs:label xml:lang="en">Publication date</rdfs:label>
+      <skos:prefLabel xml:lang="en">Publication date</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The date when a record is made publicly available.
+
+(WG approval 01/06/2018) (epo:Notice) </rdfs:comment>
+      <skos:definition xml:lang="en">The date when a record is made publicly available.
+
+(WG approval 01/06/2018) (epo:Notice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPreferredPublicationDate">
+      <rdfs:label xml:lang="en">Preferred publication date</rdfs:label>
+      <skos:prefLabel xml:lang="en">Preferred publication date</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The date the buyer would like to have the record made publicly available.
+
+WG Approval 12/05/2020 (epo:Notice) </rdfs:comment>
+      <skos:definition xml:lang="en">The date the buyer would like to have the record made publicly available.
+
+WG Approval 12/05/2020 (epo:Notice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFormType">
+      <rdfs:label xml:lang="en">Form type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Form type</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A categorisation of the steps in which the Notice is used.
+
+WG Approval 12/05/2020 (epo:Notice) </rdfs:comment>
+      <skos:definition xml:lang="en">A categorisation of the steps in which the Notice is used.
+
+WG Approval 12/05/2020 (epo:Notice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNotificationContentType">
+      <rdfs:label xml:lang="en">Notification content type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Notification content type</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A categorisation of templates for sets of Procurement information to be conveyed in Notices.
+
+WG Approval 12/05/2020 (epo:Notice) </rdfs:comment>
+      <skos:definition xml:lang="en">A categorisation of templates for sets of Procurement information to be conveyed in Notices.
+
+WG Approval 12/05/2020 (epo:Notice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDPSScope">
+      <rdfs:label xml:lang="en">D p s scope</rdfs:label>
+      <skos:prefLabel xml:lang="en">D p s scope</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasName">
+      <rdfs:label xml:lang="en">Name</rdfs:label>
+      <skos:prefLabel xml:lang="en">Name</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalFormType">
+      <rdfs:label xml:lang="en">Legal form type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Legal form type</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Note that the codelist provided at national level should be used. (epo:Organisation) </rdfs:comment>
+      <skos:definition xml:lang="en">Note that the codelist provided at national level should be used. (epo:Organisation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedContractNoticePublicationDate">
+      <rdfs:label xml:lang="en">Estimated contract notice publication date</rdfs:label>
+      <skos:prefLabel xml:lang="en">Estimated contract notice publication date</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Foreseen date for publication of Contract Notice. (epo:PriorInformationNotice) </rdfs:comment>
+      <skos:definition xml:lang="en">Foreseen date for publication of Contract Notice. (epo:PriorInformationNotice) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAccelerated">
+      <rdfs:label xml:lang="en">Accelerated</rdfs:label>
+      <skos:prefLabel xml:lang="en">Accelerated</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Statement about  the fact that the procedure will be reduced due to a state of urgency.
+
+Additional Information
+
+This modifies the time limit for the receipt of requests to participate or the receipt of tenders.
+
+WG Approval 20/08/2019
+ (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">Statement about  the fact that the procedure will be reduced due to a state of urgency.
+
+Additional Information
+
+This modifies the time limit for the receipt of requests to participate or the receipt of tenders.
+
+WG Approval 20/08/2019
+ (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAcceleratedProcedureJustification">
+      <rdfs:label xml:lang="en">Accelerated procedure justification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Accelerated procedure justification</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The reasons why the procedure is accelerated.
+
+Additional Information:
+A procedure is accelerated to cover needs of extraordinary circumstances ie earthquake relief.
+
+WG Approval 09/06/2020
+
+ (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">The reasons why the procedure is accelerated.
+
+Additional Information:
+A procedure is accelerated to cover needs of extraordinary circumstances ie earthquake relief.
+
+WG Approval 09/06/2020
+
+ (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasChoiceJustification">
+      <rdfs:label xml:lang="en">Choice justification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Choice justification</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainFeature">
+      <rdfs:label xml:lang="en">Main feature</rdfs:label>
+      <skos:prefLabel xml:lang="en">Main feature</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Main features of the procedure and information about where the full rules for the procedure can be found. 
+
+Additional Information
+
+This information should be given when the procedure is not one of those mentioned in the procurement directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds. (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">Main features of the procedure and information about where the full rules for the procedure can be found. 
+
+Additional Information
+
+This information should be given when the procedure is not one of those mentioned in the procurement directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds. (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission">
+      <rdfs:label xml:lang="en">Lot minimum submission</rdfs:label>
+      <skos:prefLabel xml:lang="en">Lot minimum submission</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The minimum number of lots for which one tenderer must submit tenders. 
+
+Additional Information
+
+This can be used to state that a tenderer has to submit the maximum number of lots announced in the contract notice (i.e. in this case the Lot Minimum Submission would equal to the Lot Submission Limit).
+
+ (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">The minimum number of lots for which one tenderer must submit tenders. 
+
+Additional Information
+
+This can be used to state that a tenderer has to submit the maximum number of lots announced in the contract notice (i.e. in this case the Lot Minimum Submission would equal to the Lot Submission Limit).
+
+ (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit">
+      <rdfs:label xml:lang="en">Lot submission limit</rdfs:label>
+      <skos:prefLabel xml:lang="en">Lot submission limit</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The total number of lots for which one tenderer can submit tenders.
+
+(WG approval 12/12/2018)
+
+ (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">The total number of lots for which one tenderer can submit tenders.
+
+(WG approval 12/12/2018)
+
+ (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded">
+      <rdfs:label xml:lang="en">Maximum number of lots to be awarded</rdfs:label>
+      <skos:prefLabel xml:lang="en">Maximum number of lots to be awarded</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The maximum number of lots for which contract(s) can be awarded to one tenderer.
+
+WG Approval 22/08/2019 (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">The maximum number of lots for which contract(s) can be awarded to one tenderer.
+
+WG Approval 22/08/2019 (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCompetitionTermination">
+      <rdfs:label xml:lang="en">Competition termination</rdfs:label>
+      <skos:prefLabel xml:lang="en">Competition termination</skos:prefLabel>
+      <rdfs:comment xml:lang="en">No further contracts will be awarded in this procedure.
+
+Additional Information: 
+
+PIN for Competition needs to be signaled. This field can be used even if no contracts are awarded in the contract award notice. (epo:Procedure) </rdfs:comment>
+      <skos:definition xml:lang="en">No further contracts will be awarded in this procedure.
+
+Additional Information: 
+
+PIN for Competition needs to be signaled. This field can be used even if no contracts are awarded in the contract award notice. (epo:Procedure) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalBasisID">
+      <rdfs:label xml:lang="en">Legal basis i d</rdfs:label>
+      <skos:prefLabel xml:lang="en">Legal basis i d</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalBasis">
+      <rdfs:label xml:lang="en">Legal basis</rdfs:label>
+      <skos:prefLabel xml:lang="en">Legal basis</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalRegime">
+      <rdfs:label xml:lang="en">Legal regime</rdfs:label>
+      <skos:prefLabel xml:lang="en">Legal regime</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTotalMagnitudeQuantity">
+      <rdfs:label xml:lang="en">Total magnitude quantity</rdfs:label>
+      <skos:prefLabel xml:lang="en">Total magnitude quantity</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The number of units required.
+
+Additional Information
+
+The quantity needs to go along with the unit. 
+
+
+ (epo:Purpose) </rdfs:comment>
+      <skos:definition xml:lang="en">The number of units required.
+
+Additional Information
+
+The quantity needs to go along with the unit. 
+
+
+ (epo:Purpose) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasContractNatureType">
+      <rdfs:label xml:lang="en">Contract nature type</rdfs:label>
+      <skos:prefLabel xml:lang="en">Contract nature type</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Subject of the acquisition.
+
+WG Approval 11/06/2020
+ (epo:Purpose) </rdfs:comment>
+      <skos:definition xml:lang="en">Subject of the acquisition.
+
+WG Approval 11/06/2020
+ (epo:Purpose) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainClassification">
+      <rdfs:label xml:lang="en">Main classification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Main classification</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalClassification">
+      <rdfs:label xml:lang="en">Additional classification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Additional classification</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOptionsDescription">
+      <rdfs:label xml:lang="en">Options description</rdfs:label>
+      <skos:prefLabel xml:lang="en">Options description</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The motivation and details about additional purchases that the buyer may undertake while the contract is valid.
+
+WG Approval 09/04/2019  (epo:Purpose) </rdfs:comment>
+      <skos:definition xml:lang="en">The motivation and details about additional purchases that the buyer may undertake while the contract is valid.
+
+WG Approval 09/04/2019  (epo:Purpose) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasUnit">
+      <rdfs:label xml:lang="en">Unit</rdfs:label>
+      <skos:prefLabel xml:lang="en">Unit</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOptionsPermission">
+      <rdfs:label xml:lang="en">Options permission</rdfs:label>
+      <skos:prefLabel xml:lang="en">Options permission</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalContractNature">
+      <rdfs:label xml:lang="en">Additional contract nature</rdfs:label>
+      <skos:prefLabel xml:lang="en">Additional contract nature</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Additional type of acquisition taken into consideration in the contract.
+
+WG Approval 11/06/2020 (epo:Purpose) </rdfs:comment>
+      <skos:definition xml:lang="en">Additional type of acquisition taken into consideration in the contract.
+
+WG Approval 11/06/2020 (epo:Purpose) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEEARecievedTenderLots">
+      <rdfs:label xml:lang="en">E e a recieved tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">E e a recieved tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The amount of tenders received from economic operators in other EEA countries other than the country of the buyer.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The amount of tenders received from economic operators in other EEA countries other than the country of the buyer.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedParticipationRequests">
+      <rdfs:label xml:lang="en">Received participation requests</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received participation requests</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The amount of applications to participate from economic operators.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The amount of applications to participate from economic operators.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedReviewRequests">
+      <rdfs:label xml:lang="en">Received review requests</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received review requests</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The number of economic operators that requested the buyer to review any of its decisions (e.g. the technical specifications, award decision), as set out in Art. 1(5) of Directive 89/665/EEC and Directive 92/13/EEC.
+
+WG Approval 11/04/2019 (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The number of economic operators that requested the buyer to review any of its decisions (e.g. the technical specifications, award decision), as set out in Art. 1(5) of Directive 89/665/EEC and Directive 92/13/EEC.
+
+WG Approval 11/04/2019 (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedNONEEATenderLots">
+      <rdfs:label xml:lang="en">Received n o n e e a tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received n o n e e a tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The amount of tenders received from economic operators in non-EEA countries. 
+
+WG Approval 12/12/2019 15:20:36 (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The amount of tenders received from economic operators in non-EEA countries. 
+
+WG Approval 12/12/2019 15:20:36 (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedSMETenderLots">
+      <rdfs:label xml:lang="en">Received s m e tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received s m e tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The amount of tenders received from micro, small and medium-sized enterprises.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC. 
+The ReceivedSMETenderLots is used when the size of the company is not exactly knokn.
+
+WG Approval 05/03/2020
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The amount of tenders received from micro, small and medium-sized enterprises.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC. 
+The ReceivedSMETenderLots is used when the size of the company is not exactly knokn.
+
+WG Approval 05/03/2020
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedMicroTenderLots">
+      <rdfs:label xml:lang="en">Received micro tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received micro tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The amount of tenders received from a micro enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC. (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The amount of tenders received from a micro enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC. (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedSmallTenderLots">
+      <rdfs:label xml:lang="en">Received small tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received small tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Tenders from small enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.
+
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Tenders from small enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.
+
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMediumTenderPerLots">
+      <rdfs:label xml:lang="en">Medium tender per lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Medium tender per lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Tenders from medium-sized enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Tenders from medium-sized enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReceivedTenderLots">
+      <rdfs:label xml:lang="en">Received tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Received tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The total amount of tenders received.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The total amount of tenders received.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasInadmissibleTenderLots">
+      <rdfs:label xml:lang="en">Inadmissible tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Inadmissible tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Tenders received that cannot be awarded  due to non-compliance to procurement document requirements or having an abnormally low price or cost.
+
+&lt;u&gt;Additional Information: &lt;/u&gt;
+Non-compliance with a Procurement Document requirements include exclusion grounds, selection criteria and submission deadline, etc.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Tenders received that cannot be awarded  due to non-compliance to procurement document requirements or having an abnormally low price or cost.
+
+&lt;u&gt;Additional Information: &lt;/u&gt;
+Non-compliance with a Procurement Document requirements include exclusion grounds, selection criteria and submission deadline, etc.
+
+WG Approval 12/12/2019 (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLowestReceivedTenderLotValues">
+      <rdfs:label xml:lang="en">Lowest received tender lot values</rdfs:label>
+      <skos:prefLabel xml:lang="en">Lowest received tender lot values</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Amount of the Tender with the lowest value.
+
+Additional Information
+The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
+
+WG Approval 12/12/2019
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Amount of the Tender with the lowest value.
+
+Additional Information
+The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
+
+WG Approval 12/12/2019
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasHighestReceivedTenderLotValues">
+      <rdfs:label xml:lang="en">Highest received tender lot values</rdfs:label>
+      <skos:prefLabel xml:lang="en">Highest received tender lot values</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Amount of the Tender with the highest value.
+
+Additional Information
+The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
+
+
+WG Approval 12/12/2019
+
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Amount of the Tender with the highest value.
+
+Additional Information
+The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
+
+
+WG Approval 12/12/2019
+
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAbnormallyLowTenderLots">
+      <rdfs:label xml:lang="en">Abnormally low tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Abnormally low tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Tenders received that were found irregular and non-acceptable due to an abnormally low price or cost.
+
+Additional Information
+The definition implies that abnormally Low Tender Lots are Inadmissible Tender Lots.
+
+WG Approval 28/07/2020
+
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Tenders received that were found irregular and non-acceptable due to an abnormally low price or cost.
+
+Additional Information
+The definition implies that abnormally Low Tender Lots are Inadmissible Tender Lots.
+
+WG Approval 28/07/2020
+
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTotalVehicles">
+      <rdfs:label xml:lang="en">Total vehicles</rdfs:label>
+      <skos:prefLabel xml:lang="en">Total vehicles</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The number of all vehicles (regardless of whether clean or not) that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The number of all vehicles (regardless of whether clean or not) that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasUnverifiedTenderLots">
+      <rdfs:label xml:lang="en">Unverified tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Unverified tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Offers received for which it has not been verified if they are admissible or inadmissible (e.g. because award criteria have been evaluated for all tenders and admissibility is checked only for the winning tender).
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Offers received for which it has not been verified if they are admissible or inadmissible (e.g. because award criteria have been evaluated for all tenders and admissibility is checked only for the winning tender).
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasElectronicTenderLots">
+      <rdfs:label xml:lang="en">Electronic tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">Electronic tender lots</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Electronic Tender Lots received.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Electronic Tender Lots received.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasZeroEmissionVehicles">
+      <rdfs:label xml:lang="en">Zero emission vehicles</rdfs:label>
+      <skos:prefLabel xml:lang="en">Zero emission vehicles</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The number of all zero-emission heavy-duty vehicles that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The number of all zero-emission heavy-duty vehicles that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCleanVehicles">
+      <rdfs:label xml:lang="en">Clean vehicles</rdfs:label>
+      <skos:prefLabel xml:lang="en">Clean vehicles</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The number of all clean vehicles that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">The number of all clean vehicles that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTotalValueSubcontracted">
+      <rdfs:label xml:lang="en">Total value subcontracted</rdfs:label>
+      <skos:prefLabel xml:lang="en">Total value subcontracted</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNumberOfTenderersInvited">
+      <rdfs:label xml:lang="en">Number of tenderers invited</rdfs:label>
+      <skos:prefLabel xml:lang="en">Number of tenderers invited</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Number of economic operators invited to tender.
+
+Additional Information
+This may be used for single-stage procedures or to indicate the number of candidates invited to tender in multi-stage procedures.
+
+WG Approval 01/12/2020
+
+ (epo:StatisticalInformation) </rdfs:comment>
+      <skos:definition xml:lang="en">Number of economic operators invited to tender.
+
+Additional Information
+This may be used for single-stage procedures or to indicate the number of candidates invited to tender in multi-stage procedures.
+
+WG Approval 01/12/2020
+
+ (epo:StatisticalInformation) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOverallAmount">
+      <rdfs:label xml:lang="en">Overall amount</rdfs:label>
+      <skos:prefLabel xml:lang="en">Overall amount</skos:prefLabel>
+      <rdfs:comment xml:lang="en">In the case of a procurement procedure it includes options and renewals.
+ (epo:Value) </rdfs:comment>
+      <skos:definition xml:lang="en">In the case of a procurement procedure it includes options and renewals.
+ (epo:Value) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasVATIncludedIndicator">
+      <rdfs:label xml:lang="en">V a t included indicator</rdfs:label>
+      <skos:prefLabel xml:lang="en">V a t included indicator</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMinimumAmount">
+      <rdfs:label xml:lang="en">Minimum amount</rdfs:label>
+      <skos:prefLabel xml:lang="en">Minimum amount</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCalculationMethod">
+      <rdfs:label xml:lang="en">Calculation method</rdfs:label>
+      <skos:prefLabel xml:lang="en">Calculation method</skos:prefLabel>
+      <rdfs:comment xml:lang="en">Formula for obtaining values.
+
+Additional Information:
+The possible values are monetary values, ranking scores, criterion weighting.
+
+WG Approval 25/05/2018 (epo:Value) </rdfs:comment>
+      <skos:definition xml:lang="en">Formula for obtaining values.
+
+Additional Information:
+The possible values are monetary values, ranking scores, criterion weighting.
+
+WG Approval 25/05/2018 (epo:Value) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMaximumAmount">
+      <rdfs:label xml:lang="en">Maximum amount</rdfs:label>
+      <skos:prefLabel xml:lang="en">Maximum amount</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The highest amount which can be spent within a procurement over its whole duration.
+
+WG Approval 11/10/2019 (epo:Value) </rdfs:comment>
+      <skos:definition xml:lang="en">The highest amount which can be spent within a procurement over its whole duration.
+
+WG Approval 11/10/2019 (epo:Value) </skos:definition>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasVATPercentage">
+      <rdfs:label xml:lang="en">V a t percentage</rdfs:label>
+      <skos:prefLabel xml:lang="en">V a t percentage</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
 </rdf:RDF>
