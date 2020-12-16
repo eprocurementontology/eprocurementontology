@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="http://data.europa.eu/a4g/extension/ontology" uri="Reg2015-ApplicationProfile/reg2015-owl-core.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="http://data.europa.eu/a4g/extension/rule" uri="Reg2015-ApplicationProfile/reg2015_restrictions.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="http://data.europa.eu/a4g/extension/shape" uri="Reg2015-ApplicationProfile/reg2015_shacl_shapes.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="http://data.europa.eu/a4g/ontology" uri="ePO-owl-core.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="http://data.europa.eu/a4g/rule" uri="ePO_restrictions.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="http://data.europa.eu/a4g/shape" uri="ePO_shacl_shapes.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="shadowed:http://data.europa.eu/a4g/ontology" uri="BDTI-ApplicationProfile/BDTI-owl-core.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="shadowed:http://data.europa.eu/a4g/rule" uri="BDTI-ApplicationProfile/BDTI_restrictions.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1607962984244" name="shadowed:http://data.europa.eu/a4g/shape" uri="BDTI-ApplicationProfile/BDTI_shacl_shapes.rdf"/>
+    </group>
+</catalog>
