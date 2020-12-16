@@ -36,15 +36,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement core ontology</rdfs:label>
       <dct:title xml:lang="en">eProcurement core ontology</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#ePO_CM.xml-2020-12-07"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#ePO_CM.xml-2020-12-16"/>
       <owl:versionInfo>eProcurement core ontology version generated automatically from 
-                ePO_CM.xml on 07/12/2020</owl:versionInfo>
+                ePO_CM.xml on 16/12/2020</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-07+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-16+01:00</dct:date>
    </owl:Ontology>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#AccessTerm">
       <rdfs:label xml:lang="en">Access term</rdfs:label>
@@ -1625,138 +1625,98 @@ For European notices above the threshold
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Accessibility">
       <rdfs:label xml:lang="en">Accessibility</rdfs:label>
       <skos:prefLabel>Accessibility</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Accessibility&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Accessibility&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Applicability">
       <rdfs:label xml:lang="en">Applicability</rdfs:label>
       <skos:prefLabel>Applicability</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Applicability&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability).
-
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Applicability&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability).
-
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Award-criterion-type">
       <rdfs:label xml:lang="en">Award-criterion-type</rdfs:label>
       <skos:prefLabel>Award-criterion-type</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Award criterion type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Award criterion type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Buyer-legal-type">
       <rdfs:label xml:lang="en">Buyer-legal-type</rdfs:label>
       <skos:prefLabel>Buyer-legal-type</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/buyer-legal-type"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Buyer legal type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/buyer-legal-type).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/buyer-legal-type"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Buyer legal type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/buyer-legal-type).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Communication-justification">
       <rdfs:label xml:lang="en">Communication-justification</rdfs:label>
       <skos:prefLabel>Communication-justification</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Communication justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Communication justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Contract-nature">
       <rdfs:label xml:lang="en">Contract-nature</rdfs:label>
       <skos:prefLabel>Contract-nature</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Contract nature&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature).</rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Contract nature&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature).</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Country">
       <rdfs:label xml:lang="en">Country</rdfs:label>
       <skos:prefLabel>Country</skos:prefLabel>
-      <rdfs:comment xml:lang="en">A country is one of the political units which the world is divided into, covering a particular area of land.
-
-Compulsory use of the code list from the ISO 3166-1 alpha-3.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Country&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country).</rdfs:comment>
-      <skos:definition xml:lang="en">A country is one of the political units which the world is divided into, covering a particular area of land.
-
-Compulsory use of the code list from the ISO 3166-1 alpha-3.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Country&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country).</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Cpv">
       <rdfs:label xml:lang="en">Cpv</rdfs:label>
       <skos:prefLabel>Cpv</skos:prefLabel>
-      <rdfs:comment xml:lang="en">The CPV establishes a single classification system for public procurement aimed at standardising the references used by procuring entities to describe the purpose of procurement contracts and procurement projects.
-
-Compulsory use of Common Procurement Vocabulary (CPV) codes (Regulation (EC) No 213/2008)
-
-Source: &lt;xref scope="external" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Commision Regulation (EC) No 213/2008&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt; (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) </rdfs:comment>
-      <skos:definition xml:lang="en">The CPV establishes a single classification system for public procurement aimed at standardising the references used by procuring entities to describe the purpose of procurement contracts and procurement projects.
-
-Compulsory use of Common Procurement Vocabulary (CPV) codes (Regulation (EC) No 213/2008)
-
-Source: &lt;xref scope="external" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Commision Regulation (EC) No 213/2008&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt; (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) </skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Direct-award-justification">
       <rdfs:label xml:lang="en">Direct-award-justification</rdfs:label>
       <skos:prefLabel>Direct-award-justification</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Justifications for the choice of the negotiated procedure without prior publication of a call for competition or concession.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/direct-award-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Direct Award Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/direct-award-justification).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Justifications for the choice of the negotiated procedure without prior publication of a call for competition or concession.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/direct-award-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Direct Award Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/direct-award-justification).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Dps-usage">
       <rdfs:label xml:lang="en">Dps-usage</rdfs:label>
       <skos:prefLabel>Dps-usage</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/dps-usage"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;DPS Usage&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/dps-usage).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/dps-usage"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;DPS Usage&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/dps-usage).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Economic-operator-size">
       <rdfs:label xml:lang="en">Economic-operator-size</rdfs:label>
       <skos:prefLabel>Economic-operator-size</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/economic-operator-size"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Economic Operator Size&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/economic-operator-size).
-
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/economic-operator-size"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Economic Operator Size&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/economic-operator-size).
-
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Environmental-impact">
       <rdfs:label xml:lang="en">Environmental-impact</rdfs:label>
       <skos:prefLabel>Environmental-impact</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Requesting compliance with an ISO 14024 Type I environmental label 
-
-Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009 
-
-Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009 
-
-Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)
-
-Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products 
-
-Other
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Environmental Impact&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact).</rdfs:comment>
-      <skos:definition xml:lang="en">Requesting compliance with an ISO 14024 Type I environmental label 
-
-Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009 
-
-Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009 
-
-Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)
-
-Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products 
-
-Other
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Environmental Impact&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact).</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Innovative-acquisition">
       <rdfs:label xml:lang="en">Innovative-acquisition</rdfs:label>
@@ -1765,206 +1725,196 @@ Source: EU Vocabularies authority table "&lt;xref scope="external" href="https:/
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Language">
       <rdfs:label xml:lang="en">Language</rdfs:label>
       <skos:prefLabel>Language</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Language&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Language&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Legal-basis">
       <rdfs:label xml:lang="en">Legal-basis</rdfs:label>
       <skos:prefLabel>Legal-basis</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Based on Legal Basis list defined by MDR.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Legal Basis&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Based on Legal Basis list defined by MDR.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Legal Basis&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Main-activity">
       <rdfs:label xml:lang="en">Main-activity</rdfs:label>
       <skos:prefLabel>Main-activity</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/main-activity"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Main Activity&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/main-activity).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/main-activity"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Main Activity&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/main-activity).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Missing-info-submission">
       <rdfs:label xml:lang="en">Missing-info-submission</rdfs:label>
       <skos:prefLabel>Missing-info-submission</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Missing Information Submission&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission).
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Missing Information Submission&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission).
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Modification-justification">
       <rdfs:label xml:lang="en">Modification-justification</rdfs:label>
       <skos:prefLabel>Modification-justification</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Modification Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification)</rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Modification Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification)</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Non-award-justification">
       <rdfs:label xml:lang="en">Non-award-justification</rdfs:label>
       <skos:prefLabel>Non-award-justification</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-award-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Non Award Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-award-justification)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-award-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Non Award Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-award-justification)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Non-publication-justification">
       <rdfs:label xml:lang="en">Non-publication-justification</rdfs:label>
       <skos:prefLabel>Non-publication-justification</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Non Publication Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification)</rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Non Publication Justification&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification)</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Number-fixed">
       <rdfs:label xml:lang="en">Number-fixed</rdfs:label>
       <skos:prefLabel>Number-fixed</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Number fixed&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Number fixed&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Number-threshold">
       <rdfs:label xml:lang="en">Number-threshold</rdfs:label>
       <skos:prefLabel>Number-threshold</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Number threshold&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold)
+      <rdfs:comment xml:lang="en">
+
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Number threshold&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold)
+      <skos:definition xml:lang="en">
+
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Number-weight">
       <rdfs:label xml:lang="en">Number-weight</rdfs:label>
       <skos:prefLabel>Number-weight</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Number weight&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Number weight&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Nuts">
       <rdfs:label xml:lang="en">Nuts</rdfs:label>
       <skos:prefLabel>Nuts</skos:prefLabel>
-      <rdfs:comment xml:lang="en">e.g. NUTS 2016</rdfs:comment>
-      <skos:definition xml:lang="en">e.g. NUTS 2016</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Other-place-service">
       <rdfs:label xml:lang="en">Other-place-service</rdfs:label>
       <skos:prefLabel>Other-place-service</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/other-place-service"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Other Place Service&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/other-place-service)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/other-place-service"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Other Place Service&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/other-place-service)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Permission">
       <rdfs:label xml:lang="en">Permission</rdfs:label>
       <skos:prefLabel>Permission</skos:prefLabel>
       <rdfs:comment xml:lang="en">
-Statement by the Procuring Entity about whether it may apply modifications to the procurement procedure that would alter the overall nature of the contract or the framework agreement.
-
-(Pending to review by the WG)
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Permission&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission)
 </rdfs:comment>
       <skos:definition xml:lang="en">
-Statement by the Procuring Entity about whether it may apply modifications to the procurement procedure that would alter the overall nature of the contract or the framework agreement.
-
-(Pending to review by the WG)
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Permission&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission)
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Procurement-procedure-type">
       <rdfs:label xml:lang="en">Procurement-procedure-type</rdfs:label>
       <skos:prefLabel>Procurement-procedure-type</skos:prefLabel>
-      <rdfs:comment xml:lang="en">It specifies the sort of procurement procedure, which will regulate the conditions and deadlines that apply to the process.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Procurement Procedure Type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">It specifies the sort of procurement procedure, which will regulate the conditions and deadlines that apply to the process.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Procurement Procedure Type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Requirement-stage">
       <rdfs:label xml:lang="en">Requirement-stage</rdfs:label>
       <skos:prefLabel>Requirement-stage</skos:prefLabel>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Reserved-procurement">
       <rdfs:label xml:lang="en">Reserved-procurement</rdfs:label>
       <skos:prefLabel>Reserved-procurement</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/reserved-procurement"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Reserved Procurement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/reserved-procurement)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/reserved-procurement"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Reserved Procurement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/reserved-procurement)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Selection-criterion">
       <rdfs:label xml:lang="en">Selection-criterion</rdfs:label>
       <skos:prefLabel>Selection-criterion</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/selection-criterion"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Selection Criterion&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/selection-criterion)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/selection-criterion"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Selection Criterion&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/selection-criterion)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Social-objective">
       <rdfs:label xml:lang="en">Social-objective</rdfs:label>
       <skos:prefLabel>Social-objective</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Social Objective&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Social Objective&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Strategic-procurement">
       <rdfs:label xml:lang="en">Strategic-procurement</rdfs:label>
       <skos:prefLabel>Strategic-procurement</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Strategic Procurement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement)</rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Strategic Procurement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement)</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Subcontracting-indication">
       <rdfs:label xml:lang="en">Subcontracting-indication</rdfs:label>
       <skos:prefLabel>Subcontracting-indication</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-indication"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Subcontracting indication&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-indication)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-indication"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Subcontracting indication&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-indication)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Subcontracting-obligation">
       <rdfs:label xml:lang="en">Subcontracting-obligation</rdfs:label>
       <skos:prefLabel>Subcontracting-obligation</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Codes and values used to show the obligation of the economic operator to subcontract parts of the original contract to third parties. 
-
-WG Approval 17/09/2019 
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-obligation"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Subcontracting obligation&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-obligation)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">Codes and values used to show the obligation of the economic operator to subcontract parts of the original contract to third parties. 
-
-WG Approval 17/09/2019 
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-obligation"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Subcontracting obligation&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-obligation)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Timeperiod">
       <rdfs:label xml:lang="en">Timeperiod</rdfs:label>
       <skos:prefLabel>Timeperiod</skos:prefLabel>
-      <rdfs:comment xml:lang="en">This code list is used by the Duration Measure attribute 'unitCode'.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/timeperiods"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Timeperiods&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/timeperiods)
+      <rdfs:comment xml:lang="en">
 </rdfs:comment>
-      <skos:definition xml:lang="en">This code list is used by the Duration Measure attribute 'unitCode'.
-
-Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/timeperiods"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Timeperiods&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/timeperiods)
+      <skos:definition xml:lang="en">
 </skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Usage">
       <rdfs:label xml:lang="en">Usage</rdfs:label>
       <skos:prefLabel>Usage</skos:prefLabel>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Winner-selection-status">
       <rdfs:label xml:lang="en">Winner-selection-status</rdfs:label>
       <skos:prefLabel>Winner-selection-status</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/winner-selection-status"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Winner Selection Status&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/winner-selection-status)</rdfs:comment>
-      <skos:definition xml:lang="en">Source: EU Vocabularies authority table "&lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/winner-selection-status"&gt;&lt;foreign otherprops="#0000ff"&gt;&lt;u&gt;Winner Selection Status&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;" (https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/winner-selection-status)</skos:definition>
+      <rdfs:comment xml:lang="en">
+</rdfs:comment>
+      <skos:definition xml:lang="en">
+</skos:definition>
    </skos:ConceptScheme>
    <skos:ConceptScheme rdf:about="http://data.europa.eu/a4g/ontology#Communication-type">
       <rdfs:label xml:lang="en">Communication-type</rdfs:label>
@@ -2046,12 +1996,6 @@ Source: EU Vocabularies authority table "&lt;xref scope="external" href="https:/
    </skos:ConceptScheme>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#leadOf">
       <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#isMemberOf"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#summarisesProcedure">
-      <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#relatesTo"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#notifies">
-      <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#relatesTo"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#notifies">
       <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#relatesTo"/>
@@ -2887,11 +2831,19 @@ This property allows to obtain the estimated value of both a group of lots used 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountryCode">
       <rdfs:label xml:lang="en">Has country code</rdfs:label>
       <skos:prefLabel xml:lang="en">Has country code</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:Address -&gt; at-voc:country (+epo:hasCountryCode)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:Address -&gt; at-voc:country (+epo:hasCountryCode)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountrySubentityCode">
       <rdfs:label xml:lang="en">Has country subentity code</rdfs:label>
       <skos:prefLabel xml:lang="en">Has country subentity code</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:nuts which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/nuts
+ (epo:Address -&gt; at-voc:nuts (+epo:hasCountrySubentityCode)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:nuts which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/nuts
+ (epo:Address -&gt; at-voc:nuts (+epo:hasCountrySubentityCode)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostalAddress">
@@ -3024,11 +2976,23 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasWeightValueType">
       <rdfs:label xml:lang="en">Has weight value type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has weight value type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight
+ (epo:AwardCriterion -&gt; at-voc:number-weight (+epo:hasWeightValueType)) The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight
+ (epo:SelectionCriterion -&gt; at-voc:number-weight (+epo:hasWeightValueType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight
+ (epo:AwardCriterion -&gt; at-voc:number-weight (+epo:hasWeightValueType)) The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-weight
+ (epo:SelectionCriterion -&gt; at-voc:number-weight (+epo:hasWeightValueType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasThresholdType">
       <rdfs:label xml:lang="en">Has threshold type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has threshold type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold
+ (epo:AwardCriterion -&gt; at-voc:number-threshold (+epo:hasThresholdType)) The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold
+ (epo:SelectionCriterion -&gt; at-voc:number-threshold (+epo:hasThresholdType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold
+ (epo:AwardCriterion -&gt; at-voc:number-threshold (+epo:hasThresholdType)) The codelist to be used is at-voc:number-threshold which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-threshold
+ (epo:SelectionCriterion -&gt; at-voc:number-threshold (+epo:hasThresholdType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isUsedToAward">
@@ -3039,11 +3003,17 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardCriterionType">
       <rdfs:label xml:lang="en">Has award criterion type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has award criterion type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:award-criterion-type which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type (epo:AwardCriterion -&gt; at-voc:award-criterion-type (+epo:hasAwardCriterionType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:award-criterion-type which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/award-criterion-type (epo:AwardCriterion -&gt; at-voc:award-criterion-type (+epo:hasAwardCriterionType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFixedValueType">
       <rdfs:label xml:lang="en">Has fixed value type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has fixed value type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:number-fixed which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed
+ (epo:AwardCriterion -&gt; at-voc:number-fixed (+epo:hasFixedValueType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:number-fixed which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/number-fixed
+ (epo:AwardCriterion -&gt; at-voc:number-fixed (+epo:hasFixedValueType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasWinning">
@@ -3054,11 +3024,15 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardStatus">
       <rdfs:label xml:lang="en">Has award status</rdfs:label>
       <skos:prefLabel xml:lang="en">Has award status</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:winner-selection-status which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/winner-selection-status
+ (epo:AwardDecision -&gt; at-voc:winner-selection-status (+epo:hasAwardStatus)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:winner-selection-status which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/winner-selection-status
+ (epo:AwardDecision -&gt; at-voc:winner-selection-status (+epo:hasAwardStatus)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isReferedByA">
-      <rdfs:label xml:lang="en">Is refered by a</rdfs:label>
-      <skos:prefLabel xml:lang="en">Is refered by a</skos:prefLabel>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isReferredByA">
+      <rdfs:label xml:lang="en">Is referred by a</rdfs:label>
+      <skos:prefLabel xml:lang="en">Is referred by a</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#refersTo">
@@ -3069,6 +3043,10 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNonAwardJustification">
       <rdfs:label xml:lang="en">Has non award justification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has non award justification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:non-award-justification which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-award-justification
+ (epo:AwardDecision -&gt; at-voc:non-award-justification (+epo:hasNonAwardJustification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:non-award-justification which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-award-justification
+ (epo:AwardDecision -&gt; at-voc:non-award-justification (+epo:hasNonAwardJustification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#refersToAwardResult">
@@ -3111,6 +3089,10 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasSize">
       <rdfs:label xml:lang="en">Has size</rdfs:label>
       <skos:prefLabel xml:lang="en">Has size</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:economic-operator-size which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/economic-operator-size
+ (epo:Business -&gt; at-voc:economic-operator-size (+epo:hasSize)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:economic-operator-size which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/economic-operator-size
+ (epo:Business -&gt; at-voc:economic-operator-size (+epo:hasSize)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isBeneficialOwnerOf">
@@ -3143,6 +3125,10 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainActivityType">
       <rdfs:label xml:lang="en">Has main activity type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has main activity type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:main-activity which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/main-activity
+ (epo:Buyer -&gt; at-voc:main-activity (+epo:hasMainActivityType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:main-activity which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/main-activity
+ (epo:Buyer -&gt; at-voc:main-activity (+epo:hasMainActivityType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#executesPayment">
@@ -3203,6 +3189,8 @@ An example of transmitters are TeD eSenders, which are usually either the Buyer 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBuyerLegalType">
       <rdfs:label xml:lang="en">Has buyer legal type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has buyer legal type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:buyer-legal-type which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/buyer-legal-type (epo:Buyer -&gt; at-voc:buyer-legal-type (+epo:hasBuyerLegalType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:buyer-legal-type which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/buyer-legal-type (epo:Buyer -&gt; at-voc:buyer-legal-type (+epo:hasBuyerLegalType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#providesOfflineAccessToProcurementDocuments">
@@ -3556,6 +3544,10 @@ WG Approval 03/12/2019
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasContractModficationJustification">
       <rdfs:label xml:lang="en">Has contract modfication justification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has contract modfication justification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:modification-justification which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification
+ (epo:ContractModificationNotice -&gt; at-voc:modification-justification (+epo:hasContractModficationJustification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:modification-justification which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/modification-justification
+ (epo:ContractModificationNotice -&gt; at-voc:modification-justification (+epo:hasContractModficationJustification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#qualificationCriteria">
@@ -3566,11 +3558,17 @@ WG Approval 03/12/2019
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasBroadPlaceOfPerformance">
       <rdfs:label xml:lang="en">Has broad place of performance</rdfs:label>
       <skos:prefLabel xml:lang="en">Has broad place of performance</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:other-place-service which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/other-place-service
+ (epo:ContractTerm -&gt; at-voc:other-place-service (+epo:hasBroadPlaceOfPerformance)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:other-place-service which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/other-place-service
+ (epo:ContractTerm -&gt; at-voc:other-place-service (+epo:hasBroadPlaceOfPerformance)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReservedExecution">
       <rdfs:label xml:lang="en">Has reserved execution</rdfs:label>
       <skos:prefLabel xml:lang="en">Has reserved execution</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:applicability which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability (epo:ContractTerm -&gt; at-voc:applicability (+epo:hasReservedExecution)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:applicability which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability (epo:ContractTerm -&gt; at-voc:applicability (+epo:hasReservedExecution)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#includes">
@@ -3627,6 +3625,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasJustificationType">
       <rdfs:label xml:lang="en">Has justification type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has justification type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:direct-award-justification which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/direct-award-justification
+ (epo:DirectAwardTerm -&gt; at-voc:direct-award-justification (+epo:hasJustificationType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:direct-award-justification which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/direct-award-justification
+ (epo:DirectAwardTerm -&gt; at-voc:direct-award-justification (+epo:hasJustificationType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#refersToPreviousProcedureLots">
@@ -3656,11 +3658,21 @@ WG Approval 22/11/2019 14:33:55 (epo:DirectAwardTerm -&gt; epo:Lot (+epo:refersT
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRestrictedCommunicationJustification">
       <rdfs:label xml:lang="en">Has restricted communication justification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has restricted communication justification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:communication-justification which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification
+ (epo:Document -&gt; at-voc:communication-justification (+epo:hasRestrictedCommunicationJustification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:communication-justification which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification
+ (epo:Document -&gt; at-voc:communication-justification (+epo:hasRestrictedCommunicationJustification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOfficialLanguage">
       <rdfs:label xml:lang="en">Has official language</rdfs:label>
       <skos:prefLabel xml:lang="en">Has official language</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:Document -&gt; at-voc:language (+epo:hasOfficialLanguage)) The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:SubmissionTerm -&gt; at-voc:language (+epo:hasOfficialLanguage)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:Document -&gt; at-voc:language (+epo:hasOfficialLanguage)) The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:SubmissionTerm -&gt; at-voc:language (+epo:hasOfficialLanguage)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#changeRefersToInstance">
@@ -3696,10 +3708,16 @@ In the case of Result form this subproperty summarises is used.  (epo:Document -
       <skos:prefLabel xml:lang="en">Has unofficial language</skos:prefLabel>
       <skos:definition xml:lang="en">The language translation(s) in which the instances of the given concepts are available. These linguistic versions are not an official translation, they are provided only for information.
 
-WG Approval 03/10/2019 (epo:Document -&gt; at-voc:language (+epo:hasUnofficialLanguage)) </skos:definition>
+WG Approval 03/10/2019
+
+The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:Document -&gt; at-voc:language (+epo:hasUnofficialLanguage)) </skos:definition>
       <rdfs:comment xml:lang="en">The language translation(s) in which the instances of the given concepts are available. These linguistic versions are not an official translation, they are provided only for information.
 
-WG Approval 03/10/2019 (epo:Document -&gt; at-voc:language (+epo:hasUnofficialLanguage)) </rdfs:comment>
+WG Approval 03/10/2019
+
+The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:Document -&gt; at-voc:language (+epo:hasUnofficialLanguage)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#refersToPrevious">
@@ -3729,6 +3747,8 @@ See Art. 34.5. first subparagraph
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEAuctionUsage">
       <rdfs:label xml:lang="en">Has e auction usage</rdfs:label>
       <skos:prefLabel xml:lang="en">Has e auction usage</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:usage which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/usage (epo:EAuctionTechnique -&gt; at-voc:usage (+epo:hasEAuctionUsage)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:usage which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/usage (epo:EAuctionTechnique -&gt; at-voc:usage (+epo:hasEAuctionUsage)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEORoleType">
@@ -3831,6 +3851,10 @@ See Art. 34.5. first subparagraph
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountry">
       <rdfs:label xml:lang="en">Has country</rdfs:label>
       <skos:prefLabel xml:lang="en">Has country</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:FinancialAccount -&gt; at-voc:country (+epo:hasCountry)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:FinancialAccount -&gt; at-voc:country (+epo:hasCountry)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#appliesToFollowupContractTerms">
@@ -3894,11 +3918,23 @@ This property allows to obtain the estimated value of both a group of lots used 
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#fulfillsRequirement">
       <rdfs:label xml:lang="en">Fulfills requirement</rdfs:label>
       <skos:prefLabel xml:lang="en">Fulfills requirement</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:environmental-impact which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact
+ (epo:GreenProcurement -&gt; at-voc:environmental-impact (+epo:fulfillsRequirement)) The codelist to be used is at-voc:innovative-acquisition which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/innovative-acquisition
+ (epo:InnovativeProcurement -&gt; at-voc:innovative-acquisition (+epo:fulfillsRequirement)) The codelist to be used is at-voc:social-objective which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective
+ (epo:SocialProcurement -&gt; at-voc:social-objective (+epo:fulfillsRequirement)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:environmental-impact which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/environmental-impact
+ (epo:GreenProcurement -&gt; at-voc:environmental-impact (+epo:fulfillsRequirement)) The codelist to be used is at-voc:innovative-acquisition which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/innovative-acquisition
+ (epo:InnovativeProcurement -&gt; at-voc:innovative-acquisition (+epo:fulfillsRequirement)) The codelist to be used is at-voc:social-objective which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/social-objective
+ (epo:SocialProcurement -&gt; at-voc:social-objective (+epo:fulfillsRequirement)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountryOfOrigin">
       <rdfs:label xml:lang="en">Has country of origin</rdfs:label>
       <skos:prefLabel xml:lang="en">Has country of origin</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:Item -&gt; at-voc:country (+epo:hasCountryOfOrigin)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:Item -&gt; at-voc:country (+epo:hasCountryOfOrigin)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalLocation">
@@ -4045,6 +4081,10 @@ WG Approval 01/09/2020
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasReservedProcurement">
       <rdfs:label xml:lang="en">Has reserved procurement</rdfs:label>
       <skos:prefLabel xml:lang="en">Has reserved procurement</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:reserved-procurement which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/reserved-procurement
+ (epo:Lot -&gt; at-voc:reserved-procurement (+epo:hasReservedProcurement)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:reserved-procurement which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/reserved-procurement
+ (epo:Lot -&gt; at-voc:reserved-procurement (+epo:hasReservedProcurement)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#involvesOverallStrategicProcurement">
@@ -4055,11 +4095,17 @@ WG Approval 01/09/2020
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isProvidedWithin">
       <rdfs:label xml:lang="en">Is provided within</rdfs:label>
       <skos:prefLabel xml:lang="en">Is provided within</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:requirement-stage which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/requirement-stage (epo:Lot -&gt; at-voc:requirement-stage (+epo:isProvidedWithin)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:requirement-stage which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/requirement-stage (epo:Lot -&gt; at-voc:requirement-stage (+epo:isProvidedWithin)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasVariantPermission">
       <rdfs:label xml:lang="en">Has variant permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Has variant permission</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
+ (epo:Lot -&gt; at-voc:permission (+epo:hasVariantPermission)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
+ (epo:Lot -&gt; at-voc:permission (+epo:hasVariantPermission)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedUserConcessionRevenue">
@@ -4216,6 +4262,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasDPSScope">
       <rdfs:label xml:lang="en">Has d p s scope</rdfs:label>
       <skos:prefLabel xml:lang="en">Has d p s scope</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:dps-usage which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/dps-usage
+ (epo:Notice -&gt; at-voc:dps-usage (+epo:hasDPSScope)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:dps-usage which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/dps-usage
+ (epo:Notice -&gt; at-voc:dps-usage (+epo:hasDPSScope)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFormType">
@@ -4256,6 +4306,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTimePeriods">
       <rdfs:label xml:lang="en">Has time periods</rdfs:label>
       <skos:prefLabel xml:lang="en">Has time periods</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:timeperiods which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/timeperiods
+ (epo:Period -&gt; at-voc:timeperiod (+epo:hasTimePeriods)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:timeperiods which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/timeperiods
+ (epo:Period -&gt; at-voc:timeperiod (+epo:hasTimePeriods)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasValidityPeriod">
@@ -4271,6 +4325,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNationality">
       <rdfs:label xml:lang="en">Has nationality</rdfs:label>
       <skos:prefLabel xml:lang="en">Has nationality</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:Person -&gt; at-voc:country (+epo:hasNationality)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:country which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/country
+ (epo:Person -&gt; at-voc:country (+epo:hasNationality)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPurpose">
@@ -4281,6 +4339,12 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalBasisID">
       <rdfs:label xml:lang="en">Has legal basis i d</rdfs:label>
       <skos:prefLabel xml:lang="en">Has legal basis i d</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:legal-basis which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis
+ (epo:PlannedProcurementPart -&gt; at-voc:legal-basis (+epo:hasLegalBasisID)) The codelist to be used is at-voc:legal-basis which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis
+ (epo:Procedure -&gt; at-voc:legal-basis (+epo:hasLegalBasisID)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:legal-basis which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis
+ (epo:PlannedProcurementPart -&gt; at-voc:legal-basis (+epo:hasLegalBasisID)) The codelist to be used is at-voc:legal-basis which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/legal-basis
+ (epo:Procedure -&gt; at-voc:legal-basis (+epo:hasLegalBasisID)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isForeseenInProjectProcurement">
@@ -4296,6 +4360,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasProcedureType">
       <rdfs:label xml:lang="en">Has procedure type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has procedure type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:procurement-procedure-type which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type
+ (epo:Procedure -&gt; at-voc:procurement-procedure-type (+epo:hasProcedureType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:procurement-procedure-type which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type
+ (epo:Procedure -&gt; at-voc:procurement-procedure-type (+epo:hasProcedureType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOverallPurpose">
@@ -4321,6 +4389,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNonPublicationJustification">
       <rdfs:label xml:lang="en">Has non publication justification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has non publication justification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:non-publication-justification which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification
+ (epo:PublicationProvision -&gt; at-voc:non-publication-justification (+epo:hasNonPublicationJustification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:non-publication-justification which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification
+ (epo:PublicationProvision -&gt; at-voc:non-publication-justification (+epo:hasNonPublicationJustification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasUnit">
@@ -4331,30 +4403,46 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainClassification">
       <rdfs:label xml:lang="en">Has main classification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has main classification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:cpv which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasMainClassification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:cpv which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasMainClassification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalClassification">
       <rdfs:label xml:lang="en">Has additional classification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has additional classification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:cpv which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasAdditionalClassification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:cpv which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasAdditionalClassification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOptionsPermission">
       <rdfs:label xml:lang="en">Has options permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Has options permission</skos:prefLabel>
-      <skos:definition xml:lang="en">
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
  (epo:Purpose -&gt; at-voc:permission (+epo:hasOptionsPermission)) </skos:definition>
-      <rdfs:comment xml:lang="en">
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
  (epo:Purpose -&gt; at-voc:permission (+epo:hasOptionsPermission)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasContractNatureType">
       <rdfs:label xml:lang="en">Has contract nature type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has contract nature type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:contract-nature which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasContractNatureType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:contract-nature which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasContractNatureType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalContractNature">
       <rdfs:label xml:lang="en">Has additional contract nature</rdfs:label>
       <skos:prefLabel xml:lang="en">Has additional contract nature</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:contract-nature which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasAdditionalContractNature)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:contract-nature which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasAdditionalContractNature)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRegulatoryFrameworkProvider">
@@ -4370,11 +4458,19 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasSelectionCriterionType">
       <rdfs:label xml:lang="en">Has selection criterion type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has selection criterion type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:selection-criterion which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/selection-criterion
+ (epo:SelectionCriterion -&gt; at-voc:selection-criterion (+epo:hasSelectionCriterionType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:selection-criterion which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/selection-criterion
+ (epo:SelectionCriterion -&gt; at-voc:selection-criterion (+epo:hasSelectionCriterionType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasStrategicProcurementType">
       <rdfs:label xml:lang="en">Has strategic procurement type</rdfs:label>
       <skos:prefLabel xml:lang="en">Has strategic procurement type</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:strategic-procurement which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement
+ (epo:StrategicProcurement -&gt; at-voc:strategic-procurement (+epo:hasStrategicProcurementType)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:strategic-procurement which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/strategic-procurement
+ (epo:StrategicProcurement -&gt; at-voc:strategic-procurement (+epo:hasStrategicProcurementType)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#proposesSubcontractor">
@@ -4385,16 +4481,28 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasSubcontractingObligation">
       <rdfs:label xml:lang="en">Has subcontracting obligation</rdfs:label>
       <skos:prefLabel xml:lang="en">Has subcontracting obligation</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:subcontracting-obligation which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-obligation
+ (epo:SubcontractTerm -&gt; at-voc:subcontracting-obligation (+epo:hasSubcontractingObligation)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:subcontracting-obligation which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-obligation
+ (epo:SubcontractTerm -&gt; at-voc:subcontracting-obligation (+epo:hasSubcontractingObligation)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLateSubmissionPermission">
       <rdfs:label xml:lang="en">Has late submission permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Has late submission permission</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:missing-info-submission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission
+ (epo:SubmissionTerm -&gt; at-voc:missing-info-submission (+epo:hasLateSubmissionPermission)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:missing-info-submission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/missing-info-submission
+ (epo:SubmissionTerm -&gt; at-voc:missing-info-submission (+epo:hasLateSubmissionPermission)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasNonElectronicSubmissionJustification">
       <rdfs:label xml:lang="en">Has non electronic submission justification</rdfs:label>
       <skos:prefLabel xml:lang="en">Has non electronic submission justification</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:communication-justification which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification
+ (epo:SubmissionTerm -&gt; at-voc:communication-justification (+epo:hasNonElectronicSubmissionJustification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:communication-justification which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/communication-justification
+ (epo:SubmissionTerm -&gt; at-voc:communication-justification (+epo:hasNonElectronicSubmissionJustification)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasSubmissionDocumentType">
@@ -4405,26 +4513,46 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasESubmissionPermission">
       <rdfs:label xml:lang="en">Has e submission permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Has e submission permission</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
+ (epo:SubmissionTerm -&gt; at-voc:permission (+epo:hasESubmissionPermission)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
+ (epo:SubmissionTerm -&gt; at-voc:permission (+epo:hasESubmissionPermission)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasTenderSubcontractingInformation">
       <rdfs:label xml:lang="en">Has tender subcontracting information</rdfs:label>
       <skos:prefLabel xml:lang="en">Has tender subcontracting information</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:subcontracting-indication which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-indication
+ (epo:SubmissionTerm -&gt; at-voc:subcontracting-indication (+epo:hasTenderSubcontractingInformation)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:subcontracting-indication which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/subcontracting-indication
+ (epo:SubmissionTerm -&gt; at-voc:subcontracting-indication (+epo:hasTenderSubcontractingInformation)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasECataloguePermission">
       <rdfs:label xml:lang="en">Has e catalogue permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Has e catalogue permission</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
+ (epo:SubmissionTerm -&gt; at-voc:permission (+epo:hasECataloguePermission)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:permission which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission
+ (epo:SubmissionTerm -&gt; at-voc:permission (+epo:hasECataloguePermission)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLanguage">
       <rdfs:label xml:lang="en">Has language</rdfs:label>
       <skos:prefLabel xml:lang="en">Has language</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:SubmissionTerm -&gt; at-voc:language (+epo:hasLanguage)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:language which is available at https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language
+ (epo:SubmissionTerm -&gt; at-voc:language (+epo:hasLanguage)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#includesAccessibilityCriteria">
       <rdfs:label xml:lang="en">Includes accessibility criteria</rdfs:label>
       <skos:prefLabel xml:lang="en">Includes accessibility criteria</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate includesAccessibilityCriteria  is at:voc:accessibility which is available at 
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility (epo:TechnicalSpecification -&gt; at-voc:accessibility (+epo:includesAccessibilityCriteria)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate includesAccessibilityCriteria  is at:voc:accessibility which is available at 
+https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/accessibility (epo:TechnicalSpecification -&gt; at-voc:accessibility (+epo:includesAccessibilityCriteria)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#isAttachedIn">
@@ -4455,6 +4583,10 @@ WG Approval 05/09/2019  (epo:ProcurementCriterionProperty &lt;-&gt; epo:Lot (+ep
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasSubcontractingApplicability">
       <rdfs:label xml:lang="en">Has subcontracting applicability</rdfs:label>
       <skos:prefLabel xml:lang="en">Has subcontracting applicability</skos:prefLabel>
+      <skos:definition xml:lang="en">The codelist to be used is at-voc:applicability which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability
+ (epo:TenderLot -&gt; at-voc:applicability (+epo:hasSubcontractingApplicability)) </skos:definition>
+      <rdfs:comment xml:lang="en">The codelist to be used is at-voc:applicability which is available at https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/applicability
+ (epo:TenderLot -&gt; at-voc:applicability (+epo:hasSubcontractingApplicability)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFinancialOfferValue">
@@ -5615,11 +5747,6 @@ Overall award criteria Weight 20% Price, 60% Quality, 20% Cost (epo:EvaluationTe
       <skos:prefLabel xml:lang="en">Overall cost award criteria ponderation</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasExclusionGroundApplicability">
-      <rdfs:label xml:lang="en">Exclusion ground applicability</rdfs:label>
-      <skos:prefLabel xml:lang="en">Exclusion ground applicability</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPersonalSituationCondition">
       <rdfs:label xml:lang="en">Personal situation condition</rdfs:label>
       <skos:prefLabel xml:lang="en">Personal situation condition</skos:prefLabel>
@@ -5712,31 +5839,26 @@ WG Approval 2019-02-05
  (epo:FrameworkAgreementTerm) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLatitudeDegrees">
-      <rdfs:label xml:lang="en">Latitude degrees</rdfs:label>
-      <skos:prefLabel xml:lang="en">Latitude degrees</skos:prefLabel>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFulfillsRequirement">
+      <rdfs:label xml:lang="en">Fulfills requirement</rdfs:label>
+      <skos:prefLabel xml:lang="en">Fulfills requirement</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLatitudeMinutes">
-      <rdfs:label xml:lang="en">Latitude minutes</rdfs:label>
-      <skos:prefLabel xml:lang="en">Latitude minutes</skos:prefLabel>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLatitude">
+      <rdfs:label xml:lang="en">Latitude</rdfs:label>
+      <skos:prefLabel xml:lang="en">Latitude</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLongitudeDegrees">
-      <rdfs:label xml:lang="en">Longitude degrees</rdfs:label>
-      <skos:prefLabel xml:lang="en">Longitude degrees</skos:prefLabel>
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLongitude">
+      <rdfs:label xml:lang="en">Longitude</rdfs:label>
+      <skos:prefLabel xml:lang="en">Longitude</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLongitudeMinutes">
-      <rdfs:label xml:lang="en">Longitude minutes</rdfs:label>
-      <skos:prefLabel xml:lang="en">Longitude minutes</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
-   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAltitude">
+   </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAltitude">
       <rdfs:label xml:lang="en">Altitude</rdfs:label>
       <skos:prefLabel xml:lang="en">Altitude</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:ObjectProperty>
+   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAwardDateScheduled">
       <rdfs:label xml:lang="en">Award date scheduled</rdfs:label>
       <skos:prefLabel xml:lang="en">Award date scheduled</skos:prefLabel>
@@ -6051,6 +6173,11 @@ WG Approval 12/03/2019 (epo:OpeningTerm) </skos:definition>
       <skos:prefLabel xml:lang="en">Date of death</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalBasis">
+      <rdfs:label xml:lang="en">Legal basis</rdfs:label>
+      <skos:prefLabel xml:lang="en">Legal basis</skos:prefLabel>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedContractNoticePublicationDate">
       <rdfs:label xml:lang="en">Estimated contract notice publication date</rdfs:label>
       <skos:prefLabel xml:lang="en">Estimated contract notice publication date</skos:prefLabel>
@@ -6202,11 +6329,6 @@ PIN for Competition needs to be signaled. This field can be used even if no cont
 Additional Information: 
 
 PIN for Competition needs to be signaled. This field can be used even if no contracts are awarded in the contract award notice. (epo:Procedure) </skos:definition>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalBasis">
-      <rdfs:label xml:lang="en">Legal basis</rdfs:label>
-      <skos:prefLabel xml:lang="en">Legal basis</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasLegalRegime">
@@ -6391,9 +6513,9 @@ In ESPD: This is used to explain other complex models of weighting for transpare
 WG Approval 19/09/2019  (epo:SelectionCriterion) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEEARecievedTenderLots">
-      <rdfs:label xml:lang="en">E e a recieved tender lots</rdfs:label>
-      <skos:prefLabel xml:lang="en">E e a recieved tender lots</skos:prefLabel>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEEAReceivedTenderLots">
+      <rdfs:label xml:lang="en">E e a received tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">E e a received tender lots</skos:prefLabel>
       <rdfs:comment xml:lang="en">The amount of tenders received from economic operators in other EEA countries other than the country of the buyer.
 
 WG Approval 12/12/2019 (epo:StatisticalInformation) </rdfs:comment>
