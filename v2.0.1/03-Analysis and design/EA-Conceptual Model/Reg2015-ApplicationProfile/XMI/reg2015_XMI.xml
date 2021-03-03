@@ -3953,7 +3953,7 @@
 				<target xmi:idref="EAID_4EBDECEB_7376_45db_85CE_9DB1B6DED23C">
 					<model ea_localid="1033" type="Enumeration" name="at-voc:country"/>
 					<role name="epo:hasCountryCode" visibility="Public" targetScope="instance"/>
-					<type multiplicity="0..*" aggregation="none" containment="Unspecified"/>
+					<type multiplicity="0..1" aggregation="none" containment="Unspecified"/>
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
@@ -3965,7 +3965,7 @@
 				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="0..*" rt="+epo:hasCountryCode"/>
+				<labels rb="0..1" rt="+epo:hasCountryCode"/>
 				<extendedProperties/>
 				<style/>
 				<xrefs/>
