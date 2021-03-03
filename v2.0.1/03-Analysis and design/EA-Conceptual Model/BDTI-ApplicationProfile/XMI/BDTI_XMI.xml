@@ -198,7 +198,7 @@
 						</ownedAttribute>
 						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_E8879858_A558_40ce_8542_51C3BE1EB1C2" name="epo:CountryCode">
 							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000045_A558_40ce_8542_51C3BE1EB1C2" value="0"/>
-							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000046_A558_40ce_8542_51C3BE1EB1C2" value="*"/>
+							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000046_A558_40ce_8542_51C3BE1EB1C2" value="1"/>
 							<type xmi:idref="EAJava_epo_Code"/>
 						</ownedAttribute>
 					</packagedElement>
@@ -751,7 +751,7 @@
 							<type xmi:idref="EAJava_epo_Date"/>
 						</ownedAttribute>
 						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_18A54FA0_6D0E_481b_8C58_61C41D8403DD" name="epo:PreferredPublicationDate">
-							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000173_6D0E_481b_8C58_61C41D8403DD" value="1"/>
+							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000173_6D0E_481b_8C58_61C41D8403DD" value="0"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000174_6D0E_481b_8C58_61C41D8403DD" value="1"/>
 							<type xmi:idref="EAJava_epo_Date"/>
 						</ownedAttribute>
@@ -761,12 +761,12 @@
 							<type xmi:idref="EAJava_epo_Code"/>
 						</ownedAttribute>
 						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_903A198D_A37B_4ca6_884A_9F309D1316F2" name="epo:NotificationContentType">
-							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000177_A37B_4ca6_884A_9F309D1316F2" value="1"/>
+							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000177_A37B_4ca6_884A_9F309D1316F2" value="0"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000178_A37B_4ca6_884A_9F309D1316F2" value="1"/>
 							<type xmi:idref="EAJava_epo_Code"/>
 						</ownedAttribute>
 						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_C2961EE7_A9CA_4865_B462_9068BA9D4D00" name="epo:DPSScope">
-							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000179_A9CA_4865_B462_9068BA9D4D00" value="1"/>
+							<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000179_A9CA_4865_B462_9068BA9D4D00" value="0"/>
 							<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000180_A9CA_4865_B462_9068BA9D4D00" value="1"/>
 							<type xmi:idref="EAJava_epo_Code"/>
 						</ownedAttribute>
@@ -1162,7 +1162,6 @@
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_DC83_4c75_BB86_3F29BF1C8B69" x="691" y="845" width="263" height="127"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_2279CEE3_DC83_4c75_BD6F_E2852D96CA0E" modelElement="EAID_96BDC10C_D172_40c3_BD6F_E2852D96CA0E">
-				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_DC83_4c75_BD6F_E2852D96CA0E" text="abstract class"/>
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_DC83_4c75_BD6F_E2852D96CA0E" text="epo:Notice"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_DC83_4c75_BD6F_E2852D96CA0E" x="1300" y="1505" width="206" height="112"/>
 			</ownedElement>
@@ -2223,7 +2222,7 @@
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="23"/>
 						<stereotype/>
-						<bounds lower="0" upper="*"/>
+						<bounds lower="0" upper="1"/>
 						<options/>
 						<style/>
 						<styleex value="volatile=0;"/>
@@ -2823,12 +2822,12 @@
 			</element>
 			<element xmi:idref="EAID_96BDC10C_D172_40c3_BD6F_E2852D96CA0E" xmi:type="uml:Class" name="epo:Notice" scope="public">
 				<model package="EAPK_801D9AC9_8A42_465b_A157_9E6B8CC25121" tpos="0" ea_localid="571" ea_eleType="element"/>
-				<properties documentation="Document published by the buyer about market opportunities and results.&#xA;&#xA;WG Approval 23/05/2019&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="abstract class" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="mfontsan" version="1.0" phase="1.0" created="2020-12-11 08:22:24" modified="2020-12-11 08:22:24" complexity="1" status="Proposed"/>
+				<properties documentation="Document published by the buyer about market opportunities and results.&#xA;&#xA;WG Approval 23/05/2019&#xA;" isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="mfontsan" version="1.0" phase="1.0" created="2020-12-11 08:22:24" modified="2021-03-03 12:11:16" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
-				<xrefs value="$XREFPROP=$XID={EE31D383-72DF-497a-8186-2A0B107D13CC}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=abstract class;@ENDSTEREO;$DES;$CLT={96BDC10C-D172-40c3-BD6F-E2852D96CA0E}$CLT;$ENDXREF;"/>
+				<xrefs/>
 				<extendedProperties tagged="0" package_name="epo"/>
 				<attributes>
 					<attribute xmi:idref="EAID_8E0A3496_4B29_4cce_BFDF_0E7219F7BC49" name="epo:PublicationDate" scope="Public">
@@ -2854,7 +2853,7 @@
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
 						<stereotype/>
-						<bounds lower="1" upper="1"/>
+						<bounds lower="0" upper="1"/>
 						<options/>
 						<style/>
 						<styleex value="volatile=0;union=0;"/>
@@ -2884,7 +2883,7 @@
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="3"/>
 						<stereotype/>
-						<bounds lower="1" upper="1"/>
+						<bounds lower="0" upper="1"/>
 						<options/>
 						<style/>
 						<styleex value="volatile=0;union=0;"/>
@@ -2899,7 +2898,7 @@
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="4"/>
 						<stereotype/>
-						<bounds lower="1" upper="1"/>
+						<bounds lower="0" upper="1"/>
 						<options/>
 						<style/>
 						<styleex value="volatile=0;"/>
@@ -4250,7 +4249,7 @@
 				<target xmi:idref="EAID_4EBDECEB_7376_45db_85CE_9DB1B6DED23C">
 					<model ea_localid="1033" type="Enumeration" name="at-voc:country"/>
 					<role name="epo:hasCountryCode" visibility="Public" targetScope="instance"/>
-					<type multiplicity="0..*" aggregation="none" containment="Unspecified"/>
+					<type multiplicity="0..1" aggregation="none" containment="Unspecified"/>
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
@@ -4262,7 +4261,7 @@
 				<properties ea_type="Dependency" direction="Source -&gt; Destination"/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="0..*" rt="+epo:hasCountryCode"/>
+				<labels rb="0..1" rt="+epo:hasCountryCode"/>
 				<extendedProperties/>
 				<style/>
 				<xrefs/>
@@ -5936,14 +5935,6 @@
 				<packagedElement xmi:type="uml:Extension" xmi:id="Generalization_extends" name="A_Generalization_extends" memberEnd="extension_extends extends-base_Generalization">
 					<ownedEnd xmi:id="extension_extends" name="extension_extends" type="extends" isComposite="true" lower="0" upper="1" memberEnd="extension_extends extends-base_Generalization"/>
 				</packagedElement>
-				<packagedElement xmi:type="uml:Stereotype" xmi:id="abstract class" name="abstract class">
-					<ownedAttribute xmi:type="uml:Property" xmi:id="abstract class-base_Class" name="base_Class" association="Class_abstract class">
-						<type href="http://www.omg.org/spec/UML/20131001/UML.xmi#Class"/>
-					</ownedAttribute>
-				</packagedElement>
-				<packagedElement xmi:type="uml:Extension" xmi:id="Class_abstract class" name="A_Class_abstract class" memberEnd="extension_abstract class abstract class-base_Class">
-					<ownedEnd xmi:id="extension_abstract class" name="extension_abstract class" type="abstract class" isComposite="true" lower="0" upper="1" memberEnd="extension_abstract class abstract class-base_Class"/>
-				</packagedElement>
 			</uml:Profile>
 		</profiles>
 		<diagrams>
@@ -6030,6 +6021,5 @@
 			</diagram>
 		</diagrams>
 	</xmi:Extension>
-	<thecustomprofile:abstract_class base_Class="EAID_96BDC10C_D172_40c3_BD6F_E2852D96CA0E" __EAStereoName="abstract class"/>
 	<thecustomprofile:extends base_Generalization="EAID_DEF6E7E9_E174_48c9_881A_8D4D97D3AF02"/>
 </xmi:XMI>

@@ -36,15 +36,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement core ontology</rdfs:label>
       <dct:title xml:lang="en">eProcurement core ontology</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#BDTI_XMI.xml-2020-12-16"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#BDTI_XMI.xml-2021-03-03"/>
       <owl:versionInfo>eProcurement core ontology version generated automatically from 
-                BDTI_XMI.xml on 16/12/2020</owl:versionInfo>
+                BDTI_XMI.xml on 03/03/2021</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-16+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-03+01:00</dct:date>
    </owl:Ontology>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Address">
       <rdfs:label xml:lang="en">Address</rdfs:label>
@@ -71,20 +71,18 @@ WG Approval 28/04/2020</skos:definition>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Buyer">
       <rdfs:label xml:lang="en">Buyer</rdfs:label>
       <skos:prefLabel xml:lang="en">Buyer</skos:prefLabel>
-      <rdfs:comment xml:lang="en">A role of an agent that awards the contract. 
+      <rdfs:comment xml:lang="en">A role of an agent that awards a contract and/or purchases items.
 
 Additional information:
-Examples of a buyer can be the role of contracting authority, contracting entity, a defence contractor, an international organisation, or an organisation awarding a contract subsidized by a contracting authority.
 
-
-WG Approval  28/04/2020</rdfs:comment>
-      <skos:definition xml:lang="en">A role of an agent that awards the contract. 
+In pre-award, the buyer generally awards the contract, however future purchasers may be foreseen.
+In post-award the buyer generally refers to the purchaser of items.</rdfs:comment>
+      <skos:definition xml:lang="en">A role of an agent that awards a contract and/or purchases items.
 
 Additional information:
-Examples of a buyer can be the role of contracting authority, contracting entity, a defence contractor, an international organisation, or an organisation awarding a contract subsidized by a contracting authority.
 
-
-WG Approval  28/04/2020</skos:definition>
+In pre-award, the buyer generally awards the contract, however future purchasers may be foreseen.
+In post-award the buyer generally refers to the purchaser of items.</skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:Class>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#CentralPurchasingBody">
@@ -317,14 +315,6 @@ WG Approval 12/12/2019
       <skos:prefLabel xml:lang="en">Value</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:Class>
-   <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Nuts">
-      <rdfs:label xml:lang="en">Nuts</rdfs:label>
-      <skos:prefLabel>Nuts</skos:prefLabel>
-   </skos:ConceptScheme>
-   <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/Procurement-procedure-type">
-      <rdfs:label xml:lang="en">Procurement-procedure-type</rdfs:label>
-      <skos:prefLabel>Procurement-procedure-type</skos:prefLabel>
-   </skos:ConceptScheme>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#summarisesProcedure">
       <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/a4g/ontology#relatesTo"/>
    </owl:ObjectProperty>
@@ -377,6 +367,11 @@ WG Approval 12/12/2019
  (epo:Address -&gt; at-voc:nuts (+epo:hasCountrySubentityCode)) </skos:definition>
       <rdfs:comment xml:lang="en">The code list to be used for the predicate hasCountrySubentityCode is at:voc:nuts which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/nuts&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
  (epo:Address -&gt; at-voc:nuts (+epo:hasCountrySubentityCode)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountryCode">
+      <rdfs:label xml:lang="en">Has country code</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has country code</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostalAddress">
@@ -935,67 +930,9 @@ WG Approval 12/11/2019
       <skos:prefLabel xml:lang="en">Timezone offset</skos:prefLabel>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountryCode">
-      <rdfs:label xml:lang="en">Country code</rdfs:label>
-      <skos:prefLabel xml:lang="en">Country code</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAlias">
       <rdfs:label xml:lang="en">Alias</rdfs:label>
       <skos:prefLabel xml:lang="en">Alias</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasType">
-      <rdfs:label xml:lang="en">Type</rdfs:label>
-      <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
-      <rdfs:comment xml:lang="en">The property Type can be used to identify the namespace and class of the Agent.
-
-This may be useful for XML implementations of the Model, where software applications need to know the type of the Agent in order to identify the particular Agent sub-class properties. But could also create a consistency problem consisting in specifying an IRI for one type of Agent whilst the actual individual of Agent is a different one.
-
-One way of resolving this inconsistency would be cross-checking by externalised means the requested IRI ID against the actual type of class (via shapes, Schematron, etc.).
-
-For more details on IRIs, check the Request For Comments website: https://tools.ietf.org/html/rfc3987
-
-Examples of IRIs:
-
-&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#Organisation&lt;/foreign&gt;
-&lt;foreign otherprops="#993300"&gt;
-&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#NaturalPerson&lt;/foreign&gt;
-&lt;foreign otherprops="#993300"&gt;
-&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#System&lt;/foreign&gt;
-
-An example of inconsistency:
-
-cagv:Agent.ID = 986454b6-22af-4894-9a3d-f201d236b88c
-cagv:Agent.Type = &lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#ORganisation&lt;/foreign&gt;
-cagv:NaturalPerson.ID = 986454b6-22af-4894-9a3d-f201d236b88c
-
-
- (epo:Agent) </rdfs:comment>
-      <skos:definition xml:lang="en">The property Type can be used to identify the namespace and class of the Agent.
-
-This may be useful for XML implementations of the Model, where software applications need to know the type of the Agent in order to identify the particular Agent sub-class properties. But could also create a consistency problem consisting in specifying an IRI for one type of Agent whilst the actual individual of Agent is a different one.
-
-One way of resolving this inconsistency would be cross-checking by externalised means the requested IRI ID against the actual type of class (via shapes, Schematron, etc.).
-
-For more details on IRIs, check the Request For Comments website: https://tools.ietf.org/html/rfc3987
-
-Examples of IRIs:
-
-&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#Organisation&lt;/foreign&gt;
-&lt;foreign otherprops="#993300"&gt;
-&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#NaturalPerson&lt;/foreign&gt;
-&lt;foreign otherprops="#993300"&gt;
-&lt;/foreign&gt;&lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#System&lt;/foreign&gt;
-
-An example of inconsistency:
-
-cagv:Agent.ID = 986454b6-22af-4894-9a3d-f201d236b88c
-cagv:Agent.Type = &lt;foreign otherprops="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#ORganisation&lt;/foreign&gt;
-cagv:NaturalPerson.ID = 986454b6-22af-4894-9a3d-f201d236b88c
-
-
- (epo:Agent) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasContractingEntity">
@@ -1083,20 +1020,6 @@ However, in eForms there is the code "other" to cover undefined activities. For 
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRecurrence">
       <rdfs:label xml:lang="en">Recurrence</rdfs:label>
       <skos:prefLabel xml:lang="en">Recurrence</skos:prefLabel>
-      <rdfs:comment xml:lang="en">The Procurement being notified is likely to be included in another procedure in the foreseeable future.
-
-Additional Information:
-
-For example, a regularly re-tendered municipal service. This does not include awarding multiple contracts within a single qualification system, framework agreement, or a dynamic purchasing system.
-
-WG Approval 12/05/2020 (epo:ContractNotice) </rdfs:comment>
-      <skos:definition xml:lang="en">The Procurement being notified is likely to be included in another procedure in the foreseeable future.
-
-Additional Information:
-
-For example, a regularly re-tendered municipal service. This does not include awarding multiple contracts within a single qualification system, framework agreement, or a dynamic purchasing system.
-
-WG Approval 12/05/2020 (epo:ContractNotice) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRecurrenceDescription">
@@ -1596,11 +1519,6 @@ WG Approval 09/04/2019  (epo:Purpose) </rdfs:comment>
 WG Approval 09/04/2019  (epo:Purpose) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasUnit">
-      <rdfs:label xml:lang="en">Unit</rdfs:label>
-      <skos:prefLabel xml:lang="en">Unit</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOptionsPermission">
       <rdfs:label xml:lang="en">Options permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Options permission</skos:prefLabel>
@@ -1617,9 +1535,9 @@ WG Approval 11/06/2020 (epo:Purpose) </rdfs:comment>
 WG Approval 11/06/2020 (epo:Purpose) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEEARecievedTenderLots">
-      <rdfs:label xml:lang="en">E e a recieved tender lots</rdfs:label>
-      <skos:prefLabel xml:lang="en">E e a recieved tender lots</skos:prefLabel>
+   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEEAReceivedTenderLots">
+      <rdfs:label xml:lang="en">E e a received tender lots</rdfs:label>
+      <skos:prefLabel xml:lang="en">E e a received tender lots</skos:prefLabel>
       <rdfs:comment xml:lang="en">The amount of tenders received from economic operators in other EEA countries other than the country of the buyer.
 
 WG Approval 12/12/2019 (epo:StatisticalInformation) </rdfs:comment>
