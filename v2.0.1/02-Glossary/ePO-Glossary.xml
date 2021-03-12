@@ -6,33 +6,29 @@
 
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AdditionalInformationDeadline</AttributeName>
-         <AttributeDefinition>The time limit for requesting further information.
-
-WG Approval 03/10/2019</AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ProcurementDocumentLandingPage</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:URI</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:SomeProcurementDocumentRestricted</AttributeName>
          <AttributeDefinition>The access to certain procurement documents is restricted.
 
 WG Approval 10/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:SomeProcurementDocumentRestrictedJustification</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:AdditionalDocument</ClassName>
-      <ClassDefinition>Supplementary interrelated document.</ClassDefinition>
+      <Attribute>
+         <AttributeName>epo:AdditionalInformationDeadline</AttributeName>
+         <AttributeDefinition>The time limit for requesting further information.
+
+WG Approval 03/10/2019</AttributeDefinition>
+         <AttributeType>epo:DateTime</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ProcurementDocumentLandingPage</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:Address</ClassName>
@@ -42,117 +38,117 @@ WG Approval 28/04/2020</ClassDefinition>
       <Attribute>
          <AttributeName>epo:AdditionalStreetName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:BlockName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:BuildingName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:BuildingNumber</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CityName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CitySubdivisionName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:CountryCode</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CountrySubentity</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CountrySubentityCode</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Department</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:District</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Floor</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:InhouseMail</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MarkAttention</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MarkCare</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PlotIdentification</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PostalZone</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Postbox</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Region</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Room</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:StreetName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:TimezoneOffset</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:CountryCode</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -161,42 +157,14 @@ WG Approval 28/04/2020</ClassDefinition>
 
 WG Approval 28/04/2020</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Alias</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:Type</AttributeName>
-         <AttributeDefinition>The property Type can be used to identify the namespace and class of the Agent.
-
-This may be useful for XML implementations of the Model, where software applications need to know the type of the Agent in order to identify the particular Agent sub-class properties. But could also create a consistency problem consisting in specifying an IRI for one type of Agent whilst the actual individual of Agent is a different one.
-
-One way of resolving this inconsistency would be cross-checking by externalised means the requested IRI ID against the actual type of class (via shapes, Schematron, etc.).
-
-For more details on IRIs, check the Request For Comments website: https://tools.ietf.org/html/rfc3987
-
-Examples of IRIs:
-
-&lt;font color="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#Organisation&lt;/font&gt;
-&lt;font color="#993300"&gt;
-&lt;/font&gt;&lt;font color="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#NaturalPerson&lt;/font&gt;
-&lt;font color="#993300"&gt;
-&lt;/font&gt;&lt;font color="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#System&lt;/font&gt;
-
-An example of inconsistency:
-
-cagv:Agent.ID = 986454b6-22af-4894-9a3d-f201d236b88c
-cagv:Agent.Type = &lt;font color="#993300"&gt;https://github.com/semiceu/cagv/2.0.0/xml/CV-Agent#ORganisation&lt;/font&gt;
-cagv:NaturalPerson.ID = 986454b6-22af-4894-9a3d-f201d236b88c
-
-
-</AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeName>epo:Alias</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -205,65 +173,65 @@ cagv:NaturalPerson.ID = 986454b6-22af-4894-9a3d-f201d236b88c
 
 (WG approval 05/11/2018)</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AwardCriterionType</AttributeName>
-         <AttributeDefinition>Category of award criterion.</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>A narrative text explaining the content of an instance of the class.
-
-WG Decision 17/09/2019 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:FixedValue</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:FixedValueType</AttributeName>
-         <AttributeDefinition>The method to interpret the fixed value as pertaining to a total or unit.
-
-WG Approval 17/09/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Formula</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition>Identifies the criterion unambiguously and uniquely across all  procurement procedures..</AttributeDefinition>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ThresholdType</AttributeName>
          <AttributeDefinition>The method to interpret the threshold value as minimum or a maximum.
 
 WG Approval 17/09/2019 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ThresholdValue</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:WeightValue</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeName>epo:AwardCriterionType</AttributeName>
+         <AttributeDefinition>Category of award criterion.</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:WeightValueType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition>A narrative text explaining the content of an instance of the class.
+
+WG Decision 17/09/2019 </AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:FixedValueType</AttributeName>
+         <AttributeDefinition>The method to interpret the fixed value as pertaining to a total or unit.
+
+WG Approval 17/09/2019</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:WeigthingJustification</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:WeightValue</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:WeightValueType</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:FixedValue</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Formula</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -276,7 +244,17 @@ WG Approval 17/09/2019 </AttributeDefinition>
          <AttributeDefinition>The official date of the award decision.
 
 WG Approval 09/01/2020</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Justification</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:NonAwardJustification</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:AwardStatus</AttributeName>
@@ -284,34 +262,7 @@ WG Approval 09/01/2020</AttributeDefinition>
 
  
 WG Approval 03/12/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Justification</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NonAwardJustification</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:AwardDimension</ClassName>
-      <ClassDefinition>The information needed to ponder award criteria dimensions, 
-The award is computed on the basis of different several dimensions such as quality, price and cost. 
-One dimension, e.g. quality, provides the information necessary to measure how the overall quality criteria will be evaluated, as opposed to the individual quality criterion (which has its own weight and threshold).</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:FixedValue</AttributeName>
-         <AttributeDefinition>The overall criteria of one single type that will be evaluated. 
-
-Additional information:  
-
-For instance quality, cost and price  are award criteria. One dimension would be quality with its own weight and threshold that maybe calculated on the basis of the individual criteria.
-
-WG decision 05/11/2019  </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -321,19 +272,6 @@ WG decision 05/11/2019  </AttributeDefinition>
 WG Approval 28/04/2020
 
 </ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:ListedCompany</AttributeName>
-         <AttributeDefinition>Public companies listed on a stock exchange and subject to disclosure requirements (either by stock exchange
- rules or through law or enforceable means), which impose requirements to ensure adequate transparency of 
-beneficial ownership. 
-
-&lt;u&gt;Additional Information:&lt;/u&gt;
-
-In eForms this indicator is used when the nationality of beneficial owner is not provided because the Economic Operator is registered in a regulated market that is subject to disclosure requirements consistent with Union law or subject to equivalent international standards which ensure adequate transparency of ownership information. 
-
-WG Approval 21/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
       <Attribute>
          <AttributeName>epo:Size</AttributeName>
          <AttributeDefinition>The category of the business depending on number of employees and turnover.
@@ -345,36 +283,30 @@ See Commission Recommendation of 6 May 2003 concerning the definition of micro, 
 ELI: http://data.europa.eu/eli/reco/2003/361/oj
 
 WG Approval 28/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ListedCompany</AttributeName>
+         <AttributeDefinition>Public companies listed on a stock exchange and subject to disclosure requirements (either by stock exchange
+ rules or through law or enforceable means), which impose requirements to ensure adequate transparency of 
+beneficial ownership. 
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+In eForms this indicator is used when the nationality of beneficial owner is not provided because the Economic Operator is registered in a regulated market that is subject to disclosure requirements consistent with Union law or subject to equivalent international standards which ensure adequate transparency of ownership information. 
+
+WG Approval 21/11/2019</AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
    </Class>
    <Class>
       <ClassName>epo:Buyer</ClassName>
-      <ClassDefinition>A role of an agent that awards the contract. 
+      <ClassDefinition>A role of an agent that awards a contract and/or purchases items.
 
 Additional information:
-Examples of a buyer can be the role of contracting authority, contracting entity, a defence contractor, an international organisation, or an organisation awarding a contract subsidized by a contracting authority.
 
-
-WG Approval  28/04/2020</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:ActivityDescription</AttributeName>
-         <AttributeDefinition>In the ePO ontology a taxonomy with all activities, based on different classifications (COFOG, UTILITIES, NACE), will be provided. In ePO this field is to be used exclusively to complement the definition attached to the MainActivityCode.
-
-However, in eForms there is the code "other" to cover undefined activities. For mapping to this eForms feature one could also use this property.
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:BuyerLegalType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:BuyerLegalTypeDescription</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
+In pre-award, the buyer generally awards the contract, however future purchasers may be foreseen.
+In post-award the buyer generally refers to the purchaser of items.</ClassDefinition>
       <Attribute>
          <AttributeName>epo:ContractingEntity</AttributeName>
          <AttributeDefinition>Role of entities, which:
@@ -390,7 +322,12 @@ For example, the Contracting Entities have different thresholds for the applicat
 
 WG Approval 28/04/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:BuyerLegalType</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MainActivityType</AttributeName>
@@ -403,7 +340,20 @@ The activities associated with buyers are derived from the top level of the Clas
 The activities associated with buyer are derived from sectors explicitly falling within the sectoral directive (2014/25/EU Art. 8 - Art. 14).
 
 WG Approval 05/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ActivityDescription</AttributeName>
+         <AttributeDefinition>In the ePO ontology a taxonomy with all activities, based on different classifications (COFOG, UTILITIES, NACE), will be provided. In ePO this field is to be used exclusively to complement the definition attached to the MainActivityCode.
+
+However, in eForms there is the code "other" to cover undefined activities. For mapping to this eForms feature one could also use this property.
+</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:BuyerLegalTypeDescription</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -430,7 +380,7 @@ WG Approval 30/09/2019
 
 
 </AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -449,14 +399,6 @@ WG Approval 30/09/2019
 </ClassDefinition>
    </Class>
    <Class>
-      <ClassName>epo:CandidateShortList</ClassName>
-      <ClassDefinition>The tenderers that have been selected in a two stage procedure.
-
-Additional information: the types of procedures this shortlist applies to are restricted procedures, competitive procedures with negotiation, competitive dialogue procedures and innovation partnerships.
-
-(WG approval 27/07/2018)</ClassDefinition>
-   </Class>
-   <Class>
       <ClassName>epo:CentralPurchasingBody</ClassName>
       <ClassDefinition>Role of a contracting authority that provides centralised purchasing activities and, possibly, ancillary purchasing activities for other procuring entities.
 
@@ -468,7 +410,7 @@ Contracting authority procuring activities conducted on a permanent basis, in on
       <Attribute>
          <AttributeName>epo:CPBType</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -476,21 +418,6 @@ Contracting authority procuring activities conducted on a permanent basis, in on
       <ClassDefinition>Update of information.
 
 WG Approval 5/11/2019</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:ChangeReason</AttributeName>
-         <AttributeDefinition>The motives for the change.
-
-WG 5/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:DateTime</AttributeName>
-         <AttributeDefinition>The date and time of the change
-
-WG Approval 5/11/2019
-</AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
-      </Attribute>
       <Attribute>
          <AttributeName>epo:Description</AttributeName>
          <AttributeDefinition>Information about the change.
@@ -500,21 +427,36 @@ Additional Information
 Used, for example, to explain the main reason for the change in a document compared to the original document.
 
 WG Approval 17/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ProcurementDocumentChanged</AttributeName>
          <AttributeDefinition>One or more procurement documents have been changed.
 
 WG Approval 05/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Reason</AttributeName>
          <AttributeDefinition>Code explaining the change.
 
 WG Approval 5/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ChangeReason</AttributeName>
+         <AttributeDefinition>The motives for the change.
+
+WG 5/11/2019</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:DateTime</AttributeName>
+         <AttributeDefinition>The date and time of the change
+
+WG Approval 5/11/2019
+</AttributeDefinition>
+         <AttributeType>epo:DateTime</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -532,49 +474,6 @@ WG Suggestion to eForms 30/09/2019
 
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AdditionalInformation</AttributeName>
-         <AttributeDefinition>Supplementary data about the instance of the concept.
-
-WG Approval 30/09/2019
-
-(The property epo:hasAdditionalInformation is equivalent to cagv:hasDescription)</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:CommunicationType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Endpoint</AttributeName>
-         <AttributeDefinition>The value identifying a communication network node, required to gain access to a service.
-
-Additional information
-
-Examples:
-https://data.gov.es/sdg?serviceId=diploma-request
-mailto:myname@mycompany.com
-+33 6090 92 81 80 Ext. 3213
-
-WG Approval 07/05/2020</AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Name</AttributeName>
-         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:URL</AttributeName>
          <AttributeDefinition>The identifier of a resource.
 
@@ -591,7 +490,40 @@ For example:
 WG Approval 30/09/2019
 
 </AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AdditionalInformation</AttributeName>
+         <AttributeDefinition>Supplementary data about the instance of the concept.
+
+WG Approval 30/09/2019
+
+(The property epo:hasAdditionalInformation is equivalent to cagv:hasDescription)</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Endpoint</AttributeName>
+         <AttributeDefinition>The value identifying a communication network node, required to gain access to a service.
+
+Additional information
+
+Examples:
+https://data.gov.es/sdg?serviceId=diploma-request
+mailto:myname@mycompany.com
++33 6090 92 81 80 Ext. 3213
+
+WG Approval 07/05/2020</AttributeDefinition>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Name</AttributeName>
+         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -604,31 +536,31 @@ The contact point could be a role, email address, telephone number, etc.
 
 WG approval 5/11/2019</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:Email</AttributeName>
          <AttributeDefinition>The eMail address used to reach a person or an organisation.</AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Fax</AttributeName>
          <AttributeDefinition>The fax number used to reach a person or an organisation.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:InternetAddress</AttributeName>
-         <AttributeDefinition>The website of the organisation.
-</AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Telephone</AttributeName>
          <AttributeDefinition>The telephone number used to reach a person or an organisation.
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:InternetAddress</AttributeName>
+         <AttributeDefinition>The website of the organisation.
+</AttributeDefinition>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -641,6 +573,18 @@ This includes concession contracts.
 
 (WG approval 01/06/2018)</ClassDefinition>
       <Attribute>
+         <AttributeName>epo:Title</AttributeName>
+         <AttributeDefinition>A short self-descriptive name of the instance of the concept.
+
+Additional Information:
+
+For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
+
+(WG Approval 11-11-2019)
+</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
          <AttributeName>epo:ContractConclusionDate</AttributeName>
          <AttributeDefinition>The date the contract was signed by the last signatory party.
 
@@ -649,7 +593,7 @@ In exceptional cases contracts may be concluded without signature and therefore 
 This concept is not to be confused with the date of completion/end of the contract.
 
 WG Approval 09/01/2020</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:EntryintoForceDate</AttributeName>
@@ -660,24 +604,12 @@ Additional information:
 This is generally the date on which the fulfillment of the contract begins.
 
 WG approval 05/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Title</AttributeName>
-         <AttributeDefinition>A short self-descriptive name of the instance of the concept.
-
-Additional Information:
-
-For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
-
-(WG Approval 11-11-2019)
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -696,19 +628,19 @@ For example, the title of a planned part that may become a procedure or a lot in
          <AttributeDefinition>An explanatory text about this context. 
 
  WG Approval 5/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Justification</AttributeName>
          <AttributeDefinition>An explanation about the reasons for using the concept. 
 
 WG Approval 5/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ModificationReason</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -725,7 +657,7 @@ Additional Information:
 For example, a regularly re-tendered municipal service. This does not include awarding multiple contracts within a single qualification system, framework agreement, or a dynamic purchasing system.
 
 WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:RecurrenceDescription</AttributeName>
@@ -736,15 +668,11 @@ For example estimated timing of the Procedure.
 
 
 (WG approval 2019-01-16)</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
       <ClassName>epo:Contractor</ClassName>
-      <ClassDefinition/>
-   </Class>
-   <Class>
-      <ClassName>epo:ContractTemplate</ClassName>
       <ClassDefinition/>
    </Class>
    <Class>
@@ -754,28 +682,20 @@ For example estimated timing of the Procedure.
 (WG approval 23/11/2018)
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:BroadPlaceOfPerformance</AttributeName>
-         <AttributeDefinition>Geopolitical zone where the contract can be executed.
+         <AttributeName>epo:EOrdering</AttributeName>
+         <AttributeDefinition>Electronic means will be used for requesting and purchasing in the post-award process.
 
-Additional Information
+WG Approval 12/09/2019
 
-Used for setting restrictions that cannot be established with one country code or a geographical zone identifier (like NUTS), because they have a broader scope (geographical, economic, political, other).</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ContractorLegalFormRequirement</AttributeName>
-         <AttributeDefinition>A specific legal entity must be taken up by a tenderer composed of a group of economic operators once it has been awarded a contract.
-
-Additional information: this may be applied in the case of groups (e.g. a consortium) where the requirement is that they have to formalise the relationship of the group members as a legal entity itself once the contract is awarded.
-
-WG Approval 2019-01-29
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:ContractorLegalFormRequirementDescription</AttributeName>
-         <AttributeDefinition>A constraint concerning the legal form that must be adopted by a tenderer composed of a group of economic operators once it has been awarded a contract.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeName>epo:EPayment</AttributeName>
+         <AttributeDefinition>
+
+         </AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:EInvoicing</AttributeName>
@@ -783,23 +703,12 @@ WG Approval 2019-01-29
 
 WG Approval 12/09/2019
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:EOrdering</AttributeName>
-         <AttributeDefinition>Electronic means will be used for requesting and purchasing in the post-award process.
-
-WG Approval 12/09/2019
-
-</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:EPayment</AttributeName>
-         <AttributeDefinition>
-
-         </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeName>epo:RenewalIndicator</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MaximumNumberOfRenewals</AttributeName>
@@ -812,7 +721,29 @@ For example, a contract may be valid for one year and the buyer may keep a possi
 
 PLEASE REVIEW THIS DEFINITION AGAIN WITH THE WORKING GROUP. It was originally taken from eForms.
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:RenewalDescription</AttributeName>
+         <AttributeDefinition>Any other information about the renewal(s).
+
+WG approval 16/04/2019 </AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ContractorLegalFormRequirement</AttributeName>
+         <AttributeDefinition>A specific legal entity must be taken up by a tenderer composed of a group of economic operators once it has been awarded a contract.
+
+Additional information: this may be applied in the case of groups (e.g. a consortium) where the requirement is that they have to formalise the relationship of the group members as a legal entity itself once the contract is awarded.
+
+WG Approval 2019-01-29
+</AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ContractorLegalFormRequirementDescription</AttributeName>
+         <AttributeDefinition>A constraint concerning the legal form that must be adopted by a tenderer composed of a group of economic operators once it has been awarded a contract.</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PaymentArrangement</AttributeName>
@@ -823,37 +754,7 @@ Additional Information: These clauses usually refer to financial and payment pro
 This type of information should be structured instead of a free text in order to reuse it an ideal world. Unfortunately this is an information that in the real life no one is willing to provide pro-actively.
 
 WG Pending of discussion with eForms</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:PerformanceConditions</AttributeName>
-         <AttributeDefinition>The particular conditions and additional information related to the execution of the contract.
-
-Additional Information: 
-
-For example, specific information about the place of performance, intermediary deliverables, compensation for damages, intellectual property rights.
-
-WG approval 15-01-2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:PlaceOfPerformanceAdditionalInformation</AttributeName>
-         <AttributeDefinition>Further details on the location of the execution of the contract.
-
-WG Approval 30/07/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:RenewalDescription</AttributeName>
-         <AttributeDefinition>Any other information about the renewal(s).
-
-WG approval 16/04/2019 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:RenewalIndicator</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReservedExecution</AttributeName>
@@ -865,58 +766,64 @@ WG Approval 12/09/2019
 
 
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:CountryIdentification</ClassName>
-      <ClassDefinition>A country is one of the political units which the world is divided into, covering a particular area of land.
-
-WG approval  08/06/2018</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:Country</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:Name</AttributeName>
-         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeName>epo:BroadPlaceOfPerformance</AttributeName>
+         <AttributeDefinition>Geopolitical zone where the contract can be executed.
+
+Additional Information
+
+Used for setting restrictions that cannot be established with one country code or a geographical zone identifier (like NUTS), because they have a broader scope (geographical, economic, political, other).</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:Criterion</ClassName>
-      <ClassDefinition>A condition that needs to be answered for evaluation purposes.
+      <Attribute>
+         <AttributeName>epo:PlaceOfPerformanceAdditionalInformation</AttributeName>
+         <AttributeDefinition>Further details on the location of the execution of the contract.
 
-Additional Information: this can be used for transparency and evaluation of  PRICE CRITERIA
-(list of criteria related to price) Selection and Award Criterion that are weighted.
+WG Approval 30/07/2019</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:PerformanceConditions</AttributeName>
+         <AttributeDefinition>The particular conditions and additional information related to the execution of the contract.
 
-(WG approval 22/06/2018)</ClassDefinition>
-   </Class>
-   <Class>
-      <ClassName>epo:DescriptiveDocument</ClassName>
-      <ClassDefinition>Describes the object of the procurement and the properties of the procedure.
-</ClassDefinition>
+Additional Information: 
+
+For example, specific information about the place of performance, intermediary deliverables, compensation for damages, intellectual property rights.
+
+WG approval 15-01-2019</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:DesignContestRegimeTerm</ClassName>
-      <ClassDefinition>Any service contract following the contest awarded to one of the winners. 
+      <ClassDefinition>Conditions and stipulations defining particularities of a Design Contest.
 
-Additional information:</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:DesignContestType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
+WG approval: 04-02-2021</ClassDefinition>
       <Attribute>
          <AttributeName>epo:JuryDecisionBinding</AttributeName>
          <AttributeDefinition>Indicates whether the procuring entity is bound to apply the decision of the jury.</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ParticipationPayment</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:FollowupContract</AttributeName>
+         <AttributeDefinition>Any subsequent service contract will be awarded to the winner or, in the case of a design contest, winners.
+
+WG Approval 29/08/2019 </AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:FollowupContractInformation</AttributeName>
+         <AttributeDefinition>Further information about follow-up contracts, prizes and payments (for example non-monetary prizes, payments given for participation).
+
+WG Approval 03/09/2019</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -936,6 +843,13 @@ WG Approval 22/11/2019
 
 </ClassDefinition>
       <Attribute>
+         <AttributeName>epo:JustificationType</AttributeName>
+         <AttributeDefinition>List of reasons for using a procedure which allows awarding contracts directly without publishing a notice. 
+
+WG Approval 28/05/2020</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
          <AttributeName>epo:Justification</AttributeName>
          <AttributeDefinition>An explanation about the reasons for using the concept. 
 
@@ -944,14 +858,7 @@ WG Approval 22/11/2019
 
 WG Approval 5/11/2019
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:JustificationType</AttributeName>
-         <AttributeDefinition>List of reasons for using a procedure which allows awarding contracts directly without publishing a notice. 
-
-WG Approval 28/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -964,54 +871,50 @@ Documents may convey information in any language, medium or form, including text
 WG Approval 23/05/2019
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:DispatchDate</AttributeName>
-         <AttributeDefinition>Date of transmission of a record to an organisation.
-
-WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition>&lt;font color="#ff0000"&gt;A unique identification for the Procedure.&lt;/font&gt;</AttributeDefinition>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:OfficialLanguage</AttributeName>
-         <AttributeDefinition>The language(s) in which the instances of the given concepts are officially available. These linguistic versions are equally legally valid.
-
-WG Approval 03/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReceptionDate</AttributeName>
          <AttributeDefinition>Notes: Date when a record is acknowledged by an organisation.
 
 WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:RestrictedCommunicationsJustification</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeName>epo:DispatchDate</AttributeName>
+         <AttributeDefinition>Date of transmission of a record to an organisation.
+
+WG Approval 12/05/2020</AttributeDefinition>
+         <AttributeType>epo:Date</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:OfficialLanguage</AttributeName>
+         <AttributeDefinition>The language(s) in which the instances of the given concepts are officially available. These linguistic versions are equally legally valid.
+
+WG Approval 03/10/2019</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:UnofficialLanguage</AttributeName>
          <AttributeDefinition>The language(s) in which the instances of the given concepts are also available in the following languages. These versions are not an official translation, they are provided only for information.
 
 WG Approval 03/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:UUID</AttributeName>
          <AttributeDefinition>A universally unique identifier for an instance of this document.
 
 WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:DraftCV</ClassName>
-      <ClassDefinition/>
+      <Attribute>
+         <AttributeName>epo:RestrictedCommunicationsJustification</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:DynamicPurchaseSystemTechnique</ClassName>
@@ -1025,7 +928,7 @@ WG Approval 12/05/2020</AttributeDefinition>
 Additional Information: This property can be used in the contract award notice even if no contracts are awarded . 
 
 WG Approval 22/11/2019</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1036,14 +939,8 @@ WG Approval 22/11/2019</AttributeDefinition>
       <Attribute>
          <AttributeName>epo:EAuctionUsage</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:ECatalogue</ClassName>
-      <ClassDefinition>Structured electronic format which allows for  automatic and electronic processing of listed information regarding goods and services.
-
-(WG approval 10/08/2018)</ClassDefinition>
    </Class>
    <Class>
       <ClassName>epo:EconomicOperator</ClassName>
@@ -1054,28 +951,8 @@ WG Approval 22/11/2019</AttributeDefinition>
       <Attribute>
          <AttributeName>epo:EORoleType</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:EconomicOperatorShortList</ClassName>
-      <ClassDefinition>The Economic Operators that are considered for a given procedure.
-
-WG approval 22/08/2019 </ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:LimitationDescription</AttributeName>
-         <AttributeDefinition>Self-explanatory text about a concept.
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:ESPDRequest</ClassName>
-      <ClassDefinition>European Single Procurement Document Request. Specification by the Procuring Entity of the exclusion and selection criteria for a Procurement Procedure. </ClassDefinition>
-   </Class>
-   <Class>
-      <ClassName>epo:ESPDResponse</ClassName>
-      <ClassDefinition>European Single Procurement Document Response. The declaration of the Economic Operator that it meets all the exclusion and selection criteria specified in the ESPD Request.</ClassDefinition>
    </Class>
    <Class>
       <ClassName>epo:EvaluationBoard</ClassName>
@@ -1083,47 +960,7 @@ WG approval 22/08/2019 </ClassDefinition>
       <Attribute>
          <AttributeName>epo:EvaluationGroupType</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:PercentageEvaluated</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Quantity</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:EvaluationResult</ClassName>
-      <ClassDefinition>The Evaluation Board publishes the result of tenders after completion of its evaluation.</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:IsAbnormallyLow</AttributeName>
-         <AttributeDefinition>A tender that is judged abnormally low based on technically, economically or legally unsound assumptions or practices.</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:IsAbnormallyLowJustification</AttributeName>
-         <AttributeDefinition>Justification that a tender is considered abnormally low.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NoResultReason</AttributeName>
-         <AttributeDefinition>Justification why the contract has and will not have a winner.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NumberAwardedContract</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:EvaluationSystem</ClassName>
-      <ClassDefinition>An automated solution that assesses structured information in tenders and proposes results.
-
-WG approval 20/11/2018</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:PercentageOfEvaluation</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Quantity</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1155,27 +992,23 @@ COST CRITERIA
 (list of criteria related to cost)
 
 Overall award criteria Weight 20% Price, 60% Quality, 20% Cost</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:OverallCostAwardCriteriaPonderation</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:OverallPriceAwardCriteriaPonderation</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:OverallQualityAwardCriteriaPonderation</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:Evaluator</ClassName>
-      <ClassDefinition/>
+      <Attribute>
+         <AttributeName>epo:OverallPriceAwardCriteriaPonderation</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:OverallCostAwardCriteriaPonderation</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:ExclusionGround</ClassName>
@@ -1183,76 +1016,14 @@ Overall award criteria Weight 20% Price, 60% Quality, 20% Cost</AttributeDefinit
 
 WG approval 31/10/2018</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:ExclusionGroundApplicability</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ExclusionGroundType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:PersonalSituationCondition</AttributeName>
          <AttributeDefinition>This condition is only used in the specific case of the Standard Form 17 (Defence), section III.2 Conditions for participation</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
-      <ClassName>epo:FinancialAccount</ClassName>
-      <ClassDefinition>(To be discussed during eSubmission WG decision 28/11/2018)
-</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:AliasName</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Country</AttributeName>
-         <AttributeDefinition>A country is one of the political units which the world is divided into, covering a particular area of land.
-
-(WG approval 8/06/2018)</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Name</AttributeName>
-         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:PaymentNote</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:FinancialTenderDocument</ClassName>
-      <ClassDefinition>
-
-      </ClassDefinition>
-   </Class>
-   <Class>
-      <ClassName>epo:FollowupContractTerm</ClassName>
+      <ClassName>epo:ExpressionOfInterest</ClassName>
       <ClassDefinition/>
-      <Attribute>
-         <AttributeName>epo:FollowupContract</AttributeName>
-         <AttributeDefinition>Any subsequent service contract will be awarded to the winner or, in the case of a design contest, winners.
-
-WG Approval 29/08/2019 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:FollowupContractInformation</AttributeName>
-         <AttributeDefinition>Further information about follow-up contracts, prizes and payments (for example non-monetary prizes, payments given for participation).
-
-WG Approval 03/09/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:FrameworkAgreement</ClassName>
@@ -1269,11 +1040,6 @@ WG Approval 09/01/2020</ClassDefinition>
       <ClassDefinition>The terms governing contracts, reached between one more buyers and one or more economic operators during a given period.
 
 (WG approval 05/12/2018)</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:FrameworkAgreementType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:FrameworkAgreementTerm</ClassName>
@@ -1283,27 +1049,6 @@ Additional Information: in exceptional cases related, for example, to framework 
 
 WG Approval 2019-19-02
 </ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:BuyerCoverage</AttributeName>
-         <AttributeDefinition>Buyers that can use the Framework Agreement not mentioned by name.
-
-Additional Information: 
-For example,  "all hospitals in the Tuscany region
-
-WG Approval 2019-05-06</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:DurationExtensionJustification</AttributeName>
-         <AttributeDefinition>The justification for exceptional cases when the duration of the framework agreement exceeds the legal limits. 
-
-Additional Information
-
-Four years in the case of the general procurement Directive, seven years in the case of the defence Directive, and eight years in the case of the sectoral Directive.
-
-WG Approval 26/09/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
       <Attribute>
          <AttributeName>epo:FrameworkAgreementType</AttributeName>
          <AttributeDefinition>The form of framework agreement used in a procurement procedure.
@@ -1318,7 +1063,28 @@ A concept to distinguish the different types of framework agreement, which are:
 WG Approval 19/09/2019 
 
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:BuyerCoverage</AttributeName>
+         <AttributeDefinition>Buyers that can use the Framework Agreement not mentioned by name.
+
+Additional Information: 
+For example,  "all hospitals in the Tuscany region
+
+WG Approval 2019-05-06</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:DurationExtensionJustification</AttributeName>
+         <AttributeDefinition>The justification for exceptional cases when the duration of the framework agreement exceeds the legal limits. 
+
+Additional Information
+
+Four years in the case of the general procurement Directive, seven years in the case of the defence Directive, and eight years in the case of the sectoral Directive.
+
+WG Approval 26/09/2019</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MaximumNumberOfAwardedTenderers</AttributeName>
@@ -1328,7 +1094,7 @@ Additional Information: the number is a positive integer.
 
 WG Approval 2019-02-05
 </AttributeDefinition>
-         <AttributeType>ccts:Quantity</AttributeType>
+         <AttributeType>epo:Quantity</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1352,17 +1118,17 @@ WG Approved 14/05/2019
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Name</AttributeName>
          <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:URL</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1375,6 +1141,11 @@ The approach may apply to the complete life cycle. The reduced environmental imp
 
 Tightly related are article 68 - Life-cycle costing and article 67 - most economically advantageous tender (see GPP handbook) https://ec.europa.eu/environment/gpp/pdf/Buying-Green-Handbook-3rd-Edition.pdf
 An instance of the class GreenProcurement is represented in eForms with the code "env-imp" defined in the codelist strategic-procurement.paragraphs) https://ec.europa.eu/environment/gpp/pdf/Buying-Green-Handbook-3rd-Edition.pdf</ClassDefinition>
+      <Attribute>
+         <AttributeName>epo:FulfillsRequirement</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:InnovativeProcurement</ClassName>
@@ -1393,16 +1164,31 @@ Articles: 2, 26 (3), 31, 67 (2.a)
 
 Question: 
 Is  Pre-Commercial Procurement (PCP) another type of Strategic Procurement?</ClassDefinition>
-   </Class>
-   <Class>
-      <ClassName>epo:InvitationToTender</ClassName>
-      <ClassDefinition>
-
-      </ClassDefinition>
+      <Attribute>
+         <AttributeName>epo:FulfillsRequirement</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:Item</ClassName>
       <ClassDefinition/>
+      <Attribute>
+         <AttributeName>epo:ID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Identifier</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Name</AttributeName>
+         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition>Self-explanatory text about a concept.
+</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
       <Attribute>
          <AttributeName>epo:CountryOfOrigin</AttributeName>
          <AttributeDefinition>The source country of the product or service.
@@ -1412,23 +1198,7 @@ Is  Pre-Commercial Procurement (PCP) another type of Strategic Procurement?</Cla
 &lt;/u&gt;The country of origin can be provided by  the buyer as a requirement or by the tenderer information of the item to be provided.
 
 WG Approval 07/01/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>Self-explanatory text about a concept.
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Name</AttributeName>
-         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1441,29 +1211,19 @@ Source: ISO 19112</ClassDefinition>
       <ClassName>epo:LocationCoordinate</ClassName>
       <ClassDefinition/>
       <Attribute>
+         <AttributeName>epo:Latitude</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Longitude</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
          <AttributeName>epo:Altitude</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Measure</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LatitudeDegrees</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Measure</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LatitudeMinutes</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Measure</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LongitudeDegrees</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Measure</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LongitudeMinutes</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Measure</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1472,31 +1232,15 @@ Source: ISO 19112</ClassDefinition>
 
 WG approval 12/09/2018</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AdditionalInformation</AttributeName>
-         <AttributeDefinition>Supplementary data about the instance of the concept.
-
-Additional Information
-
-For example, information about the Lot not specified elsewhere in the Notice.
-
-WG Approval 15/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:AwardDateScheduled</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Description</AttributeName>
          <AttributeDefinition>Self-explanatory text about a concept.
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:EstimatedTenderInvitationDate</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:GPAUsage</AttributeName>
@@ -1508,36 +1252,17 @@ The GPA aims to establish a multilateral framework of balanced rights and obliga
 WG Approval 15/10/2019
 
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:PerformingStafQualificationInformation</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReservedProcurement</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:SMESuitable</AttributeName>
-         <AttributeDefinition>The Lot is suitable for small and medium enterprises (SMEs).
-
-
-Additional Information
-
-This allows the buyer to make emphasis on the fact that the procedure has been designed having SMEs in mind. This indicator is also to be reflected in the selection criteria.
-
-For example, number of employees and turnover are applicable to the definition of an SME.
-
-WG Approval 15/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Title</AttributeName>
@@ -1549,7 +1274,7 @@ For example, the title of a planned part that may become a procedure or a lot in
 
 (WG Approval 11-11-2019)
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:VariantsPermission</AttributeName>
@@ -1565,7 +1290,42 @@ Additional Information:
 
 Further conditions for submitting variant tenders are in the procurement documents.
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:SMESuitable</AttributeName>
+         <AttributeDefinition>The Lot is suitable for small and medium enterprises (SMEs).
+
+
+Additional Information
+
+This allows the buyer to make emphasis on the fact that the procedure has been designed having SMEs in mind. This indicator is also to be reflected in the selection criteria.
+
+For example, number of employees and turnover are applicable to the definition of an SME.
+
+WG Approval 15/10/2019</AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AdditionalInformation</AttributeName>
+         <AttributeDefinition>Supplementary data about the instance of the concept.
+
+Additional Information
+
+For example, information about the Lot not specified elsewhere in the Notice.
+
+WG Approval 15/10/2019</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:PerformingStafQualificationInformation</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:EstimatedTenderInvitationDate</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1582,15 +1342,15 @@ Pending of discussion with eForms
 
 Member States may provide that, where more than one lot may be awarded to the same tenderer, contracting authorities may award contracts combining several or all lots where they have specified in the contract notice or in the invitation to confirm interest that they reserve the possibility of doing so and indicate the lots or groups of lots that may be combined.</ClassDefinition>
       <Attribute>
+         <AttributeName>epo:ID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Identifier</AttributeType>
+      </Attribute>
+      <Attribute>
          <AttributeName>epo:Description</AttributeName>
          <AttributeDefinition>Self-explanatory text about a concept.
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Title</AttributeName>
@@ -1602,7 +1362,7 @@ For example, the title of a planned part that may become a procedure or a lot in
 
 (WG Approval 11-11-2019)
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1613,45 +1373,11 @@ For example, the title of a planned part that may become a procedure or a lot in
       <ClassName>epo:MultipleStageProcedureTerm</ClassName>
       <ClassDefinition/>
       <Attribute>
-         <AttributeName>epo:EstimatedInvitationToExpressInterestDate</AttributeName>
-         <AttributeDefinition>The estimated date of dispatch of the invitations to confirm interest.
-</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:EstimatedInvitationToTenderDate</AttributeName>
-         <AttributeDefinition>The estimated date of dispatch of the invitations to submit tenders in two (or more) stage procedures.
-
-WG Approval 01/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MaximumCandidates</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:MaximumNumberOfCandidates</AttributeName>
          <AttributeDefinition>Maximum number of candidates to be invited for the second stage of the procedure.
 
 WG Approval 22/08/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MinimumNumberOfCandidates</AttributeName>
-         <AttributeDefinition>Minimum number of candidates to be invited for the second stage of the procedure.
-
-WG Approval 22/08/2019 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NoNegotiationNecessary</AttributeName>
-         <AttributeDefinition>The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations.
-
-Additional information:
-See Article 29(4) of Directive 2014/24/EU. 
-</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:SuccessiveReduction</AttributeName>
@@ -1660,7 +1386,41 @@ See Article 29(4) of Directive 2014/24/EU.
 Additional information:
 This refers to multiple-stage procedures (included two-stage procedures, at least). Open Procedures can be seen as one-stage procedures.
 WG Approval 22/08/2019 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MinimumNumberOfCandidates</AttributeName>
+         <AttributeDefinition>Minimum number of candidates to be invited for the second stage of the procedure.
+
+WG Approval 22/08/2019 </AttributeDefinition>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:EstimatedInvitationToTenderDate</AttributeName>
+         <AttributeDefinition>The estimated date of dispatch of the invitations to submit tenders in two (or more) stage procedures.
+
+WG Approval 01/10/2019</AttributeDefinition>
+         <AttributeType>epo:Date</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:NoNegotiationNecessary</AttributeName>
+         <AttributeDefinition>The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations.
+
+Additional information:
+See Article 29(4) of Directive 2014/24/EU. 
+</AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:EstimatedInvitationToExpressInterestDate</AttributeName>
+         <AttributeDefinition>The estimated date of dispatch of the invitations to confirm interest.
+</AttributeDefinition>
+         <AttributeType>epo:Date</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MaximumCandidates</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1670,48 +1430,37 @@ WG Approval 22/08/2019 </AttributeDefinition>
 WG Approval 23/05/2019
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:DPSScope</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:FormType</AttributeName>
-         <AttributeDefinition>A categorisation of the steps in which the Notice is used.
+         <AttributeName>epo:PublicationDate</AttributeName>
+         <AttributeDefinition>The date when a record is made publicly available.
 
-WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NotificationContentType</AttributeName>
-         <AttributeDefinition>A categorisation of templates for sets of Procurement information to be conveyed in Notices.
-
-WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+(WG approval 01/06/2018)</AttributeDefinition>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PreferredPublicationDate</AttributeName>
          <AttributeDefinition>The date the buyer would like to have the record made publicly available.
 
 WG Approval 12/05/2020</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:PublicationDate</AttributeName>
-         <AttributeDefinition>The date when a record is made publicly available.
+         <AttributeName>epo:FormType</AttributeName>
+         <AttributeDefinition>A categorisation of the steps in which the Notice is used.
 
-(WG approval 01/06/2018)</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+WG Approval 12/05/2020</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:OpeningHoursSpecification</ClassName>
-      <ClassDefinition>A structured value providing information about the availability of the channel or a contact point. 
-
-WG Approval 28/04/2020</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Description</AttributeName>
+         <AttributeName>epo:NotificationContentType</AttributeName>
+         <AttributeDefinition>A categorisation of templates for sets of Procurement information to be conveyed in Notices.
+
+WG Approval 12/05/2020</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:DPSScope</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1724,7 +1473,7 @@ WG Approval 28/04/2020</ClassDefinition>
 WG Approval 12/03/2019
 
 </AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
+         <AttributeType>epo:DateTime</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:OpeningDescription</AttributeName>
@@ -1734,7 +1483,12 @@ Additional Information
 For example, who may participate in the opening and whether any authorization is needed.
 
 WG Approval 12/03/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:OpeningURL</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:URI</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1744,23 +1498,23 @@ WG Approval 12/03/2019</AttributeDefinition>
 (WG approval 23/11/2018).
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:LegalFormType</AttributeName>
-         <AttributeDefinition>Note that the codelist provided at national level should be used.</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:Name</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LegalFormType</AttributeName>
+         <AttributeDefinition>Note that the codelist provided at national level should be used.</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
       <ClassName>epo:OrganisationGroup</ClassName>
       <ClassDefinition/>
       <Attribute>
-         <AttributeName>epo:EOGroupType</AttributeName>
+         <AttributeName>epo:GroupType</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1770,35 +1524,34 @@ WG Approval 12/03/2019</AttributeDefinition>
 (WG approval 28/04/2020)
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>A description of this period, expressed as text.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:DurationMeasure</AttributeName>
-         <AttributeDefinition>The duration of this period, expressed as an ISO 8601 code. See also the ccts:Measure data type in the ePO package "ccts".
-</AttributeDefinition>
-         <AttributeType>ccts:Measure</AttributeType>
+         <AttributeName>epo:StartDate</AttributeName>
+         <AttributeDefinition>The date on which this period begins.</AttributeDefinition>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:EndDate</AttributeName>
          <AttributeDefinition>The date on which this period ends.</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:EndTime</AttributeName>
-         <AttributeDefinition>The time at which this period ends.</AttributeDefinition>
-         <AttributeType>ccts:Time</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:StartDate</AttributeName>
-         <AttributeDefinition>The date on which this period begins.</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeName>epo:DurationMeasure</AttributeName>
+         <AttributeDefinition>The duration of this period, expressed as an ISO 8601 code. </AttributeDefinition>
+         <AttributeType>epo:Measure</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:StartTime</AttributeName>
          <AttributeDefinition>The time at which this period begins.</AttributeDefinition>
-         <AttributeType>ccts:Time</AttributeType>
+         <AttributeType>epo:Time</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:EndTime</AttributeName>
+         <AttributeDefinition>The time at which this period ends.</AttributeDefinition>
+         <AttributeType>epo:Time</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition>A description of this period, expressed as text.</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1808,49 +1561,54 @@ WG Approval 12/03/2019</AttributeDefinition>
 WG Approval 28/04/2020
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AlternativeName</AttributeName>
+         <AttributeName>epo:FullName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:BirthFamilyName</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:DateOfBirth</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Date</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:DateOfDeath</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:FamilyName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:FullName</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:GivenName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Nationality</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PatronimicName</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AlternativeName</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:BirthFamilyName</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:DateOfBirth</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Date</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:DateOfDeath</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Date</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Identifier</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Nationality</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1859,29 +1617,9 @@ WG Approval 28/04/2020
 
 WG Approval 20/06/2019</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AdditionalInformation</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition>A character string to identify and distinguish uniquely, one instance of an object in an identification scheme from all other objects in the same scheme together with relevant supplementary information.</AttributeDefinition>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LegalBasisID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:URI</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:SMESuitable</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Title</AttributeName>
@@ -1893,16 +1631,33 @@ For example, the title of a planned part that may become a procedure or a lot in
 
 (WG Approval 11-11-2019)
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:PreAwardCatalogueRequest</ClassName>
-      <ClassDefinition/>
-   </Class>
-   <Class>
-      <ClassName>epo:PreAwardCatalogueResponse</ClassName>
-      <ClassDefinition/>
+      <Attribute>
+         <AttributeName>epo:LegalBasis</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:SMESuitable</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AdditionalInformation</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LegalBasisID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:PriorInformationNotice</ClassName>
@@ -1910,7 +1665,7 @@ For example, the title of a planned part that may become a procedure or a lot in
       <Attribute>
          <AttributeName>epo:EstimatedContractNoticePublicationDate</AttributeName>
          <AttributeDefinition>Foreseen date for publication of Contract Notice.</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1922,14 +1677,14 @@ For example, the title of a planned part that may become a procedure or a lot in
 
 WG Approval 29/08/2019 
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PrizeValue</AttributeName>
          <AttributeDefinition>The monetary value of a prize, if any, for the winner (or runners-up) of the design contest.
 
 WG Approval 29/08/2019</AttributeDefinition>
-         <AttributeType>ccts:Amount</AttributeType>
+         <AttributeType>epo:Amount</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -1951,7 +1706,7 @@ This modifies the time limit for the receipt of requests to participate or the r
 
 WG Approval 20/08/2019
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:AcceleratedProcedureJustification</AttributeName>
@@ -1963,27 +1718,21 @@ A procedure is accelerated to cover needs of extraordinary circumstances ie eart
 WG Approval 09/06/2020
 
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ChoiceJustification</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:CompetitionTermination</AttributeName>
-         <AttributeDefinition>No further contracts will be awarded in this procedure.
+         <AttributeName>epo:MainFeature</AttributeName>
+         <AttributeDefinition>Main features of the procedure and information about where the full rules for the procedure can be found. 
 
-Additional Information: 
+Additional Information
 
-PIN for Competition needs to be signaled. This field can be used even if no contracts are awarded in the contract award notice.</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>Self-explanatory text about a concept.
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+This information should be given when the procedure is not one of those mentioned in the procurement directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
@@ -1997,65 +1746,13 @@ WG Approval 12/11/2019
 &lt;font color="#ff0000"&gt;
 &lt;/font&gt;&lt;font color="#ff0000"&gt;
 &lt;/font&gt;</AttributeDefinition>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:LegalBasis</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LegalBasisID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:URI</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LegalRegime</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LotMinimumSubmission</AttributeName>
-         <AttributeDefinition>The minimum number of lots for which one tenderer must submit tenders. 
-
-Additional Information
-
-This can be used to state that a tenderer has to submit the maximum number of lots announced in the contract notice (i.e. in this case the Lot Minimum Submission would equal to the Lot Submission Limit).
-
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition>Self-explanatory text about a concept.
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LotSubmissionLimit</AttributeName>
-         <AttributeDefinition>The total number of lots for which one tenderer can submit tenders.
-
-(WG approval 12/12/2018)
-
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MainFeature</AttributeName>
-         <AttributeDefinition>Main features of the procedure and information about where the full rules for the procedure can be found. 
-
-Additional Information
-
-This information should be given when the procedure is not one of those mentioned in the procurement directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MaximumNumberOfLotsToBeAwarded</AttributeName>
-         <AttributeDefinition>The maximum number of lots for which contract(s) can be awarded to one tenderer.
-
-WG Approval 22/08/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ProcedureType</AttributeName>
-         <AttributeDefinition>Identification of the Procedure used.
-
-WG Approval 09/06/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Title</AttributeName>
@@ -2066,7 +1763,77 @@ Additional Information:
 For example, the title of a planned part that may become a procedure or a lot in the future; the title of a contract, etc.
 
 (WG Approval 11-11-2019)</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LotMinimumSubmission</AttributeName>
+         <AttributeDefinition>The minimum number of lots for which one tenderer must submit tenders. 
+
+Additional Information
+
+This can be used to state that a tenderer has to submit the maximum number of lots announced in the contract notice (i.e. in this case the Lot Minimum Submission would equal to the Lot Submission Limit).
+
+</AttributeDefinition>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LotSubmissionLimit</AttributeName>
+         <AttributeDefinition>The total number of lots for which one tenderer can submit tenders.
+
+(WG approval 12/12/2018)
+
+</AttributeDefinition>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MaximumNumberOfLotsToBeAwarded</AttributeName>
+         <AttributeDefinition>The maximum number of lots for which contract(s) can be awarded to one tenderer.
+
+WG Approval 22/08/2019</AttributeDefinition>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:CompetitionTermination</AttributeName>
+         <AttributeDefinition>No further contracts will be awarded in this procedure.
+
+Additional Information: 
+
+PIN for Competition needs to be signaled. This field can be used even if no contracts are awarded in the contract award notice.</AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LegalBasisID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LegalBasis</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LegalRegime</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ProcedureType</AttributeName>
+         <AttributeDefinition>Identification of the Procedure used.
+
+WG Approval 09/06/2020</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:DesignContest</AttributeName>
+         <AttributeDefinition>A competition which enables the buyer to acquire a  plan or design via a jury.
+
+Additional information: 
+Design contests have traditionally mostly been used in the fields of town and country planning, architecture and engineering or data processing, other purposes, such as to obtain plans for financial engineering 
+
+The contest may include or not the award of prizes;
+
+WG approval 04-02-2021 </AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2084,28 +1851,12 @@ This is generally used to indicate the deadline for Economic Operators to reques
 
 WG Approval 09/06/2020
 </AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
+         <AttributeType>epo:DateTime</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:EstimatedTenderInvitationDate</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Date</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:GroupLotEvaluationMethod</AttributeName>
-         <AttributeDefinition>Description of how lots and groups of lots are evaluated against one another in the procedure.
-
-
-
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LotAwardLimit</AttributeName>
-         <AttributeDefinition>The total number of lots for which contract(s) can be awarded to one tenderer.
-
-(WG Approval 12/12/2018)</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReceiptExpressionsDeadline</AttributeName>
@@ -2115,7 +1866,23 @@ WG Approval 09/06/2020
 Pending of review by the WG
 
 </AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
+         <AttributeType>epo:DateTime</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LotAwardLimit</AttributeName>
+         <AttributeDefinition>The total number of lots for which contract(s) can be awarded to one tenderer.
+
+(WG Approval 12/12/2018)</AttributeDefinition>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:GroupLotEvaluationMethod</AttributeName>
+         <AttributeDefinition>Description of how lots and groups of lots are evaluated against one another in the procedure.
+
+
+
+</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2128,23 +1895,24 @@ This Procurement Criterion can be only Exclusion Ground, Selection Criterion or 
 
 WG Approval 23/04/2020</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>Self-explanatory text about a concept.
-
-WG Approval 23/04/2020</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:Name</AttributeName>
          <AttributeDefinition>A short text representing an instance of the class.
 
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:ProcurementCriterionProperty</ClassName>
-      <ClassDefinition/>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition>Self-explanatory text about a concept.
+
+WG Approval 23/04/2020</AttributeDefinition>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Identifier</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:ProcurementDocument</ClassName>
@@ -2162,7 +1930,7 @@ WG Approval 23/05/2019 17:08:30</ClassDefinition>
       <Attribute>
          <AttributeName>epo:FreeEAccess</AttributeName>
          <AttributeDefinition>Indicates whether the procurement documents are electronically available for unrestricted and full direct access, free of charge.</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2195,12 +1963,12 @@ WG 12/09/2018</ClassDefinition>
          <AttributeName>epo:Description</AttributeName>
          <AttributeDefinition>Self-explanatory text about a concept.
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Title</AttributeName>
@@ -2212,28 +1980,7 @@ For example, the title of a planned part that may become a procedure or a lot in
 
 (WG Approval 11-11-2019)
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:Property</ClassName>
-      <ClassDefinition>Specific information needed to measure a criterion.
-
-(WG approval 22/06/2018)</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>A narrative description describing the content of the group of properties inside a criterion.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition>Identifies unambiguously and uniquely a particular structure of data inside the group and across all procurement procedures.</AttributeDefinition>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Name</AttributeName>
-         <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2253,28 +2000,23 @@ WG Approval 16/05/2019
 
 </ClassDefinition>
       <Attribute>
+         <AttributeName>epo:NonPublicationJustificationDescription</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
          <AttributeName>epo:AvailabilityDate</AttributeName>
          <AttributeDefinition>The date at which unpublished data shall be published.
 
 WG Approval 11/06/2020</AttributeDefinition>
-         <AttributeType>ccts:Date</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:AvailabilityTime</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Time</AttributeType>
+         <AttributeType>epo:Date</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:NonPublicationJustification</AttributeName>
          <AttributeDefinition>The reason why data is not published.
 
 WG Approval 11/06/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NonPublicationJustificationDescription</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2315,16 +2057,16 @@ The description of the objectives related to a procurement.
 (WG approval 05/12/2018)
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AdditionalClassification</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:AdditionalContractNature</AttributeName>
-         <AttributeDefinition>Additional type of acquisition taken into consideration in the contract.
+         <AttributeName>epo:TotalMagnitudeQuantity</AttributeName>
+         <AttributeDefinition>The number of units required.
 
-WG Approval 11/06/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+Additional Information
+
+The quantity needs to go along with the unit. 
+
+
+</AttributeDefinition>
+         <AttributeType>epo:Quantity</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ContractNatureType</AttributeName>
@@ -2332,51 +2074,36 @@ WG Approval 11/06/2020</AttributeDefinition>
 
 WG Approval 11/06/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MainClassification</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AdditionalClassification</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:OptionsDescription</AttributeName>
          <AttributeDefinition>The motivation and details about additional purchases that the buyer may undertake while the contract is valid.
 
 WG Approval 09/04/2019 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:OptionsPermission</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:TotalMagnitudeQuantity</AttributeName>
-         <AttributeDefinition>The number of units required.
+         <AttributeName>epo:AdditionalContractNature</AttributeName>
+         <AttributeDefinition>Additional type of acquisition taken into consideration in the contract.
 
-Additional Information
-
-The quantity needs to go along with the unit. In the ePO we use the ISO 15000-5 UN/CEFACT CCTS QuantityType for quantities, which uses the attribute "unitCode" to specify what the quantity is about.
-For example, 3 months; 131 printers; 1,000 tones; etc.
-
-
-</AttributeDefinition>
-         <AttributeType>ccts:Quantity</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Unit</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:QualificationSystem</ClassName>
-      <ClassDefinition/>
-      <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+WG Approval 11/06/2020</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2385,8 +2112,12 @@ For example, 3 months; 131 printers; 1,000 tones; etc.
       <Attribute>
          <AttributeName>epo:RegulatoryFrameworkProvider</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
+   </Class>
+   <Class>
+      <ClassName>epo:RequestForClarification</ClassName>
+      <ClassDefinition/>
    </Class>
    <Class>
       <ClassName>epo:RequestForParticipation</ClassName>
@@ -2402,14 +2133,14 @@ A building block may be a basic core component (e.g. Receipt Deadline, a propert
 
 WG Approval 23/05/2019</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:ElementIRI</AttributeName>
          <AttributeDefinition>The Element may identify any type of elements, including documents, e.g. a Procurement Document that has changed.</AttributeDefinition>
-         <AttributeType>ccts:URI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Description</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2423,9 +2154,14 @@ WG Approval 23/05/2019</ClassDefinition>
 (WG approval 23/11/2018)
 </ClassDefinition>
       <Attribute>
+         <AttributeName>epo:ReviewProcedure</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
          <AttributeName>epo:ReviewDeadline</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:DateTime</AttributeType>
+         <AttributeType>epo:DateTime</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReviewDeadlineInformation</AttributeName>
@@ -2433,12 +2169,7 @@ WG Approval 23/05/2019</ClassDefinition>
 
 WG Approval 01/10/2019
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ReviewProcedure</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2453,12 +2184,12 @@ The concept of 'role' is different from the concept of 'function'. However, func
       <Attribute>
          <AttributeName>epo:Description</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Title</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2474,7 +2205,7 @@ WG Approval 2015-02-26
 WG Approval 12/09/2019
 
 </AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
+         <AttributeType>epo:DateTime</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Description</AttributeName>
@@ -2482,12 +2213,7 @@ WG Approval 12/09/2019
 
 WG Approval 12/09/2019
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:SecurityClearanceAddress</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2496,16 +2222,6 @@ WG Approval 12/09/2019
 
 WG approval 31/10/2018</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:Formula</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:SelectionCriterionType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:ThresholdType</AttributeName>
          <AttributeDefinition>The type of threshold for a Selection Criterion.
 
@@ -2513,17 +2229,22 @@ Additional Information
 
 For example, a minimum score or a maximum number of tenders with the highest score passing.
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ThresholdValue</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:SelectionCriterionType</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:UsedForCandidateRestriction</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:WeightingJustification</AttributeName>
@@ -2534,7 +2255,7 @@ In eNotification: This property is specifically used to describe why the order o
 In ESPD: This is used to explain other complex models of weighting for transparency reasons. 
 
 WG Approval 19/09/2019 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:WeightValue</AttributeName>
@@ -2545,14 +2266,19 @@ A rule should nevertheless be imposed: these Quantities should be of the form x.
 
 (WG approval 15/06/2018
 reviewed on 23-01-2019)</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:WeightValueType</AttributeName>
          <AttributeDefinition>The method to interpret the value as a numerical coefficient expressing the relative importance of the item. 
 
 WG Approval 17/09/2019 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:Formula</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2566,6 +2292,11 @@ Socially responsible public procurement (SRPP):
 ‘SRPP’ means procurement operations that take into account one or more of the following social considerations: employment opportunities, decent work, compliance with social and labour rights, social inclusion (including persons with disabilities), equal opportunities, accessibility design for all, taking account of sustainability criteria, including ethical trade issues and wider voluntary compliance with corporate social responsibility (CSR), while observing the principles enshrined in the Treaty for the European Union (TFEU) and the Procurement Directives. 
 Source: Buying Social - A Guide to Taking Account of Social Considerations in Public Procurement (Publications Office of the European Union, 2011) https://op.europa.eu/en/publication-detail/-/publication/cb70c481-0e29-4040-9be2-c408cddf081f/language-en
 See Article 18 and Annex X Directive 2014/24.</ClassDefinition>
+      <Attribute>
+         <AttributeName>epo:FulfillsRequirement</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:StatisticalInformation</ClassName>
@@ -2582,127 +2313,32 @@ Attention will have to be paid in the future to possible inconsistencies derived
 WG Approval 12/12/2019
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:AbnormallyLowTenderLots</AttributeName>
-         <AttributeDefinition>Tenders received that were found irregular and non-acceptable due to an abnormally low price or cost.
-
-Additional Information
-The definition implies that abnormally Low Tender Lots are Inadmissible Tender Lots.
-
-WG Approval 28/07/2020
-
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:CleanVehicles</AttributeName>
-         <AttributeDefinition>The number of all clean vehicles that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
-
-Additional Information
-In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
-
-WG Approval 28/07/2020
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:EEARecievedTenderLots</AttributeName>
+         <AttributeName>epo:EEAReceivedTenderLots</AttributeName>
          <AttributeDefinition>The amount of tenders received from economic operators in other EEA countries other than the country of the buyer.
 
 WG Approval 12/12/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ElectronicTenderLots</AttributeName>
-         <AttributeDefinition>Electronic Tender Lots received.
-
-WG Approval 28/07/2020
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:HighestReceivedTenderLotValues</AttributeName>
-         <AttributeDefinition>Amount of the Tender with the highest value.
-
-Additional Information
-The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
-
-
-WG Approval 12/12/2019
-
-</AttributeDefinition>
-         <AttributeType>ccts:Amount</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:InadmissibleTenderLots</AttributeName>
-         <AttributeDefinition>Tenders received that cannot be awarded  due to non-compliance to procurement document requirements or having an abnormally low price or cost.
-
-&lt;u&gt;Additional Information: &lt;/u&gt;
-Non-compliance with a Procurement Document requirements include exclusion grounds, selection criteria and submission deadline, etc.
-
-WG Approval 12/12/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:LowestReceivedTenderLotValues</AttributeName>
-         <AttributeDefinition>Amount of the Tender with the lowest value.
-
-Additional Information
-The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
-
-WG Approval 12/12/2019
-</AttributeDefinition>
-         <AttributeType>ccts:Amount</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MediumTenderPerLots</AttributeName>
-         <AttributeDefinition>Tenders from medium-sized enterprise.
-
-&lt;u&gt;Additional Information:&lt;/u&gt;
-
-See Commission Recommendation 2003/361/EC.
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ReceivedMicroTenderLots</AttributeName>
-         <AttributeDefinition>The amount of tenders received from a micro enterprise.
-
-&lt;u&gt;Additional Information:&lt;/u&gt;
-
-See Commission Recommendation 2003/361/EC.</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ReceivedNONEEATenderLots</AttributeName>
-         <AttributeDefinition>The amount of tenders received from economic operators in non-EEA countries. 
-
-WG Approval 12/12/2019 15:20:36</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReceivedParticipationRequests</AttributeName>
          <AttributeDefinition>The amount of applications to participate from economic operators.
 
 WG Approval 12/12/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReceivedReviewRequests</AttributeName>
          <AttributeDefinition>The number of economic operators that requested the buyer to review any of its decisions (e.g. the technical specifications, award decision), as set out in Art. 1(5) of Directive 89/665/EEC and Directive 92/13/EEC.
 
 WG Approval 11/04/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:ReceivedSmallTenderLots</AttributeName>
-         <AttributeDefinition>Tenders from small enterprise.
+         <AttributeName>epo:ReceivedNONEEATenderLots</AttributeName>
+         <AttributeDefinition>The amount of tenders received from economic operators in non-EEA countries. 
 
-&lt;u&gt;Additional Information:&lt;/u&gt;
-
-See Commission Recommendation 2003/361/EC.
-
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+WG Approval 12/12/2019 15:20:36</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReceivedSMETenderLots</AttributeName>
@@ -2715,19 +2351,90 @@ The ReceivedSMETenderLots is used when the size of the company is not exactly kn
 
 WG Approval 05/03/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ReceivedMicroTenderLots</AttributeName>
+         <AttributeDefinition>The amount of tenders received from a micro enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ReceivedSmallTenderLots</AttributeName>
+         <AttributeDefinition>Tenders from small enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.
+
+</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MediumTenderPerLots</AttributeName>
+         <AttributeDefinition>Tenders from medium-sized enterprise.
+
+&lt;u&gt;Additional Information:&lt;/u&gt;
+
+See Commission Recommendation 2003/361/EC.
+</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ReceivedTenderLots</AttributeName>
          <AttributeDefinition>The total amount of tenders received.
 
 WG Approval 12/12/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:TotalValueSubcontracted</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeName>epo:InadmissibleTenderLots</AttributeName>
+         <AttributeDefinition>Tenders received that cannot be awarded  due to non-compliance to procurement document requirements or having an abnormally low price or cost.
+
+&lt;u&gt;Additional Information: &lt;/u&gt;
+Non-compliance with a Procurement Document requirements include exclusion grounds, selection criteria and submission deadline, etc.
+
+WG Approval 12/12/2019</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:LowestReceivedTenderLotValues</AttributeName>
+         <AttributeDefinition>Amount of the Tender with the lowest value.
+
+Additional Information
+The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
+
+WG Approval 12/12/2019
+</AttributeDefinition>
+         <AttributeType>epo:Amount</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:HighestReceivedTenderLotValues</AttributeName>
+         <AttributeDefinition>Amount of the Tender with the highest value.
+
+Additional Information
+The value must correspond to an admissible tender. For example, tenders compliant with the procurement document requirements, not having an abnormally low price or cost, etc. 
+
+
+WG Approval 12/12/2019
+
+</AttributeDefinition>
+         <AttributeType>epo:Amount</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AbnormallyLowTenderLots</AttributeName>
+         <AttributeDefinition>Tenders received that were found irregular and non-acceptable due to an abnormally low price or cost.
+
+Additional Information
+The definition implies that abnormally Low Tender Lots are Inadmissible Tender Lots.
+
+WG Approval 28/07/2020
+
+</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:TotalVehicles</AttributeName>
@@ -2739,7 +2446,7 @@ In the European Union, the legal requirements and scope for the provision of the
 
 WG Approval 28/07/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:UnverifiedTenderLots</AttributeName>
@@ -2747,7 +2454,15 @@ WG Approval 28/07/2020
 
 WG Approval 28/07/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ElectronicTenderLots</AttributeName>
+         <AttributeDefinition>Electronic Tender Lots received.
+
+WG Approval 28/07/2020
+</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ZeroEmissionVehicles</AttributeName>
@@ -2759,7 +2474,35 @@ In the European Union, the legal requirements and scope for the provision of the
 
 WG Approval 28/07/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:CleanVehicles</AttributeName>
+         <AttributeDefinition>The number of all clean vehicles that have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service.
+
+Additional Information
+In the European Union, the legal requirements and scope for the provision of these vehicles or services are covered by Directive 2009/33/EC.
+
+WG Approval 28/07/2020
+</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:TotalValueSubcontracted</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Integer</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:NumberOfTenderersInvited</AttributeName>
+         <AttributeDefinition>Number of economic operators invited to tender.
+
+Additional Information
+This may be used for single-stage procedures or to indicate the number of candidates invited to tender in multi-stage procedures.
+
+WG Approval 01/12/2020
+
+</AttributeDefinition>
+         <AttributeType>epo:Integer</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2776,12 +2519,7 @@ WG Approval 10/03/2020</ClassDefinition>
          <AttributeName>epo:StrategicProcurementDescription</AttributeName>
          <AttributeDefinition>Self-explanatory text about a concept.
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:StrategicProcurementType</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2794,14 +2532,14 @@ WG Approval 07/05/2019</ClassDefinition>
          <AttributeDefinition>Self-explanatory text about a concept.
 
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:EstimatedShare</AttributeName>
          <AttributeDefinition>The estimated proportion foreseen to be subcontracted.
 
 WG Approval 07/01/2020</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2824,7 +2562,7 @@ When modelling ESPD we well analyse whether we need or not a role named "relied 
          <AttributeDefinition>Self-explanatory text about a concept.
 
 WG Approval 08/05/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MaximumShare</AttributeName>
@@ -2836,7 +2574,7 @@ In the case of subcontracting the share may refer to the proportion of works, se
 WG Approval 17/09/2019 
 
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MinimumShare</AttributeName>
@@ -2846,17 +2584,7 @@ Additional Information:
 In the case of subcontracting the share may refer to the proportion of works, services or supplies being subcontracted.
 
 WG Approval 17/09/2019</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MinimumShareSubjectMatter</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MinimumSubcontractorsProposedObligation</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:SubcontractingInvolved</AttributeName>
@@ -2866,17 +2594,27 @@ Additional Information:
 The tenderer will ned to supply this information in the tender.
 
 WG Approval 28/02/2019</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MinimumShareSubjectMatter</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MinimumSubcontractorsProposedObligation</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:SubcontractingObligation</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:SubcontractorsProposedAboveObligation</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -2889,31 +2627,35 @@ These documents can be tenders, request to participate and expressions of intere
 
 WG Approval 14/07/2020</ClassDefinition>
       <Attribute>
-         <AttributeName>epo:ECataloguePermission</AttributeName>
-         <AttributeDefinition>The extent to which electronic catalogues may be used in tenders.
+         <AttributeName>epo:ReceiptDeadline</AttributeName>
+         <AttributeDefinition>The time limit for receiving submissions.
 
-WG Approval 03/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ESubmissioneSignature</AttributeName>
-         <AttributeDefinition>The submitted information is required to be signed electronically.
-
-Additional Information: 
-
-Signature can be defined as "data in electronic form which is attached to or logically associated with other data in electronic form and which is used by the signatory to sign. 
-For more details on the meaning and uses of electronic signature you may consult different authoritative sources, a relevant one being for instance the Regulation (EU) 910/2014 on electronic identification and trust services for electronic transactions in the internal market.
+Additional Information
+This is the  deadline by which the buyer must receive submissions (e.g. tenders, requests to participate, clarifications, etc.) and is not the time at which the information is submitted by the economic operator.
 
 WG Approval 21/07/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:DateTime</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:ESubmissionPermission</AttributeName>
-         <AttributeDefinition>The requirements as to what extent electronic submission is allowed.
+         <AttributeName>epo:Language</AttributeName>
+         <AttributeDefinition>Language in which the submitted information is to be expressed. 
 
-WG Approval 03/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+WG Approval 21/07/2020
+</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:GuaranteeRequired</AttributeName>
+         <AttributeDefinition>The submitted information must include a financial commitment to be used in case of default.
+
+Additional Information:
+See the additional information provided in  the definition of the 'Guarantee Description' element.
+
+WG Approval 21/07/20
+
+</AttributeDefinition>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:GuaranteeDescription</AttributeName>
@@ -2926,36 +2668,70 @@ Additional Information:
 
 WG Approval 21/07/20
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:GuaranteeRequired</AttributeName>
-         <AttributeDefinition>The submitted information must include a financial commitment to be used in case of default.
+         <AttributeName>epo:ESubmissionPermission</AttributeName>
+         <AttributeDefinition>The requirements as to what extent electronic submission is allowed.
 
-Additional Information:
-See the additional information provided in  the definition of the 'Guarantee Description' element.
+WG Approval 03/10/2019</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:NonElectronicSubmissionJustification</AttributeName>
+         <AttributeDefinition>Reason for not accepting electronic information.
 
-WG Approval 21/07/20
+WG Approval 21/07/2020</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:NonElectronicSubmissionDescription</AttributeName>
+         <AttributeDefinition>Textual explanation of how non-electronic information is to be presented.
+
+WG Approval 21/07/2020
 
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:Language</AttributeName>
-         <AttributeDefinition>Language in which the submitted information is to be expressed. 
+         <AttributeName>epo:ECataloguePermission</AttributeName>
+         <AttributeDefinition>The extent to which electronic catalogues may be used in tenders.
+
+WG Approval 03/10/2019</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AdvancedElectronicSignatureRequired</AttributeName>
+         <AttributeDefinition>Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required.
+
+
+
+The submitted information is required to be signed electronically.
+
+Additional Information: 
+
+Signature can be defined as "data in electronic form which is attached to or logically associated with other data in electronic form and which is used by the signatory to sign. 
+For more details on the meaning and uses of electronic signature you may consult different authoritative sources, a relevant one being for instance the Regulation (EU) 910/2014 on electronic identification and trust services for electronic transactions in the internal market.
 
 WG Approval 21/07/2020
 </AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:LateSubmissionInformationDescription</AttributeName>
-         <AttributeDefinition>A narrative text explaining the content of the economic operator information that can be submitted late.
+         <AttributeName>epo:MultipleTenderSubmissionAllowed</AttributeName>
+         <AttributeDefinition>Tenderers may submit more than one competing tenders.
 
-Additional Information
-This does not apply to requests for clarifications.
+WG Approval 10/10/2019
+
 </AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:TenderSubcontractingInformation</AttributeName>
+         <AttributeDefinition>The information about subcontracting that must be indicated in the tender.
+
+WG  Approval 10/10/2019</AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:LateSubmissionPermission</AttributeName>
@@ -2965,70 +2741,16 @@ Additional Information
 This is specific to the information on the economic operator and not the actual offer. This does  not apply to the requests for clarification.
 
 WG Approval 21/07/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:MultipleTenderSubmissionAllowed</AttributeName>
-         <AttributeDefinition>Tenderers may submit more than one competing tenders.
-
-WG Approval 10/10/2019
-
-</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NonElectronicSubmissionDescription</AttributeName>
-         <AttributeDefinition>Textual explanation of how non-electronic information is to be presented.
-
-WG Approval 21/07/2020
-
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NonElectronicSubmissionJustification</AttributeName>
-         <AttributeDefinition>Reason for not accepting electronic information.
-
-WG Approval 21/07/2020</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:OfficialLanguage</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ReceiptDeadline</AttributeName>
-         <AttributeDefinition>The time limit for receiving submissions.
+         <AttributeName>epo:LateSubmissionInformationDescription</AttributeName>
+         <AttributeDefinition>A narrative text explaining the content of the economic operator information that can be submitted late.
 
 Additional Information
-This is the  deadline by which the buyer must receive submissions (e.g. tenders, requests to participate, clarifications, etc.) and is not the time at which the information is submitted by the economic operator.
-
-WG Approval 21/07/2020
+This does not apply to requests for clarifications.
 </AttributeDefinition>
-         <AttributeType>ccts:DateTime</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:SubmissionDocumentType</AttributeName>
-         <AttributeDefinition>The type of document being sent to the buyer.
-
-WG Approval 21/07/2020
-</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:TenderSubcontractingInformation</AttributeName>
-         <AttributeDefinition>The information about subcontracting that must be indicated in the tender.
-
-WG  Approval 10/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:ValidityPeriod</AttributeName>
-         <AttributeDefinition>The period from the receipt deadline for which the submitted information must remain valid.
-
-WG Approval 21/07/2020</AttributeDefinition>
-         <AttributeType>epo:Period</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -3041,33 +2763,29 @@ WG Approval 28/04/2020
       <Attribute>
          <AttributeName>epo:Description</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Name</AttributeName>
          <AttributeDefinition>A short text representing an instance of the class.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
       <ClassName>epo:TechnicalSpecification</ClassName>
       <ClassDefinition/>
       <Attribute>
-         <AttributeName>epo:AccessibilityCriteria</AttributeName>
+         <AttributeName>epo:AccessibilityCriterion</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:NonAccessibilityCriteriaJustification</AttributeName>
+         <AttributeName>epo:NonAccessibilityCriterionJustification</AttributeName>
          <AttributeDefinition>Reason for not applying accessibility criteria.
 
 WG Approval 05/03/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:TechnicalTenderDocument</ClassName>
-      <ClassDefinition/>
    </Class>
    <Class>
       <ClassName>epo:Technique</ClassName>
@@ -3084,12 +2802,12 @@ WG Approval 19/09/2019
          <AttributeDefinition>Self-explanatory text about the instance of the concept.
 
 WG Approval 30/09/2019</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -3101,59 +2819,23 @@ WG Approval 30/09/2019</AttributeDefinition>
       <Attribute>
          <AttributeName>epo:ElectronicSubmission</AttributeName>
          <AttributeDefinition>Transmission of tenders is possible by electronic means of communication. </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:NonElectronicSubmissionJustification</AttributeName>
-         <AttributeDefinition>Basis for physical submission of tenders.</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
    </Class>
    <Class>
       <ClassName>epo:TenderDocument</ClassName>
-      <ClassDefinition>Document provided by a candidate or tenderer.
-Additional information:
-
-In the case of a candidate the documents are intended to express interest in the procedure. Examples are Expression of Interest, an ESPD Response, etc.
-In the case of a tenderer the documents provide the information requested by the buyer. Examples are the ESPD Response, the Technical Tender Document, the Financial Tender Document, the Pre-award Catalogue Response, etc.
-
-WG Approval 23/05/2019</ClassDefinition>
+      <ClassDefinition/>
    </Class>
    <Class>
       <ClassName>epo:Tenderer</ClassName>
       <ClassDefinition>An economic operator that has submitted a tender.
 
 WG approval 07/11/2018</ClassDefinition>
-   </Class>
-   <Class>
-      <ClassName>epo:TenderEvaluation</ClassName>
-      <ClassDefinition/>
-      <Attribute>
-         <AttributeName>epo:AdmissibleTender</AttributeName>
-         <AttributeDefinition>A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. 
-
-To be discussed
-
-(This definition comes from BT-710 in eForms)
-</AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Description</AttributeName>
-         <AttributeDefinition>Self-explanatory text about a concept.
-</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Score</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:TenderLot</ClassName>
@@ -3167,16 +2849,6 @@ See also the definitions of Tender and Lot for a complete understanding.
 
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Identifier</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:Subcontracting</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Code</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:Variant</AttributeName>
          <AttributeDefinition>Alternative solution to fulfil the buyer's needs as opposed to solutions indicated in the procurement documents.
 
@@ -3188,7 +2860,12 @@ The buyer lays out minimum requirements in the procurement documents that must b
 WG Approval 29/05/2019
 
 </AttributeDefinition>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:ID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -3203,21 +2880,37 @@ WG Approval 19/12/2019
 
 </ClassDefinition>
       <Attribute>
-         <AttributeName>epo:FinalRanking</AttributeName>
+         <AttributeName>epo:RankingInFirstStage</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Numeric</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:TenderLotRank</AttributeName>
          <AttributeDefinition>If there's no first stage then there is only a final stage.
 
 </AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:RankingInFirstStage</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
    </Class>
    <Class>
       <ClassName>epo:Value</ClassName>
       <ClassDefinition/>
+      <Attribute>
+         <AttributeName>epo:OverallAmount</AttributeName>
+         <AttributeDefinition>In the case of a procurement procedure it includes options and renewals.
+</AttributeDefinition>
+         <AttributeType>epo:Amount</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:VATIncludedIndicator</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Indicator</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:MinimumAmount</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Amount</AttributeType>
+      </Attribute>
       <Attribute>
          <AttributeName>epo:CalculationMethod</AttributeName>
          <AttributeDefinition>Formula for obtaining values.
@@ -3226,35 +2919,19 @@ Additional Information:
 The possible values are monetary values, ranking scores, criterion weighting.
 
 WG Approval 25/05/2018</AttributeDefinition>
-         <AttributeType>ccts:Text</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MaximumAmount</AttributeName>
          <AttributeDefinition>The highest amount which can be spent within a procurement over its whole duration.
 
 WG Approval 11/10/2019</AttributeDefinition>
-         <AttributeType>ccts:Amount</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:MinimumAmount</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Amount</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:OverallAmount</AttributeName>
-         <AttributeDefinition>In the case of a procurement procedure it includes options and renewals.
-</AttributeDefinition>
-         <AttributeType>ccts:Amount</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:VATIncludedIndicator</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>ccts:Indicator</AttributeType>
+         <AttributeType>epo:Amount</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:VATPercentage</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>ccts:Numeric</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
    </Class>
    <Class>
@@ -3275,217 +2952,114 @@ For European notices above the threshold
       <ClassDefinition>The tenderer to whom the contract is awarded.
 
 (WG approval 20/11/2018)</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:WinnerRank</AttributeName>
-         <AttributeDefinition>The position of the winner, i.e. whether the economic operator ended up first, second, third, etc.
-
-Additional information: This is specially the case of design contests, some framework agreements with multiple winners (e.g. cascades) or innovation partnerships.
-
-WG Approval 25/04/2019
-</AttributeDefinition>
-         <AttributeType>ccts:Numeric</AttributeType>
-      </Attribute>
    </Class>
    <Class>
-      <ClassName>ccts:Amount</ClassName>
+      <ClassName>epo:Amount</ClassName>
       <ClassDefinition/>
       <Attribute>
-         <AttributeName>ccts:AmountValue</AttributeName>
+         <AttributeName>epo:CurrencyID</AttributeName>
+         <AttributeDefinition>The identifier of the currency as in the standard code list used. </AttributeDefinition>
+         <AttributeType>epo:Code</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:AmountValue</AttributeName>
          <AttributeDefinition>The numeric value of the amount, including decimals.</AttributeDefinition>
-         <AttributeType>xsd:decimal</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:CurrencyCodeListVersionID</AttributeName>
-         <AttributeDefinition>The identifier of the list of codes for currencies (e.g. ISO4217). Based on the ISO 15000-5 CCTS.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:CurrencyID</AttributeName>
-         <AttributeDefinition>The identifier of the currency as in the standard code list used. Based on the ISO 15000-5 CCTS.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
    </Class>
    <Class>
-      <ClassName>ccts:Code</ClassName>
-      <ClassDefinition/>
-      <Attribute>
-         <AttributeName>ccts:LanguageID</AttributeName>
-         <AttributeDefinition>The identifier of the language used in the code name.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListAgencyID</AttributeName>
-         <AttributeDefinition>An agency that maintains one or more lists of codes.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListAgencyName</AttributeName>
-         <AttributeDefinition>The name of the agency that maintains the list of codes.</AttributeDefinition>
-         <AttributeType>xsd:string</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListID</AttributeName>
-         <AttributeDefinition>The identification of a list of codes.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListName</AttributeName>
-         <AttributeDefinition>The name of a list of codes.</AttributeDefinition>
-         <AttributeType>xsd:string</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListSchemeURI</AttributeName>
-         <AttributeDefinition>The Uniform Resource Identifier that identifies where the code list scheme is located.</AttributeDefinition>
-         <AttributeType>xsd:anyURI</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListURI</AttributeName>
-         <AttributeDefinition>The Uniform Resource Identifier that identifies where the code list is located.</AttributeDefinition>
-         <AttributeType>xsd:anyURI</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:ListVersionID</AttributeName>
-         <AttributeDefinition>The name of a list of codes.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:Name</AttributeName>
-         <AttributeDefinition>The textual equivalent of the code content component.</AttributeDefinition>
-         <AttributeType>xsd:string</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>ccts:Identifier</ClassName>
+      <ClassName>epo:Identifier</ClassName>
       <ClassDefinition>A character string to identify and distinguish uniquely, one instance of an object in an identification scheme from all other objects in the same scheme together with relevant supplementary information.
 </ClassDefinition>
       <Attribute>
-         <AttributeName>ccts:AssuranceLevel</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>skos:Concept</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:IdentifierValue</AttributeName>
+         <AttributeName>epo:IdentifierValue</AttributeName>
          <AttributeDefinition>The literal identifying an entity, like a person or an object.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeAgencyID</AttributeName>
+         <AttributeName>epo:SchemeAgencyID</AttributeName>
          <AttributeDefinition>The identification of the agency that maintains the identification scheme.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeAgencyName</AttributeName>
+         <AttributeName>epo:SchemeAgencyName</AttributeName>
          <AttributeDefinition>The name of the agency that maintains the identification scheme.</AttributeDefinition>
-         <AttributeType>xsd:string</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeDataURI</AttributeName>
+         <AttributeName>epo:SchemeDataURI</AttributeName>
          <AttributeDefinition>The Uniform Resource Identifier that identifies where the identification scheme data is located.</AttributeDefinition>
-         <AttributeType>xsd:anyURI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeID</AttributeName>
+         <AttributeName>epo:SchemeID</AttributeName>
          <AttributeDefinition>The identification of the identification scheme.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeName</AttributeName>
+         <AttributeName>epo:SchemeName</AttributeName>
          <AttributeDefinition>The name of the identification scheme.</AttributeDefinition>
-         <AttributeType>xsd:string</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeURI</AttributeName>
+         <AttributeName>epo:SchemeURI</AttributeName>
          <AttributeDefinition>The Uniform Resource Identifier that identifies where the identification scheme is located.</AttributeDefinition>
-         <AttributeType>xsd:anyURI</AttributeType>
+         <AttributeType>epo:URI</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:SchemeVersionID</AttributeName>
+         <AttributeName>epo:SchemeVersionID</AttributeName>
          <AttributeDefinition>The version of the identification scheme.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
-      <ClassName>ccts:Indicator</ClassName>
-      <ClassDefinition>A list of two mutually exclusive Boolean values that express the only possible states of a Property.
-</ClassDefinition>
-      <Attribute>
-         <AttributeName>ccts:Format</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>xsd:string</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>ccts:Measure</ClassName>
+      <ClassName>epo:Measure</ClassName>
       <ClassDefinition>A numeric value determined by measuring an object along with the specified unit of measure.
 </ClassDefinition>
       <Attribute>
-         <AttributeName>ccts:MeasureValue</AttributeName>
+         <AttributeName>epo:MeasureValue</AttributeName>
          <AttributeDefinition>The numeric value of the measure, including decimals if needed.</AttributeDefinition>
-         <AttributeType>xsd:decimal</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:UnitCode</AttributeName>
+         <AttributeName>epo:UnitCode</AttributeName>
          <AttributeDefinition>The type of unit of measure.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>ccts:UnitCodeListVersionID</AttributeName>
-         <AttributeDefinition>The version of the measure unit code list.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
    </Class>
    <Class>
-      <ClassName>ccts:Numeric</ClassName>
-      <ClassDefinition>Numeric information that is assigned or is determined by calculation, counting, or sequencing. It does not require a unit of quantity or unit of measure.
-</ClassDefinition>
-      <Attribute>
-         <AttributeName>ccts:Format</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>xsd:string</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>ccts:Quantity</ClassName>
+      <ClassName>epo:Quantity</ClassName>
       <ClassDefinition>A counted number of non-monetary units possibly including fractions.
 </ClassDefinition>
       <Attribute>
-         <AttributeName>ccts:QuantityValue</AttributeName>
+         <AttributeName>epo:QuantityValue</AttributeName>
          <AttributeDefinition>The numeric value of the quantity, including decimals.</AttributeDefinition>
-         <AttributeType>xsd:decimal</AttributeType>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:UnitCode</AttributeName>
+         <AttributeName>epo:UnitCode</AttributeName>
          <AttributeDefinition>The unit of the quantity.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:UnitCodeListAgencyID</AttributeName>
+         <AttributeName>epo:UnitCodeListAgencyID</AttributeName>
          <AttributeDefinition>The identification of the agency that maintains the quantity unit code list.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:UnitCodeListAgencyName</AttributeName>
+         <AttributeName>epo:UnitCodeListAgencyName</AttributeName>
          <AttributeDefinition>The identification of the agency that maintains the quantity unit code list.</AttributeDefinition>
-         <AttributeType>xsd:string</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:UnitCodeListID</AttributeName>
+         <AttributeName>epo:UnitCodeListID</AttributeName>
          <AttributeDefinition>The quantity unit code list.</AttributeDefinition>
-         <AttributeType>xsd:normalizedString</AttributeType>
-      </Attribute>
-   </Class>
-   <Class>
-      <ClassName>ccts:Text</ClassName>
-      <ClassDefinition/>
-      <Attribute>
-         <AttributeName>ccts:LanguageID</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>xsd:language</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>ccts:LanguageLocaleID</AttributeName>
+         <AttributeName>epo:UnitDescription</AttributeName>
          <AttributeDefinition/>
-         <AttributeType>xsd:normalizedString</AttributeType>
+         <AttributeType>epo:Text</AttributeType>
       </Attribute>
    </Class>
    <Class>
