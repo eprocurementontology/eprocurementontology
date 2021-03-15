@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+<Glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
    <CodeList>
       <CodeListName>at-voc:accessibility</CodeListName>
       <CodeListDefinition>
@@ -51,6 +51,10 @@
       <CodeListDefinition>
 
       </CodeListDefinition>
+   </CodeList>
+   <CodeList>
+      <CodeListName>at-voc:currency</CodeListName>
+      <CodeListDefinition/>
    </CodeList>
    <CodeList>
       <CodeListName>at-voc:direct-award-justification</CodeListName>
@@ -105,6 +109,10 @@
       <CodeListDefinition>
 
       </CodeListDefinition>
+   </CodeList>
+   <CodeList>
+      <CodeListName>at-voc:measurement-unit</CodeListName>
+      <CodeListDefinition/>
    </CodeList>
    <CodeList>
       <CodeListName>at-voc:missing-info-submission</CodeListName>

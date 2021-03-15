@@ -26,15 +26,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement datashapes</rdfs:label>
       <dct:title xml:lang="en">eProcurement datashapes</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/shape#ePO_CM.xml-2021-03-03"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/shape#ePO_CM.xml-2021-03-15"/>
       <owl:versionInfo>eProcurement datashapes version generated automatically from 
-                ePO_CM.xml on 03/03/2021</owl:versionInfo>
+                ePO_CM.xml on 15/03/2021</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-03+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-15+01:00</dct:date>
    </owl:Ontology>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#AccessTerm">
       <sh:targetClass rdf:resource="http://data.europa.eu/a4g/ontology#AccessTerm"/>
@@ -42,8 +42,12 @@
       <rdfs:label xml:lang="en">Access term</rdfs:label>
       <sh:description>Conditions and stipulations about where and how to access the procurement documents.
 
+WG Approval 09/03/2021
+
 </sh:description>
       <rdfs:comment xml:lang="en">Conditions and stipulations about where and how to access the procurement documents.
+
+WG Approval 09/03/2021
 
 </rdfs:comment>
       <sh:property>
@@ -153,13 +157,6 @@ WG Approval 28/04/2020</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasCountrySubentity"/>
             <sh:name>Country subentity</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasDepartment"/>
-            <sh:name>Department</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
@@ -4326,6 +4323,27 @@ For European notices above the threshold
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListAgencyID"/>
+            <sh:name>Unit code list agency i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListAgencyName"/>
+            <sh:name>Unit code list agency name</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListID"/>
+            <sh:name>Unit code list i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+         </sh:PropertyShape>
+      </sh:property>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Identifier">
@@ -4441,17 +4459,23 @@ For European notices above the threshold
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCode"/>
-            <sh:name>Unit code</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListAgencyID"/>
+            <sh:name>Unit code list agency i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCode"/>
-            <sh:name>Unit code</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListAgencyName"/>
+            <sh:name>Unit code list agency name</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+         </sh:PropertyShape>
+      </sh:property>
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListID"/>
+            <sh:name>Unit code list i d</sh:name>
+            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
@@ -4477,42 +4501,6 @@ For European notices above the threshold
             <sh:name>Quantity value</sh:name>
             <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCode"/>
-            <sh:name>Unit code</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCode"/>
-            <sh:name>Unit code</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListAgencyID"/>
-            <sh:name>Unit code list agency i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListAgencyName"/>
-            <sh:name>Unit code list agency name</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCodeListID"/>
-            <sh:name>Unit code list i d</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
          </sh:PropertyShape>
       </sh:property>
       <sh:property>
@@ -9378,6 +9366,36 @@ For European notices above the threshold
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#TechnicalSpecification">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#includesAccessibilityCriterion&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#includesAccessibilityCriterion&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Amount">
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasCurrency"/>
+            <sh:name>Has currency</sh:name>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+         </sh:PropertyShape>
+      </sh:property>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Amount">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasCurrency&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasCurrency&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Measure">
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasUnitCode"/>
+            <sh:name>Has unit code</sh:name>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+         </sh:PropertyShape>
+      </sh:property>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Measure">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasUnitCode&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasUnitCode&gt; ?this .} </sh:select>
       </sh:sparql>
    </sh:NodeShape>
 </rdf:RDF>

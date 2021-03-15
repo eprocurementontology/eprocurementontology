@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  
-    xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+<xsl:stylesheet version="2.5" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  
+    xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
     <xsl:output method="xml" indent="yes" version="1.0"/>
     <xsl:strip-space elements="*" />
     

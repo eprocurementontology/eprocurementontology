@@ -1570,7 +1570,9 @@
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_DC83_4c75_BF46_224A2781ECAA" x="1127" y="1975"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_DC83_4c75_BF46_224A2781ECAA" x="1127" y="2065"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_DC83_4c75_BF46_224A2781ECAA" x="856" y="2065"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_DC83_4c75_BF46_224A2781ECAA" x="929" y="2065"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_DC83_4c75_BF46_224A2781ECAA" x="929" y="2065"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000004_DC83_4c75_BF46_224A2781ECAA" x="856" y="2065"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_2279CEE3_DC83_4c75_899B_DB0010A13BA4" source="EAID_C716973F_DC03_4aff_B824_17B211F87424" target="EAID_96BDC10C_D172_40c3_BD6F_E2852D96CA0E" modelElement="EAID_85088D14_7E14_4e3d_899B_DB0010A13BA4">
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_DC83_4c75_899B_DB0010A13BA4" x="1208" y="1937"/>
@@ -1886,7 +1888,7 @@
 				<attributes>
 					<attribute xmi:idref="EAID_07512AC4_AA3D_4ba1_93E7_4C395BEEE36F" name="epo:AdditionalStreetName" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="An alternative name for the street used to further clarify the address.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1004" ea_guid="{07512AC4-AA3D-4ba1-93E7-4C395BEEE36F}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1895,13 +1897,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_A6B8E14B_F76E_4540_BDEE_70D0BABCE40C" name="epo:BlockName" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="A name for an area containing one or several buildings.&#xA;&#xA;WG approval 09/03/2021&#xA;"/>
 						<model ea_localid="1005" ea_guid="{A6B8E14B-F76E-4540-BDEE-70D0BABCE40C}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1910,13 +1912,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_0C97A5CE_47C6_4492_A847_D54D19F90C21" name="epo:BuildingName" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="The name of a building.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1006" ea_guid="{0C97A5CE-47C6-4492-A847-D54D19F90C21}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1925,13 +1927,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_E6CF7270_12D3_4b6e_8BA8_0C4170E1488C" name="epo:BuildingNumber" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="The number of a building.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1007" ea_guid="{E6CF7270-12D3-4b6e-8BA8-0C4170E1488C}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1940,13 +1942,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_FEAE1045_525E_48ee_9CD4_6BA7E434E89F" name="epo:CityName" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="The name of a city, town, or village.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1008" ea_guid="{FEAE1045-525E-48ee-9CD4-6BA7E434E89F}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1955,13 +1957,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_5647BD36_4F4D_439b_8E21_53CD3B4ECD55" name="epo:CitySubdivisionName" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="The name of the subdivision of a city, town, or village.&#xA;&#xA;Additional Information&#xA;&#xA;For example, the name of a district or borough.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1009" ea_guid="{5647BD36-4F4D-439b-8E21-53CD3B4ECD55}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1970,13 +1972,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_136F35B4_7445_4e6d_A040_9AFFA43C94C1" name="epo:CountrySubentity" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="The political or statistical subdivision of a country.&#xA;&#xA;Additional Information&#xA;&#xA;For example, the name of the county, province, region, or state.&#xA;"/>
 						<model ea_localid="1010" ea_guid="{136F35B4-7445-4e6d-A040-9AFFA43C94C1}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -1985,13 +1987,13 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
 					<attribute xmi:idref="EAID_4D2ED3D0_18C5_4e60_B840_E3C94305FB96" name="epo:CountrySubentityCode" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="An identifier for the country subentity.&#xA;&#xA;Additional Information&#xA;European Public Administrations frequently use the EUROSTAT's NUTS controlled vocabularies for this.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1011" ea_guid="{4D2ED3D0-18C5-4e60-B840-E3C94305FB96}"/>
 						<properties type="epo:Code" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -2000,7 +2002,7 @@
 						<bounds lower="0" upper="1"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
@@ -2021,7 +2023,7 @@
 					</attribute>
 					<attribute xmi:idref="EAID_2045CCE3_8B00_4e5e_B9E1_FFE7EF608167" name="epo:District" scope="Public">
 						<initial/>
-						<documentation/>
+						<documentation value="An administrative division of a geographical area.&#xA;&#xA;WG Approval 09/03/2021&#xA;"/>
 						<model ea_localid="1013" ea_guid="{2045CCE3-8B00-4e5e-B9E1-FFE7EF608167}"/>
 						<properties type="epo:Text" derived="0" precision="0" collection="false" length="0" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
@@ -2030,7 +2032,7 @@
 						<bounds lower="0" upper="*"/>
 						<options/>
 						<style/>
-						<styleex value="volatile=0;"/>
+						<styleex value="volatile=0;union=0;"/>
 						<tags/>
 						<xrefs/>
 					</attribute>
@@ -5941,9 +5943,9 @@
 			<diagram xmi:id="EAID_2279CEE3_DC83_4c75_A4BC_E4C203AF6C63">
 				<model package="EAPK_4D0BB7AB_99FF_4059_BB74_DE4D8575AA80" localID="65" owner="EAPK_4D0BB7AB_99FF_4059_BB74_DE4D8575AA80"/>
 				<properties name="BDTI" type="Logical"/>
-				<project author="hricolor" version="1.0" created="2020-12-11 08:22:27" modified="2021-03-02 10:29:05"/>
+				<project author="hricolor" version="1.0" created="2020-12-11 08:22:27" modified="2021-03-11 16:25:55"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=3;PPgs.cy=3;DocSize.cx=728;DocSize.cy=1071;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=EBAA4021;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=40673A6A;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -6009,7 +6011,7 @@
 					<element geometry="SX=-85;SY=0;EX=0;EY=-336;EDGE=1;$LLB=CX=16:CY=13:OX=8:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=93:CY=13:OX=-1:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=52:CY=13:OX=22:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1318:-998$;" subject="EAID_2450F664_1B2D_4cc7_9800_56101A4753DA" style="Mode=3;EOID=7A9554B5;SOID=49C71032;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-22;SY=0;EX=0;EY=26;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=1381:-882$;" subject="EAID_443065FF_C251_4931_977E_1B6FDCCDBA7C" style="Mode=3;EOID=20A12711;SOID=49C71032;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=2;SCTR.LEFT=1421;SCTR.TOP=-1584;SCTR.RIGHT=1586;SCTR.BOTTOM=-1553;$LLB=;LLT=CX=104:CY=13:OX=44:OY=20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=103:CY=13:OX=120:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1506:-1584$1586:-1584$1586:-1553$1506:-1553$;" subject="EAID_AA5B6367_A3D5_44a2_A85B_F5BD3D200728" style="Mode=3;EOID=49C71032;SOID=49C71032;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=4;SY=0;EX=0;EY=-51;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=126:CY=13:OX=27:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1127:-2065$;" subject="EAID_2EA2C98D_30EA_4cb8_BF46_224A2781ECAA" style="Mode=3;EOID=D9648869;SOID=9E7546A9;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=4;SY=0;EX=0;EY=-51;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=126:CY=13:OX=27:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1127:-2065$929:-2065$929:-2065$;" subject="EAID_2EA2C98D_30EA_4cb8_BF46_224A2781ECAA" style="Mode=3;EOID=D9648869;SOID=9E7546A9;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=3;EX=40;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=1443:-1937$;" subject="EAID_85088D14_7E14_4e3d_899B_DB0010A13BA4" style="Mode=3;EOID=49C71032;SOID=9E7546A9;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-41;SY=0;EX=0;EY=12;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=80:CY=13:OX=20:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1082:-2002$;" subject="EAID_040622EC_8D3C_43c1_819C_F7E0EE14E5DE" style="Mode=3;EOID=D9648869;SOID=9E7546A9;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-5;EX=0;EY=-370;EDGE=4;$LLB=CX=5:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=89:CY=13:OX=-15:OY=-10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=111:CY=13:OX=20:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=977:-1945$977:-1032$;" subject="EAID_70FF8F95_278F_4e0a_AED8_97C86EEB7C4E" style="Mode=3;EOID=7A9554B5;SOID=9E7546A9;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>

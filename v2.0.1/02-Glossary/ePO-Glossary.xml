@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+<Glossary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://www.omg.org/spec/XMI/20131001">
    <Class>
       <ClassName>epo:AccessTerm</ClassName>
       <ClassDefinition>Conditions and stipulations about where and how to access the procurement documents.
+
+WG Approval 09/03/2021
 
 </ClassDefinition>
       <Attribute>
@@ -14,7 +16,10 @@ WG Approval 10/10/2019</AttributeDefinition>
       </Attribute>
       <Attribute>
          <AttributeName>epo:SomeProcurementDocumentRestrictedJustification</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>An explanation about the reasons why some procurement documents are restricted.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
@@ -26,7 +31,10 @@ WG Approval 03/10/2019</AttributeDefinition>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ProcurementDocumentLandingPage</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>Web page where the procurement documents can be downloaded.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:URI</AttributeType>
       </Attribute>
    </Class>
@@ -37,52 +45,83 @@ WG Approval 03/10/2019</AttributeDefinition>
 WG Approval 28/04/2020</ClassDefinition>
       <Attribute>
          <AttributeName>epo:AdditionalStreetName</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>An alternative name for the street used to further clarify the address.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:BlockName</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>A name for an area containing one or several buildings.
+
+WG approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:BuildingName</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The name of a building.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:BuildingNumber</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The number of a building.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CityName</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The name of a city, town, or village.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CitySubdivisionName</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The name of the subdivision of a city, town, or village.
+
+Additional Information
+
+For example, the name of a district or borough.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CountrySubentity</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The political or statistical subdivision of a country.
+
+Additional Information
+
+For example, the name of the county, province, region, or state.
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:CountrySubentityCode</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>An identifier for the country subentity.
+
+Additional Information
+European Public Administrations frequently use the EUROSTAT's NUTS controlled vocabularies for this.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Code</AttributeType>
       </Attribute>
       <Attribute>
-         <AttributeName>epo:Department</AttributeName>
-         <AttributeDefinition/>
-         <AttributeType>epo:Text</AttributeType>
-      </Attribute>
-      <Attribute>
          <AttributeName>epo:District</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>An administrative division of a geographical area.
+
+WG Approval 09/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
@@ -2966,6 +3005,21 @@ For European notices above the threshold
          <AttributeDefinition>The numeric value of the amount, including decimals.</AttributeDefinition>
          <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
+      <Attribute>
+         <AttributeName>epo:UnitCodeListAgencyID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:UnitCodeListAgencyName</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+      <Attribute>
+         <AttributeName>epo:UnitCodeListID</AttributeName>
+         <AttributeDefinition/>
+         <AttributeType>epo:Text</AttributeType>
+      </Attribute>
    </Class>
    <Class>
       <ClassName>epo:Identifier</ClassName>
@@ -3026,21 +3080,6 @@ For European notices above the threshold
          <AttributeDefinition>The type of unit of measure.</AttributeDefinition>
          <AttributeType>epo:Code</AttributeType>
       </Attribute>
-   </Class>
-   <Class>
-      <ClassName>epo:Quantity</ClassName>
-      <ClassDefinition>A counted number of non-monetary units possibly including fractions.
-</ClassDefinition>
-      <Attribute>
-         <AttributeName>epo:QuantityValue</AttributeName>
-         <AttributeDefinition>The numeric value of the quantity, including decimals.</AttributeDefinition>
-         <AttributeType>epo:Numeric</AttributeType>
-      </Attribute>
-      <Attribute>
-         <AttributeName>epo:UnitCode</AttributeName>
-         <AttributeDefinition>The unit of the quantity.</AttributeDefinition>
-         <AttributeType>epo:Code</AttributeType>
-      </Attribute>
       <Attribute>
          <AttributeName>epo:UnitCodeListAgencyID</AttributeName>
          <AttributeDefinition>The identification of the agency that maintains the quantity unit code list.</AttributeDefinition>
@@ -3055,6 +3094,16 @@ For European notices above the threshold
          <AttributeName>epo:UnitCodeListID</AttributeName>
          <AttributeDefinition>The quantity unit code list.</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
+      </Attribute>
+   </Class>
+   <Class>
+      <ClassName>epo:Quantity</ClassName>
+      <ClassDefinition>A counted number of non-monetary units possibly including fractions.
+</ClassDefinition>
+      <Attribute>
+         <AttributeName>epo:QuantityValue</AttributeName>
+         <AttributeDefinition>The numeric value of the quantity, including decimals.</AttributeDefinition>
+         <AttributeType>epo:Numeric</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:UnitDescription</AttributeName>
