@@ -126,47 +126,71 @@ WG Approval 09/03/2021
       </Attribute>
       <Attribute>
          <AttributeName>epo:Floor</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The level of the building
+
+WG Approval 16/03/2021
+</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:ID</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>A unique identifier of the instance of the concept.
+
+Additional Information
+
+For example, in the case of the Procurement Identifier, this could be the European Public Procurement Identifier, and/or any other identifier provided by the buyer, the service provider or any other stakeholder.
+
+WG Approval 12/11/2019
+</AttributeDefinition>
          <AttributeType>epo:Identifier</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:InhouseMail</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The specific identifiable location within a building where mail is delivered.
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MarkAttention</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The name, expressed as text, of a person or department in an organization to whose attention the incoming mail is directed; corresponds to the printed forms "for the attention of", "FAO", and ATTN:".
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:MarkCare</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The name, expressed as text, of a person or organization at this address into whose care the incoming mail is entrusted; corresponds to the printed forms "care of" and "c/o".
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PlotIdentification</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>An identifier (e.g., a parcel number) for the piece of land associated with this address.
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:PostalZone</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The postal identifier for this address according to the relevant national postal service, such as a ZIP code or Post Code.
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Postbox</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>A post office box number registered for postal delivery by a postal service provider.
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>
          <AttributeName>epo:Region</AttributeName>
-         <AttributeDefinition/>
+         <AttributeDefinition>The recognized geographic or economic region or group of countries in which this address is located.
+
+WG Approval 16/03/2021</AttributeDefinition>
          <AttributeType>epo:Text</AttributeType>
       </Attribute>
       <Attribute>

@@ -23,15 +23,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement extended ontology</rdfs:label>
       <dct:title xml:lang="en">eProcurement extended ontology</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/rule#ePO_CM.xml-2021-03-15"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/rule#ePO_CM.xml-2021-03-17"/>
       <owl:versionInfo>eProcurement extended ontology version generated automatically from 
-                ePO_CM.xml on 15/03/2021</owl:versionInfo>
+                ePO_CM.xml on 17/03/2021</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-15+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-17+01:00</dct:date>
    </owl:Ontology>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#AccessTerm">
       <rdfs:subClassOf>
