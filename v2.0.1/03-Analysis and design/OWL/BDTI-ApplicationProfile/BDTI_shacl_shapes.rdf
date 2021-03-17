@@ -26,15 +26,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement datashapes</rdfs:label>
       <dct:title xml:lang="en">eProcurement datashapes</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/shape#BDTI_XMI.xml-2021-03-15"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/shape#BDTI_XMI.xml-2021-03-17"/>
       <owl:versionInfo>eProcurement datashapes version generated automatically from 
-                BDTI_XMI.xml on 15/03/2021</owl:versionInfo>
+                BDTI_XMI.xml on 17/03/2021</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-15+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-17+01:00</dct:date>
    </owl:Ontology>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Address">
       <sh:targetClass rdf:resource="http://data.europa.eu/a4g/ontology#Address"/>
@@ -531,13 +531,6 @@ WG approval 12/09/2018</rdfs:comment>
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasReservedProcurement"/>
-            <sh:name>Reserved procurement</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasTitle"/>
             <sh:name>Title</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -554,7 +547,6 @@ WG approval 12/09/2018</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantsPermission"/>
             <sh:name>Variants permission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
@@ -597,7 +589,6 @@ WG approval 12/09/2018</rdfs:comment>
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasEstimatedTenderInvitationDate"/>
             <sh:name>Estimated tender invitation date</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
@@ -719,7 +710,6 @@ WG Approval 23/05/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalFormType"/>
             <sh:name>Legal form type</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
@@ -834,7 +824,6 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotMinimumSubmission"/>
             <sh:name>Lot minimum submission</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
@@ -849,7 +838,6 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLotSubmissionLimit"/>
             <sh:name>Lot submission limit</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
@@ -864,7 +852,6 @@ WG Approval 20/08/2019
          <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMaximumNumberOfLotsToBeAwarded"/>
             <sh:name>Maximum number of lots to be awarded</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
@@ -891,14 +878,6 @@ WG Approval 20/08/2019
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasisID"/>
-            <sh:name>Legal basis i d</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalBasis"/>
             <sh:name>Legal basis</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -916,14 +895,6 @@ WG Approval 20/08/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalRegime"/>
             <sh:name>Legal regime</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasLegalRegime"/>
-            <sh:name>Legal regime</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
          </sh:PropertyShape>
       </sh:property>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
@@ -994,28 +965,6 @@ The description of the objectives related to a procurement.
       </sh:property>
       <sh:property>
          <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainClassification"/>
-            <sh:name>Main classification</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainClassification"/>
-            <sh:name>Main classification</sh:name>
-            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalClassification"/>
-            <sh:name>Additional classification</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasOptionsDescription"/>
             <sh:name>Options description</sh:name>
             <sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -1033,13 +982,6 @@ The description of the objectives related to a procurement.
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasOptionsPermission"/>
             <sh:name>Options permission</sh:name>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-         </sh:PropertyShape>
-      </sh:property>
-      <sh:property>
-         <sh:PropertyShape>
-            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasAdditionalContractNature"/>
-            <sh:name>Additional contract nature</sh:name>
-            <sh:datatype rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
          </sh:PropertyShape>
       </sh:property>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
@@ -2337,12 +2279,27 @@ WG Approval 12/12/2019
             <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasCountryCode"/>
             <sh:name>Has country code</sh:name>
             <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
          </sh:PropertyShape>
       </sh:property>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Address">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasCountryCode&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasCountryCode&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Lot">
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasVariantPermission"/>
+            <sh:name>Has variant permission</sh:name>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+         </sh:PropertyShape>
+      </sh:property>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Lot">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasVariantPermission&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasVariantPermission&gt; ?this .} </sh:select>
       </sh:sparql>
    </sh:NodeShape>
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
@@ -2358,6 +2315,46 @@ WG Approval 12/12/2019
    <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Procedure">
       <sh:sparql rdf:parseType="Resource">
          <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasProcedureType&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasProcedureType&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasAdditionalClassification&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasAdditionalClassification&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasMainClassification"/>
+            <sh:name>Has main classification</sh:name>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+         </sh:PropertyShape>
+      </sh:property>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasMainClassification&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasMainClassification&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <sh:property>
+         <sh:PropertyShape>
+            <sh:path rdf:resource="http://data.europa.eu/a4g/ontology#hasContractNature"/>
+            <sh:name>Has contract nature</sh:name>
+            <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+            <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+         </sh:PropertyShape>
+      </sh:property>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasContractNature&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasContractNature&gt; ?this .} </sh:select>
+      </sh:sparql>
+   </sh:NodeShape>
+   <sh:NodeShape rdf:about="http://data.europa.eu/a4g/ontology#Purpose">
+      <sh:sparql rdf:parseType="Resource">
+         <sh:select> SELECT ?this ?that WHERE { ?this &lt;http://data.europa.eu/a4g/ontology#hasAdditionalContractNature&gt; ?that . ?that &lt;http://data.europa.eu/a4g/ontology#hasAdditionalContractNature&gt; ?this .} </sh:select>
       </sh:sparql>
    </sh:NodeShape>
 </rdf:RDF>

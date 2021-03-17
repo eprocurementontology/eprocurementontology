@@ -36,15 +36,15 @@
       <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
       <rdfs:label xml:lang="en">eProcurement core ontology</rdfs:label>
       <dct:title xml:lang="en">eProcurement core ontology</dct:title>
-      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#BDTI_XMI.xml-2021-03-15"/>
+      <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#BDTI_XMI.xml-2021-03-17"/>
       <owl:versionInfo>eProcurement core ontology version generated automatically from 
-                BDTI_XMI.xml on 15/03/2021</owl:versionInfo>
+                BDTI_XMI.xml on 17/03/2021</owl:versionInfo>
       <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
       <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/solution/eprocurement-ontology/about"/>
       <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
       <cc:attributionName>PublicationsOffice of the European Union</cc:attributionName>
       <cc:attributionURL rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
-      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-15+01:00</dct:date>
+      <dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-17+01:00</dct:date>
    </owl:Ontology>
    <owl:Class rdf:about="http://data.europa.eu/a4g/ontology#Address">
       <rdfs:label xml:lang="en">Address</rdfs:label>
@@ -372,6 +372,10 @@ WG Approval 12/12/2019
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasCountryCode">
       <rdfs:label xml:lang="en">Has country code</rdfs:label>
       <skos:prefLabel xml:lang="en">Has country code</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate hasCountryCode is at:voc:contract-nature which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/country&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Address -&gt; at-voc:country (+epo:hasCountryCode)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate hasCountryCode is at:voc:contract-nature which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/country&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Address -&gt; at-voc:country (+epo:hasCountryCode)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostalAddress">
@@ -693,6 +697,15 @@ In the case of framework agreements and dynamic purchasing systems this refers t
  (epo:Procedure -&gt; epo:Value (+epo:hasEstimatedValue)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasVariantPermission">
+      <rdfs:label xml:lang="en">Has variant permission</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has variant permission</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate hasVariantPermission  is at:voc:ppermission which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Lot -&gt; at-voc:permission (+epo:hasVariantPermission)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate hasVariantPermission  is at:voc:ppermission which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/permission&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Lot -&gt; at-voc:permission (+epo:hasVariantPermission)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEstimatedBuyerConcessionRevenue">
       <rdfs:label xml:lang="en">Has estimated buyer concession revenue</rdfs:label>
       <skos:prefLabel xml:lang="en">Has estimated buyer concession revenue</skos:prefLabel>
@@ -803,6 +816,42 @@ WG Approval 12/12/2019
  (epo:Procedure -&gt; at-voc:procurement-procedure-type (+epo:hasProcedureType)) </skos:definition>
       <rdfs:comment xml:lang="en">The code list to be used for the predicate hasProcedureType  is at:voc:procurement-procedure-type which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
  (epo:Procedure -&gt; at-voc:procurement-procedure-type (+epo:hasProcedureType)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalClassification">
+      <rdfs:label xml:lang="en">Has additional classification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has additional classification</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate hasAdditionalClassification is at:voc:cpv which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasAdditionalClassification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate hasAdditionalClassification is at:voc:cpv which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasAdditionalClassification)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainClassification">
+      <rdfs:label xml:lang="en">Has main classification</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has main classification</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate hasMainClassification is at:voc:cpv which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasMainClassification)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate hasMainClassification is at:voc:cpv which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/cpv&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:cpv (+epo:hasMainClassification)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasContractNature">
+      <rdfs:label xml:lang="en">Has contract nature</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has contract nature</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate hasContractNature is at:voc:contract-nature which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasContractNature)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate hasContractNature is at:voc:contract-nature which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasContractNature)) </rdfs:comment>
+      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
+   </owl:ObjectProperty>
+   <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalContractNature">
+      <rdfs:label xml:lang="en">Has additional contract nature</rdfs:label>
+      <skos:prefLabel xml:lang="en">Has additional contract nature</skos:prefLabel>
+      <skos:definition xml:lang="en">The code list to be used for the predicate hasAdditionalContractNature is at:voc:contract-nature which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasAdditionalContractNature)) </skos:definition>
+      <rdfs:comment xml:lang="en">The code list to be used for the predicate hasAdditionalContractNature is at:voc:contract-nature which is available at &lt;xref scope="external" href="https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/procurement-procedure-type"&gt;&lt;foreign otherprops="#0563c1"&gt;&lt;u&gt;https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/contract-nature&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
+ (epo:Purpose -&gt; at-voc:contract-nature (+epo:hasAdditionalContractNature)) </rdfs:comment>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:ObjectProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalStreetName">
@@ -929,12 +978,24 @@ WG Approval 09/03/2021
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasFloor">
       <rdfs:label xml:lang="en">Floor</rdfs:label>
       <skos:prefLabel xml:lang="en">Floor</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The level of the building
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">The level of the building
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:ObjectProperty rdf:about="http://data.europa.eu/a4g/ontology#hasID">
       <rdfs:label xml:lang="en">I d</rdfs:label>
       <skos:prefLabel xml:lang="en">I d</skos:prefLabel>
-      <rdfs:comment xml:lang="en">&lt;foreign otherprops="#ff0000"&gt;A unique identification for the Procedure.&lt;/foreign&gt; (epo:Document) A unique identifier of the instance of the concept.
+      <rdfs:comment xml:lang="en">A unique identifier of the instance of the concept.
+
+Additional Information
+
+For example, in the case of the Procurement Identifier, this could be the European Public Procurement Identifier, and/or any other identifier provided by the buyer, the service provider or any other stakeholder.
+
+WG Approval 12/11/2019 (epo:Address) &lt;foreign otherprops="#ff0000"&gt;A unique identification for the Procedure.&lt;/foreign&gt; (epo:Document) A unique identifier of the instance of the concept.
 
 Additional Information
 
@@ -944,7 +1005,13 @@ WG Approval 12/11/2019
 &lt;foreign otherprops="#ff0000"&gt;
 &lt;/foreign&gt;&lt;foreign otherprops="#ff0000"&gt;
 &lt;/foreign&gt; (epo:Procedure) </rdfs:comment>
-      <skos:definition xml:lang="en">&lt;foreign otherprops="#ff0000"&gt;A unique identification for the Procedure.&lt;/foreign&gt; (epo:Document) A unique identifier of the instance of the concept.
+      <skos:definition xml:lang="en">A unique identifier of the instance of the concept.
+
+Additional Information
+
+For example, in the case of the Procurement Identifier, this could be the European Public Procurement Identifier, and/or any other identifier provided by the buyer, the service provider or any other stakeholder.
+
+WG Approval 12/11/2019 (epo:Address) &lt;foreign otherprops="#ff0000"&gt;A unique identification for the Procedure.&lt;/foreign&gt; (epo:Document) A unique identifier of the instance of the concept.
 
 Additional Information
 
@@ -959,36 +1026,78 @@ WG Approval 12/11/2019
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasInhouseMail">
       <rdfs:label xml:lang="en">Inhouse mail</rdfs:label>
       <skos:prefLabel xml:lang="en">Inhouse mail</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The specific identifiable location within a building where mail is delivered.
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">The specific identifiable location within a building where mail is delivered.
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMarkAttention">
       <rdfs:label xml:lang="en">Mark attention</rdfs:label>
       <skos:prefLabel xml:lang="en">Mark attention</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The name, expressed as text, of a person or department in an organization to whose attention the incoming mail is directed; corresponds to the printed forms "for the attention of", "FAO", and ATTN:".
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">The name, expressed as text, of a person or department in an organization to whose attention the incoming mail is directed; corresponds to the printed forms "for the attention of", "FAO", and ATTN:".
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMarkCare">
       <rdfs:label xml:lang="en">Mark care</rdfs:label>
       <skos:prefLabel xml:lang="en">Mark care</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The name, expressed as text, of a person or organization at this address into whose care the incoming mail is entrusted; corresponds to the printed forms "care of" and "c/o".
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">The name, expressed as text, of a person or organization at this address into whose care the incoming mail is entrusted; corresponds to the printed forms "care of" and "c/o".
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPlotIdentification">
       <rdfs:label xml:lang="en">Plot identification</rdfs:label>
       <skos:prefLabel xml:lang="en">Plot identification</skos:prefLabel>
+      <rdfs:comment xml:lang="en">An identifier (e.g., a parcel number) for the piece of land associated with this address.
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">An identifier (e.g., a parcel number) for the piece of land associated with this address.
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostalZone">
       <rdfs:label xml:lang="en">Postal zone</rdfs:label>
       <skos:prefLabel xml:lang="en">Postal zone</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The postal identifier for this address according to the relevant national postal service, such as a ZIP code or Post Code.
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">The postal identifier for this address according to the relevant national postal service, such as a ZIP code or Post Code.
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasPostbox">
       <rdfs:label xml:lang="en">Postbox</rdfs:label>
       <skos:prefLabel xml:lang="en">Postbox</skos:prefLabel>
+      <rdfs:comment xml:lang="en">A post office box number registered for postal delivery by a postal service provider.
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">A post office box number registered for postal delivery by a postal service provider.
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRegion">
       <rdfs:label xml:lang="en">Region</rdfs:label>
       <skos:prefLabel xml:lang="en">Region</skos:prefLabel>
+      <rdfs:comment xml:lang="en">The recognized geographic or economic region or group of countries in which this address is located.
+
+WG Approval 16/03/2021 (epo:Address) </rdfs:comment>
+      <skos:definition xml:lang="en">The recognized geographic or economic region or group of countries in which this address is located.
+
+WG Approval 16/03/2021 (epo:Address) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasRoom">
@@ -1574,16 +1683,6 @@ WG Approval 11/06/2020
  (epo:Purpose) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasMainClassification">
-      <rdfs:label xml:lang="en">Main classification</rdfs:label>
-      <skos:prefLabel xml:lang="en">Main classification</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalClassification">
-      <rdfs:label xml:lang="en">Additional classification</rdfs:label>
-      <skos:prefLabel xml:lang="en">Additional classification</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOptionsDescription">
       <rdfs:label xml:lang="en">Options description</rdfs:label>
       <skos:prefLabel xml:lang="en">Options description</skos:prefLabel>
@@ -1598,17 +1697,6 @@ WG Approval 09/04/2019  (epo:Purpose) </skos:definition>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasOptionsPermission">
       <rdfs:label xml:lang="en">Options permission</rdfs:label>
       <skos:prefLabel xml:lang="en">Options permission</skos:prefLabel>
-      <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
-   </owl:DatatypeProperty>
-   <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasAdditionalContractNature">
-      <rdfs:label xml:lang="en">Additional contract nature</rdfs:label>
-      <skos:prefLabel xml:lang="en">Additional contract nature</skos:prefLabel>
-      <rdfs:comment xml:lang="en">Additional type of acquisition taken into consideration in the contract.
-
-WG Approval 11/06/2020 (epo:Purpose) </rdfs:comment>
-      <skos:definition xml:lang="en">Additional type of acquisition taken into consideration in the contract.
-
-WG Approval 11/06/2020 (epo:Purpose) </skos:definition>
       <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology"/>
    </owl:DatatypeProperty>
    <owl:DatatypeProperty rdf:about="http://data.europa.eu/a4g/ontology#hasEEAReceivedTenderLots">
